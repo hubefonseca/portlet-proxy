@@ -6,9 +6,11 @@
 
 	mvn clean package  
 
-* Copy the war to 
+* Go to http://www.jboss.org/gatein and download the latest version (mine runs on Tomcat)
 
-	GateIn-3.1.0-GA/bin  
+* Copy the war to
+
+	GateIn-3.1.0-GA/webapps
 
 * Run GateIn container:
 
