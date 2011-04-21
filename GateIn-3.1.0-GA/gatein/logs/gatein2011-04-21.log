@@ -1,0 +1,1590 @@
+Apr 21, 2011 11:27:43 AM org.apache.shindig.common.cache.ehcache.EhCacheCacheProvider createCache
+INFO: Creating cache named parsedDocuments
+Apr 21, 2011 11:27:43 AM org.apache.shindig.common.cache.ehcache.EhCacheCacheProvider createCache
+INFO: Creating cache named parsedFragments
+Apr 21, 2011 11:27:43 AM org.apache.shindig.common.cache.ehcache.EhCacheCacheProvider createCache
+INFO: Creating cache named expressions
+Apr 21, 2011 11:27:43 AM org.apache.shindig.config.JsonContainerConfig loadContainers
+INFO: Loading resources from: containers/default/container.js
+Apr 21, 2011 11:27:43 AM org.apache.shindig.config.JsonContainerConfig loadResources
+INFO: Reading container config: containers/default/container.js
+Apr 21, 2011 11:27:43 AM org.exoplatform.portal.gadget.core.ExoContainerConfig <init>
+INFO: Generated key file /Users/hubertfonseca/intelie/GateIn-3.1.0-GA/gatein/conf/gadgets/key.txt for eXo Gadgets
+Apr 21, 2011 11:27:43 AM org.apache.shindig.common.cache.ehcache.EhCacheCacheProvider createCache
+INFO: Creating cache named httpResponses
+Apr 21, 2011 11:27:43 AM org.apache.shindig.common.cache.ehcache.EhCacheCacheProvider createCache
+INFO: Creating cache named invalidatedUsers
+Apr 21, 2011 11:27:43 AM org.apache.shindig.common.cache.ehcache.EhCacheCacheProvider createCache
+INFO: Creating cache named gadgetSpecs
+Apr 21, 2011 11:27:43 AM org.apache.shindig.gadgets.JsFeatureLoader loadFeatures
+INFO: Loading resources from: features/features.txt
+Apr 21, 2011 11:27:43 AM org.apache.shindig.common.xml.XmlUtil <clinit>
+INFO: Not using secure XML processing.
+Apr 21, 2011 11:27:43 AM org.apache.shindig.common.xml.XmlUtil <clinit>
+INFO: Reusing document builders
+Apr 21, 2011 11:27:43 AM org.apache.shindig.common.xml.XmlUtil$2 initialValue
+INFO: Created a new document builder
+Apr 21, 2011 11:27:43 AM org.apache.shindig.gadgets.JsLibrary loadResource
+WARNING: Could not find resource: com/google/caja/plugin/domita-minified.opt.js-Can not locate resource: com/google/caja/plugin/domita-minified.opt.js
+Apr 21, 2011 11:27:43 AM org.apache.shindig.gadgets.JsLibrary loadResource
+WARNING: Could not find resource: features/caja/caja.opt.js-Can not locate resource: features/caja/caja.opt.js
+Apr 21, 2011 11:27:43 AM org.apache.shindig.gadgets.JsLibrary loadResource
+WARNING: Could not find resource: com/google/caja/plugin/valija.co.opt.js-Can not locate resource: com/google/caja/plugin/valija.co.opt.js
+Apr 21, 2011 11:27:43 AM org.apache.shindig.gadgets.JsLibrary loadResource
+WARNING: Could not find resource: com/google/caja/plugin/html-sanitizer-minified.opt.js-Can not locate resource: com/google/caja/plugin/html-sanitizer-minified.opt.js
+Apr 21, 2011 11:27:44 AM org.apache.shindig.common.cache.ehcache.EhCacheCacheProvider createCache
+INFO: Creating cache named messageBundles
+Apr 21, 2011 11:27:44 AM org.apache.shindig.gadgets.oauth.OAuthModule$OAuthCrypterProvider <init>
+INFO: Using random key for OAuth client-side state encryption
+Apr 21, 2011 11:27:44 AM org.exoplatform.portal.application.ResourceRequestFilter afterInit
+INFO: Cache eXo Resource at client: true
+Apr 21, 2011 11:27:45 AM org.exoplatform.portal.application.ResourceRequestFilter afterInit
+INFO: Cache eXo Resource at client: true
+Apr 21, 2011 11:27:48 AM org.jboss.cache.jmx.PlatformMBeanServerRegistration registerToPlatformMBeanServer
+INFO: JBossCache MBeans were successfully registered to the platform mbean server.
+Apr 21, 2011 11:27:48 AM org.jboss.cache.factories.ComponentRegistry internalStart
+INFO: JBoss Cache version: JBossCache 'Malagueta' 3.2.4.GA
+Apr 21, 2011 11:27:48 AM org.jboss.cache.jmx.PlatformMBeanServerRegistration registerToPlatformMBeanServer
+INFO: JBossCache MBeans were successfully registered to the platform mbean server.
+Apr 21, 2011 11:27:48 AM org.jboss.cache.factories.ComponentRegistry internalStart
+INFO: JBoss Cache version: JBossCache 'Malagueta' 3.2.4.GA
+Apr 21, 2011 11:27:48 AM org.hibernate.cfg.annotations.Version <clinit>
+INFO: Hibernate Annotations 3.4.0.GA
+Apr 21, 2011 11:27:49 AM org.hibernate.cfg.Environment <clinit>
+INFO: Hibernate 3.3.2.GA
+Apr 21, 2011 11:27:49 AM org.hibernate.cfg.Environment <clinit>
+INFO: hibernate.properties not found
+Apr 21, 2011 11:27:49 AM org.hibernate.cfg.Environment buildBytecodeProvider
+INFO: Bytecode provider name : javassist
+Apr 21, 2011 11:27:49 AM org.hibernate.cfg.Environment <clinit>
+INFO: using JDK 1.4 java.sql.Timestamp handling
+Apr 21, 2011 11:27:49 AM org.hibernate.annotations.common.Version <clinit>
+INFO: Hibernate Commons Annotations 3.1.0.GA
+Apr 21, 2011 11:27:49 AM org.hibernate.dialect.Dialect <init>
+INFO: Using dialect: org.hibernate.dialect.HSQLDialect
+Apr 21, 2011 11:27:50 AM org.hibernate.cfg.search.HibernateSearchEventListenerRegister enableHibernateSearch
+INFO: Unable to find org.hibernate.search.event.FullTextIndexEventListener on the classpath. Hibernate Search is not enabled.
+Apr 21, 2011 11:27:50 AM org.hibernate.cfg.HbmBinder bindRootPersistentClassCommonValues
+INFO: Mapping class: org.picketlink.idm.impl.model.hibernate.HibernateRealm -> jbid_realm
+Apr 21, 2011 11:27:50 AM org.hibernate.cfg.HbmBinder bindCollection
+INFO: Mapping collection: org.picketlink.idm.impl.model.hibernate.HibernateRealm.properties -> jbid_real_props
+Apr 21, 2011 11:27:50 AM org.hibernate.cfg.HbmBinder bindRootPersistentClassCommonValues
+INFO: Mapping class: org.picketlink.idm.impl.model.hibernate.HibernateIdentityObjectCredentialBinaryValue -> jbid_creden_bin_value
+Apr 21, 2011 11:27:50 AM org.hibernate.cfg.HbmBinder bindRootPersistentClassCommonValues
+INFO: Mapping class: org.picketlink.idm.impl.model.hibernate.HibernateIdentityObjectAttributeBinaryValue -> jbid_attr_bin_value
+Apr 21, 2011 11:27:50 AM org.hibernate.cfg.HbmBinder bindRootPersistentClassCommonValues
+INFO: Mapping class: org.picketlink.idm.impl.model.hibernate.HibernateIdentityObject -> jbid_io
+Apr 21, 2011 11:27:50 AM org.hibernate.cfg.HbmBinder bindCollection
+INFO: Mapping collection: org.picketlink.idm.impl.model.hibernate.HibernateIdentityObject.properties -> jbid_io_props
+Apr 21, 2011 11:27:50 AM org.hibernate.cfg.HbmBinder bindRootPersistentClassCommonValues
+INFO: Mapping class: org.picketlink.idm.impl.model.hibernate.HibernateIdentityObjectCredential -> jbid_io_creden
+Apr 21, 2011 11:27:50 AM org.hibernate.cfg.HbmBinder bindCollection
+INFO: Mapping collection: org.picketlink.idm.impl.model.hibernate.HibernateIdentityObjectCredential.properties -> jbid_io_creden_props
+Apr 21, 2011 11:27:50 AM org.hibernate.cfg.HbmBinder bindRootPersistentClassCommonValues
+INFO: Mapping class: org.picketlink.idm.impl.model.hibernate.HibernateIdentityObjectCredentialType -> jbid_io_creden_type
+Apr 21, 2011 11:27:50 AM org.hibernate.cfg.HbmBinder bindRootPersistentClassCommonValues
+INFO: Mapping class: org.picketlink.idm.impl.model.hibernate.HibernateIdentityObjectAttribute -> jbid_io_attr
+Apr 21, 2011 11:27:50 AM org.hibernate.cfg.HbmBinder bindCollection
+INFO: Mapping collection: org.picketlink.idm.impl.model.hibernate.HibernateIdentityObjectAttribute.textValues -> jbid_io_attr_text_values
+Apr 21, 2011 11:27:50 AM org.hibernate.cfg.HbmBinder bindRootPersistentClassCommonValues
+INFO: Mapping class: org.picketlink.idm.impl.model.hibernate.HibernateIdentityObjectType -> jbid_io_type
+Apr 21, 2011 11:27:50 AM org.hibernate.cfg.HbmBinder bindRootPersistentClassCommonValues
+INFO: Mapping class: org.picketlink.idm.impl.model.hibernate.HibernateIdentityObjectRelationship -> jbid_io_rel
+Apr 21, 2011 11:27:50 AM org.hibernate.cfg.HbmBinder bindCollection
+INFO: Mapping collection: org.picketlink.idm.impl.model.hibernate.HibernateIdentityObjectRelationship.properties -> jbid_io_rel_props
+Apr 21, 2011 11:27:50 AM org.hibernate.cfg.HbmBinder bindRootPersistentClassCommonValues
+INFO: Mapping class: org.picketlink.idm.impl.model.hibernate.HibernateIdentityObjectRelationshipType -> jbid_io_rel_type
+Apr 21, 2011 11:27:50 AM org.hibernate.cfg.HbmBinder bindRootPersistentClassCommonValues
+INFO: Mapping class: org.picketlink.idm.impl.model.hibernate.HibernateIdentityObjectRelationshipName -> jbid_io_rel_name
+Apr 21, 2011 11:27:50 AM org.hibernate.cfg.HbmBinder bindCollection
+INFO: Mapping collection: org.picketlink.idm.impl.model.hibernate.HibernateIdentityObjectRelationshipName.properties -> jbid_io_rel_name_props
+Apr 21, 2011 11:27:50 AM org.hibernate.cfg.HbmBinder bindCollectionSecondPass
+INFO: Mapping collection: org.picketlink.idm.impl.model.hibernate.HibernateIdentityObject.attributes -> jbid_io_attr
+Apr 21, 2011 11:27:50 AM org.hibernate.cfg.HbmBinder bindCollectionSecondPass
+INFO: Mapping collection: org.picketlink.idm.impl.model.hibernate.HibernateIdentityObject.credentials -> jbid_io_creden
+Apr 21, 2011 11:27:50 AM org.hibernate.cfg.HbmBinder bindCollectionSecondPass
+INFO: Mapping collection: org.picketlink.idm.impl.model.hibernate.HibernateIdentityObject.fromRelationships -> jbid_io_rel
+Apr 21, 2011 11:27:50 AM org.hibernate.cfg.HbmBinder bindCollectionSecondPass
+INFO: Mapping collection: org.picketlink.idm.impl.model.hibernate.HibernateIdentityObject.toRelationships -> jbid_io_rel
+Apr 21, 2011 11:27:50 AM org.hibernate.cfg.AnnotationConfiguration secondPassCompile
+INFO: Hibernate Validator not found: ignoring
+Apr 21, 2011 11:27:50 AM org.hibernate.util.NamingHelper getInitialContext
+INFO: JNDI InitialContext properties:{}
+Apr 21, 2011 11:27:50 AM org.hibernate.connection.DatasourceConnectionProvider configure
+INFO: Using datasource: jdbcidm
+Apr 21, 2011 11:27:50 AM org.hibernate.cfg.SettingsFactory buildSettings
+INFO: RDBMS: HSQL Database Engine, version: 1.8.0
+Apr 21, 2011 11:27:50 AM org.hibernate.cfg.SettingsFactory buildSettings
+INFO: JDBC driver: HSQL Database Engine Driver, version: 1.8.0
+Apr 21, 2011 11:27:50 AM org.hibernate.dialect.Dialect <init>
+INFO: Using dialect: org.hibernate.dialect.HSQLDialect
+Apr 21, 2011 11:27:50 AM org.hibernate.transaction.TransactionFactoryFactory buildTransactionFactory
+INFO: Using default transaction strategy (direct JDBC transactions)
+Apr 21, 2011 11:27:50 AM org.hibernate.transaction.TransactionManagerLookupFactory getTransactionManagerLookup
+INFO: No TransactionManagerLookup configured (in JTA environment, use of read-write or transactional second-level cache is not recommended)
+Apr 21, 2011 11:27:50 AM org.hibernate.cfg.SettingsFactory buildSettings
+INFO: Automatic flush during beforeCompletion(): disabled
+Apr 21, 2011 11:27:50 AM org.hibernate.cfg.SettingsFactory buildSettings
+INFO: Automatic session close at end of transaction: disabled
+Apr 21, 2011 11:27:50 AM org.hibernate.cfg.SettingsFactory buildSettings
+INFO: JDBC batch size: 15
+Apr 21, 2011 11:27:50 AM org.hibernate.cfg.SettingsFactory buildSettings
+INFO: JDBC batch updates for versioned data: disabled
+Apr 21, 2011 11:27:50 AM org.hibernate.cfg.SettingsFactory buildSettings
+INFO: Scrollable result sets: enabled
+Apr 21, 2011 11:27:50 AM org.hibernate.cfg.SettingsFactory buildSettings
+INFO: JDBC3 getGeneratedKeys(): disabled
+Apr 21, 2011 11:27:50 AM org.hibernate.cfg.SettingsFactory buildSettings
+INFO: Connection release mode: auto
+Apr 21, 2011 11:27:50 AM org.hibernate.cfg.SettingsFactory buildSettings
+INFO: Default batch fetch size: 1
+Apr 21, 2011 11:27:50 AM org.hibernate.cfg.SettingsFactory buildSettings
+INFO: Generate SQL with comments: disabled
+Apr 21, 2011 11:27:50 AM org.hibernate.cfg.SettingsFactory buildSettings
+INFO: Order SQL updates by primary key: disabled
+Apr 21, 2011 11:27:50 AM org.hibernate.cfg.SettingsFactory buildSettings
+INFO: Order SQL inserts for batching: disabled
+Apr 21, 2011 11:27:50 AM org.hibernate.cfg.SettingsFactory createQueryTranslatorFactory
+INFO: Query translator: org.hibernate.hql.ast.ASTQueryTranslatorFactory
+Apr 21, 2011 11:27:50 AM org.hibernate.hql.ast.ASTQueryTranslatorFactory <init>
+INFO: Using ASTQueryTranslatorFactory
+Apr 21, 2011 11:27:50 AM org.hibernate.cfg.SettingsFactory buildSettings
+INFO: Query language substitutions: {}
+Apr 21, 2011 11:27:50 AM org.hibernate.cfg.SettingsFactory buildSettings
+INFO: JPA-QL strict compliance: disabled
+Apr 21, 2011 11:27:50 AM org.hibernate.cfg.SettingsFactory buildSettings
+INFO: Second-level cache: enabled
+Apr 21, 2011 11:27:50 AM org.hibernate.cfg.SettingsFactory buildSettings
+INFO: Query cache: enabled
+Apr 21, 2011 11:27:50 AM org.hibernate.cfg.SettingsFactory createRegionFactory
+INFO: Cache region factory : org.hibernate.cache.impl.bridge.RegionFactoryCacheProviderBridge
+Apr 21, 2011 11:27:50 AM org.hibernate.cache.impl.bridge.RegionFactoryCacheProviderBridge <init>
+INFO: Cache provider: org.hibernate.cache.HashtableCacheProvider
+Apr 21, 2011 11:27:50 AM org.hibernate.cfg.SettingsFactory buildSettings
+INFO: Optimize cache for minimal puts: disabled
+Apr 21, 2011 11:27:50 AM org.hibernate.cfg.SettingsFactory buildSettings
+INFO: Structured second-level cache entries: disabled
+Apr 21, 2011 11:27:50 AM org.hibernate.cfg.SettingsFactory createQueryCacheFactory
+INFO: Query cache factory: org.hibernate.cache.StandardQueryCacheFactory
+Apr 21, 2011 11:27:50 AM org.hibernate.cfg.SettingsFactory buildSettings
+INFO: Statistics: disabled
+Apr 21, 2011 11:27:50 AM org.hibernate.cfg.SettingsFactory buildSettings
+INFO: Deleted entity synthetic identifier rollback: disabled
+Apr 21, 2011 11:27:50 AM org.hibernate.cfg.SettingsFactory buildSettings
+INFO: Default entity-mode: pojo
+Apr 21, 2011 11:27:50 AM org.hibernate.cfg.SettingsFactory buildSettings
+INFO: Named query checking : enabled
+Apr 21, 2011 11:27:50 AM org.hibernate.impl.SessionFactoryImpl <init>
+INFO: building session factory
+Apr 21, 2011 11:27:51 AM org.hibernate.impl.SessionFactoryObjectFactory addInstance
+INFO: Not binding factory to JNDI, no JNDI name configured
+Apr 21, 2011 11:27:51 AM org.hibernate.cache.UpdateTimestampsCache <init>
+INFO: starting update timestamps cache at region: org.hibernate.cache.UpdateTimestampsCache
+Apr 21, 2011 11:27:51 AM org.hibernate.cache.StandardQueryCache <init>
+INFO: starting query cache at region: org.hibernate.cache.StandardQueryCache
+Apr 21, 2011 11:27:51 AM org.hibernate.dialect.Dialect <init>
+INFO: Using dialect: org.hibernate.dialect.HSQLDialect
+Apr 21, 2011 11:27:51 AM org.hibernate.tool.hbm2ddl.SchemaUpdate execute
+INFO: Running hbm2ddl schema update
+Apr 21, 2011 11:27:51 AM org.hibernate.tool.hbm2ddl.SchemaUpdate execute
+INFO: fetching database metadata
+Apr 21, 2011 11:27:51 AM org.hibernate.util.NamingHelper getInitialContext
+INFO: JNDI InitialContext properties:{}
+Apr 21, 2011 11:27:51 AM org.hibernate.connection.DatasourceConnectionProvider configure
+INFO: Using datasource: jdbcidm
+Apr 21, 2011 11:27:51 AM org.hibernate.tool.hbm2ddl.SchemaUpdate execute
+INFO: updating schema
+Apr 21, 2011 11:27:51 AM org.hibernate.tool.hbm2ddl.DatabaseMetadata getTableMetadata
+INFO: table not found: jbid_attr_bin_value
+Apr 21, 2011 11:27:51 AM org.hibernate.tool.hbm2ddl.DatabaseMetadata getTableMetadata
+INFO: table not found: jbid_creden_bin_value
+Apr 21, 2011 11:27:51 AM org.hibernate.tool.hbm2ddl.DatabaseMetadata getTableMetadata
+INFO: table not found: jbid_io
+Apr 21, 2011 11:27:51 AM org.hibernate.tool.hbm2ddl.DatabaseMetadata getTableMetadata
+INFO: table not found: jbid_io_attr
+Apr 21, 2011 11:27:51 AM org.hibernate.tool.hbm2ddl.DatabaseMetadata getTableMetadata
+INFO: table not found: jbid_io_attr_text_values
+Apr 21, 2011 11:27:51 AM org.hibernate.tool.hbm2ddl.DatabaseMetadata getTableMetadata
+INFO: table not found: jbid_io_creden
+Apr 21, 2011 11:27:51 AM org.hibernate.tool.hbm2ddl.DatabaseMetadata getTableMetadata
+INFO: table not found: jbid_io_creden_props
+Apr 21, 2011 11:27:51 AM org.hibernate.tool.hbm2ddl.DatabaseMetadata getTableMetadata
+INFO: table not found: jbid_io_creden_type
+Apr 21, 2011 11:27:51 AM org.hibernate.tool.hbm2ddl.DatabaseMetadata getTableMetadata
+INFO: table not found: jbid_io_props
+Apr 21, 2011 11:27:51 AM org.hibernate.tool.hbm2ddl.DatabaseMetadata getTableMetadata
+INFO: table not found: jbid_io_rel
+Apr 21, 2011 11:27:51 AM org.hibernate.tool.hbm2ddl.DatabaseMetadata getTableMetadata
+INFO: table not found: jbid_io_rel_name
+Apr 21, 2011 11:27:51 AM org.hibernate.tool.hbm2ddl.DatabaseMetadata getTableMetadata
+INFO: table not found: jbid_io_rel_name_props
+Apr 21, 2011 11:27:51 AM org.hibernate.tool.hbm2ddl.DatabaseMetadata getTableMetadata
+INFO: table not found: jbid_io_rel_props
+Apr 21, 2011 11:27:51 AM org.hibernate.tool.hbm2ddl.DatabaseMetadata getTableMetadata
+INFO: table not found: jbid_io_rel_type
+Apr 21, 2011 11:27:51 AM org.hibernate.tool.hbm2ddl.DatabaseMetadata getTableMetadata
+INFO: table not found: jbid_io_type
+Apr 21, 2011 11:27:51 AM org.hibernate.tool.hbm2ddl.DatabaseMetadata getTableMetadata
+INFO: table not found: jbid_real_props
+Apr 21, 2011 11:27:51 AM org.hibernate.tool.hbm2ddl.DatabaseMetadata getTableMetadata
+INFO: table not found: jbid_realm
+Apr 21, 2011 11:27:51 AM org.hibernate.tool.hbm2ddl.DatabaseMetadata getTableMetadata
+INFO: table not found: jbid_attr_bin_value
+Apr 21, 2011 11:27:51 AM org.hibernate.tool.hbm2ddl.DatabaseMetadata getTableMetadata
+INFO: table not found: jbid_creden_bin_value
+Apr 21, 2011 11:27:51 AM org.hibernate.tool.hbm2ddl.DatabaseMetadata getTableMetadata
+INFO: table not found: jbid_io
+Apr 21, 2011 11:27:51 AM org.hibernate.tool.hbm2ddl.DatabaseMetadata getTableMetadata
+INFO: table not found: jbid_io_attr
+Apr 21, 2011 11:27:51 AM org.hibernate.tool.hbm2ddl.DatabaseMetadata getTableMetadata
+INFO: table not found: jbid_io_attr_text_values
+Apr 21, 2011 11:27:51 AM org.hibernate.tool.hbm2ddl.DatabaseMetadata getTableMetadata
+INFO: table not found: jbid_io_creden
+Apr 21, 2011 11:27:51 AM org.hibernate.tool.hbm2ddl.DatabaseMetadata getTableMetadata
+INFO: table not found: jbid_io_creden_props
+Apr 21, 2011 11:27:51 AM org.hibernate.tool.hbm2ddl.DatabaseMetadata getTableMetadata
+INFO: table not found: jbid_io_creden_type
+Apr 21, 2011 11:27:51 AM org.hibernate.tool.hbm2ddl.DatabaseMetadata getTableMetadata
+INFO: table not found: jbid_io_props
+Apr 21, 2011 11:27:51 AM org.hibernate.tool.hbm2ddl.DatabaseMetadata getTableMetadata
+INFO: table not found: jbid_io_rel
+Apr 21, 2011 11:27:51 AM org.hibernate.tool.hbm2ddl.DatabaseMetadata getTableMetadata
+INFO: table not found: jbid_io_rel_name
+Apr 21, 2011 11:27:51 AM org.hibernate.tool.hbm2ddl.DatabaseMetadata getTableMetadata
+INFO: table not found: jbid_io_rel_name_props
+Apr 21, 2011 11:27:51 AM org.hibernate.tool.hbm2ddl.DatabaseMetadata getTableMetadata
+INFO: table not found: jbid_io_rel_props
+Apr 21, 2011 11:27:51 AM org.hibernate.tool.hbm2ddl.DatabaseMetadata getTableMetadata
+INFO: table not found: jbid_io_rel_type
+Apr 21, 2011 11:27:51 AM org.hibernate.tool.hbm2ddl.DatabaseMetadata getTableMetadata
+INFO: table not found: jbid_io_type
+Apr 21, 2011 11:27:51 AM org.hibernate.tool.hbm2ddl.DatabaseMetadata getTableMetadata
+INFO: table not found: jbid_real_props
+Apr 21, 2011 11:27:51 AM org.hibernate.tool.hbm2ddl.DatabaseMetadata getTableMetadata
+INFO: table not found: jbid_realm
+Apr 21, 2011 11:27:51 AM org.hibernate.tool.hbm2ddl.SchemaUpdate execute
+INFO: schema update complete
+Apr 21, 2011 11:27:51 AM org.jboss.cache.jmx.PlatformMBeanServerRegistration registerToPlatformMBeanServer
+INFO: JBossCache MBeans were successfully registered to the platform mbean server.
+Apr 21, 2011 11:27:51 AM org.jboss.cache.factories.ComponentRegistry internalStart
+INFO: JBoss Cache version: JBossCache 'Malagueta' 3.2.4.GA
+Apr 21, 2011 11:27:51 AM org.jboss.cache.jmx.PlatformMBeanServerRegistration registerToPlatformMBeanServer
+INFO: JBossCache MBeans were successfully registered to the platform mbean server.
+Apr 21, 2011 11:27:51 AM org.jboss.cache.factories.ComponentRegistry internalStart
+INFO: JBoss Cache version: JBossCache 'Malagueta' 3.2.4.GA
+Apr 21, 2011 11:27:52 AM org.jboss.cache.jmx.PlatformMBeanServerRegistration registerToPlatformMBeanServer
+INFO: JBossCache MBeans were successfully registered to the platform mbean server.
+Apr 21, 2011 11:27:52 AM org.jboss.cache.factories.ComponentRegistry internalStart
+INFO: JBoss Cache version: JBossCache 'Malagueta' 3.2.4.GA
+Apr 21, 2011 11:27:53 AM org.jboss.cache.jmx.PlatformMBeanServerRegistration registerToPlatformMBeanServer
+INFO: JBossCache MBeans were successfully registered to the platform mbean server.
+Apr 21, 2011 11:27:53 AM org.jboss.cache.factories.ComponentRegistry internalStart
+INFO: JBoss Cache version: JBossCache 'Malagueta' 3.2.4.GA
+Apr 21, 2011 11:27:53 AM org.jboss.cache.jmx.PlatformMBeanServerRegistration registerToPlatformMBeanServer
+INFO: JBossCache MBeans were successfully registered to the platform mbean server.
+Apr 21, 2011 11:27:53 AM org.jboss.cache.factories.ComponentRegistry internalStart
+INFO: JBoss Cache version: JBossCache 'Malagueta' 3.2.4.GA
+Apr 21, 2011 11:27:54 AM org.jboss.cache.jmx.PlatformMBeanServerRegistration registerToPlatformMBeanServer
+INFO: JBossCache MBeans were successfully registered to the platform mbean server.
+Apr 21, 2011 11:27:54 AM org.jboss.cache.factories.ComponentRegistry internalStart
+INFO: JBoss Cache version: JBossCache 'Malagueta' 3.2.4.GA
+Apr 21, 2011 11:27:54 AM org.jboss.cache.jmx.PlatformMBeanServerRegistration registerToPlatformMBeanServer
+INFO: JBossCache MBeans were successfully registered to the platform mbean server.
+Apr 21, 2011 11:27:54 AM org.jboss.cache.factories.ComponentRegistry internalStart
+INFO: JBoss Cache version: JBossCache 'Malagueta' 3.2.4.GA
+Apr 21, 2011 11:27:54 AM com.arjuna.common.internal.util.logging.jakarta.JakartaLogger warn
+WARNING: [com.arjuna.ats.arjuna.coordinator.TxControl_1] - Name of XA node not defined. Using 7f000001:d324:4db03eea:1
+Apr 21, 2011 11:27:55 AM com.arjuna.common.internal.util.logging.jakarta.JakartaLogger info
+INFO: [com.arjuna.ats.arjuna.recovery.TransactionStatusManager_1] - Starting service com.arjuna.ats.arjuna.recovery.ActionStatusService on port 54053
+Apr 21, 2011 11:27:55 AM com.arjuna.common.internal.util.logging.jakarta.JakartaLogger info
+INFO: TransactionStatusManagerItem - host: 127.0.0.1 port: 54053
+Apr 21, 2011 11:27:55 AM com.arjuna.common.internal.util.logging.jakarta.JakartaLogger info
+INFO: [com.arjuna.ats.arjuna.recovery.TransactionStatusManager_3] - TransactionStatusManager started on port 54053 and host 127.0.0.1 with service com.arjuna.ats.arjuna.recovery.ActionStatusService
+Apr 21, 2011 11:27:56 AM org.jboss.cache.jmx.PlatformMBeanServerRegistration registerToPlatformMBeanServer
+INFO: JBossCache MBeans were successfully registered to the platform mbean server.
+Apr 21, 2011 11:27:56 AM org.jboss.cache.factories.ComponentRegistry internalStart
+INFO: JBoss Cache version: JBossCache 'Malagueta' 3.2.4.GA
+Apr 21, 2011 11:28:00 AM org.jboss.cache.jmx.PlatformMBeanServerRegistration registerToPlatformMBeanServer
+INFO: JBossCache MBeans were successfully registered to the platform mbean server.
+Apr 21, 2011 11:28:00 AM org.jboss.cache.factories.ComponentRegistry internalStart
+INFO: JBoss Cache version: JBossCache 'Malagueta' 3.2.4.GA
+Apr 21, 2011 11:28:00 AM org.jboss.cache.jmx.PlatformMBeanServerRegistration registerToPlatformMBeanServer
+INFO: JBossCache MBeans were successfully registered to the platform mbean server.
+Apr 21, 2011 11:28:00 AM org.jboss.cache.factories.ComponentRegistry internalStart
+INFO: JBoss Cache version: JBossCache 'Malagueta' 3.2.4.GA
+Apr 21, 2011 11:28:01 AM org.jboss.cache.jmx.PlatformMBeanServerRegistration registerToPlatformMBeanServer
+INFO: JBossCache MBeans were successfully registered to the platform mbean server.
+Apr 21, 2011 11:28:01 AM org.jboss.cache.factories.ComponentRegistry internalStart
+INFO: JBoss Cache version: JBossCache 'Malagueta' 3.2.4.GA
+Apr 21, 2011 11:28:01 AM org.jboss.cache.jmx.PlatformMBeanServerRegistration registerToPlatformMBeanServer
+INFO: JBossCache MBeans were successfully registered to the platform mbean server.
+Apr 21, 2011 11:28:01 AM org.jboss.cache.factories.ComponentRegistry internalStart
+INFO: JBoss Cache version: JBossCache 'Malagueta' 3.2.4.GA
+Apr 21, 2011 11:28:19 AM org.gatein.common.logging.Logger log
+INFO: The WebAppController has been successfully initialized for the portal 'portal'
+Apr 21, 2011 11:28:19 AM org.exoplatform.portal.application.ResourceRequestFilter afterInit
+INFO: Cache eXo Resource at client: true
+Apr 21, 2011 11:28:20 AM org.exoplatform.portal.application.ResourceRequestFilter afterInit
+INFO: Cache eXo Resource at client: true
+Apr 21, 2011 11:28:20 AM org.exoplatform.portal.application.ResourceRequestFilter afterInit
+INFO: Cache eXo Resource at client: true
+Apr 21, 2011 11:28:20 AM org.exoplatform.portal.application.ResourceRequestFilter afterInit
+INFO: Cache eXo Resource at client: true
+Apr 21, 2011 11:28:20 AM org.exoplatform.portal.application.ResourceRequestFilter afterInit
+INFO: Cache eXo Resource at client: true
+Apr 21, 2011 11:28:21 AM org.gatein.common.logging.Logger log
+INFO: Importing gadget name=Todo description=ToDo Gadget, easily manage and track your daily to-do list. thumbnail=http://localhost:8080/eXoGadgets/skin/DefaultSkin/portletIcons/Todo.png title=http://localhost:8080/eXoGadgets/skin/DefaultSkin/portletIcons/Todo.png title=Todo
+Apr 21, 2011 11:28:21 AM org.gatein.common.logging.Logger log
+INFO: Importing gadget name=Calendar description=What date is it? Use this cool calendar to keep track of the date in style. You can switch easily between daily, monthly or yearly view. thumbnail=http://localhost:8080/eXoGadgets/skin/DefaultSkin/portletIcons/Calendar.png title=http://localhost:8080/eXoGadgets/skin/DefaultSkin/portletIcons/Calendar.png title=Calendar
+Apr 21, 2011 11:28:21 AM org.gatein.common.logging.Logger log
+INFO: Importing gadget name=Calculator description=This simple and useful calculator lets you perform most of the basic arithmetic operations. thumbnail=http://localhost:8080/eXoGadgets/skin/DefaultSkin/portletIcons/Calculator.png title=http://localhost:8080/eXoGadgets/skin/DefaultSkin/portletIcons/Calculator.png title=Calculator
+Apr 21, 2011 11:28:21 AM org.gatein.common.logging.Logger log
+INFO: Importing gadget name=rssAggregator description=RSS Reader thumbnail=http://www.gatein.org/eXoGadgets/skin/DefaultSkin/portletIcons/rssAggregator.png title=http://www.gatein.org/eXoGadgets/skin/DefaultSkin/portletIcons/rssAggregator.png title=RSS Reader
+Apr 21, 2011 11:28:22 AM org.gatein.common.logging.Logger log
+INFO: Importing gadget name=Currency description=null thumbnail=http://dob.ireland.googlepages.com/curr_thm.png title=http://dob.ireland.googlepages.com/curr_thm.png title=Currency Converter
+Apr 21, 2011 11:28:53 AM org.jboss.cache.jmx.PlatformMBeanServerRegistration registerToPlatformMBeanServer
+INFO: JBossCache MBeans were successfully registered to the platform mbean server.
+Apr 21, 2011 11:28:53 AM org.jboss.cache.factories.ComponentRegistry internalStart
+INFO: JBoss Cache version: JBossCache 'Malagueta' 3.2.4.GA
+Apr 21, 2011 11:31:22 AM org.apache.shindig.common.cache.ehcache.EhCacheCacheProvider createCache
+INFO: Creating cache named httpResponses
+Apr 21, 2011 11:31:22 AM org.apache.shindig.common.cache.ehcache.EhCacheCacheProvider createCache
+INFO: Creating cache named invalidatedUsers
+Apr 21, 2011 11:31:22 AM org.apache.shindig.common.cache.ehcache.EhCacheCacheProvider createCache
+INFO: Creating cache named messageBundles
+Apr 21, 2011 11:31:22 AM org.apache.shindig.common.cache.ehcache.EhCacheCacheProvider createCache
+INFO: Creating cache named expressions
+Apr 21, 2011 11:31:22 AM org.apache.shindig.config.JsonContainerConfig loadContainers
+INFO: Loading resources from: containers/default/container.js
+Apr 21, 2011 11:31:22 AM org.apache.shindig.config.JsonContainerConfig loadResources
+INFO: Reading container config: containers/default/container.js
+Apr 21, 2011 11:31:22 AM org.exoplatform.portal.gadget.core.ExoContainerConfig <init>
+INFO: Found key file /Users/hubertfonseca/intelie/GateIn-3.1.0-GA/gatein/conf/gadgets/key.txt for gadgets security
+Apr 21, 2011 11:31:22 AM org.apache.shindig.common.cache.ehcache.EhCacheCacheProvider createCache
+INFO: Creating cache named parsedDocuments
+Apr 21, 2011 11:31:22 AM org.apache.shindig.common.cache.ehcache.EhCacheCacheProvider createCache
+INFO: Creating cache named parsedFragments
+Apr 21, 2011 11:31:22 AM org.apache.shindig.gadgets.JsFeatureLoader loadFeatures
+INFO: Loading resources from: features/features.txt
+Apr 21, 2011 11:31:22 AM org.apache.shindig.common.xml.XmlUtil <clinit>
+INFO: Not using secure XML processing.
+Apr 21, 2011 11:31:22 AM org.apache.shindig.common.xml.XmlUtil <clinit>
+INFO: Reusing document builders
+Apr 21, 2011 11:31:22 AM org.apache.shindig.common.xml.XmlUtil$2 initialValue
+INFO: Created a new document builder
+Apr 21, 2011 11:31:22 AM org.apache.shindig.gadgets.JsLibrary loadResource
+WARNING: Could not find resource: com/google/caja/plugin/domita-minified.opt.js-Can not locate resource: com/google/caja/plugin/domita-minified.opt.js
+Apr 21, 2011 11:31:22 AM org.apache.shindig.gadgets.JsLibrary loadResource
+WARNING: Could not find resource: features/caja/caja.opt.js-Can not locate resource: features/caja/caja.opt.js
+Apr 21, 2011 11:31:22 AM org.apache.shindig.gadgets.JsLibrary loadResource
+WARNING: Could not find resource: com/google/caja/plugin/valija.co.opt.js-Can not locate resource: com/google/caja/plugin/valija.co.opt.js
+Apr 21, 2011 11:31:22 AM org.apache.shindig.gadgets.JsLibrary loadResource
+WARNING: Could not find resource: com/google/caja/plugin/html-sanitizer-minified.opt.js-Can not locate resource: com/google/caja/plugin/html-sanitizer-minified.opt.js
+Apr 21, 2011 11:31:22 AM org.apache.shindig.common.cache.ehcache.EhCacheCacheProvider createCache
+INFO: Creating cache named gadgetSpecs
+Apr 21, 2011 11:31:22 AM org.apache.shindig.gadgets.oauth.OAuthModule$OAuthCrypterProvider <init>
+INFO: Using random key for OAuth client-side state encryption
+Apr 21, 2011 11:31:23 AM org.exoplatform.portal.application.ResourceRequestFilter afterInit
+INFO: Cache eXo Resource at client: true
+Apr 21, 2011 11:31:24 AM org.exoplatform.portal.application.ResourceRequestFilter afterInit
+INFO: Cache eXo Resource at client: true
+Apr 21, 2011 11:31:28 AM org.jboss.cache.jmx.PlatformMBeanServerRegistration registerToPlatformMBeanServer
+INFO: JBossCache MBeans were successfully registered to the platform mbean server.
+Apr 21, 2011 11:31:28 AM org.jboss.cache.factories.ComponentRegistry internalStart
+INFO: JBoss Cache version: JBossCache 'Malagueta' 3.2.4.GA
+Apr 21, 2011 11:31:28 AM org.jboss.cache.jmx.PlatformMBeanServerRegistration registerToPlatformMBeanServer
+INFO: JBossCache MBeans were successfully registered to the platform mbean server.
+Apr 21, 2011 11:31:28 AM org.jboss.cache.factories.ComponentRegistry internalStart
+INFO: JBoss Cache version: JBossCache 'Malagueta' 3.2.4.GA
+Apr 21, 2011 11:31:28 AM org.hibernate.cfg.annotations.Version <clinit>
+INFO: Hibernate Annotations 3.4.0.GA
+Apr 21, 2011 11:31:28 AM org.hibernate.cfg.Environment <clinit>
+INFO: Hibernate 3.3.2.GA
+Apr 21, 2011 11:31:28 AM org.hibernate.cfg.Environment <clinit>
+INFO: hibernate.properties not found
+Apr 21, 2011 11:31:28 AM org.hibernate.cfg.Environment buildBytecodeProvider
+INFO: Bytecode provider name : javassist
+Apr 21, 2011 11:31:28 AM org.hibernate.cfg.Environment <clinit>
+INFO: using JDK 1.4 java.sql.Timestamp handling
+Apr 21, 2011 11:31:29 AM org.hibernate.annotations.common.Version <clinit>
+INFO: Hibernate Commons Annotations 3.1.0.GA
+Apr 21, 2011 11:31:29 AM org.hibernate.dialect.Dialect <init>
+INFO: Using dialect: org.hibernate.dialect.HSQLDialect
+Apr 21, 2011 11:31:30 AM org.hibernate.cfg.search.HibernateSearchEventListenerRegister enableHibernateSearch
+INFO: Unable to find org.hibernate.search.event.FullTextIndexEventListener on the classpath. Hibernate Search is not enabled.
+Apr 21, 2011 11:31:30 AM org.hibernate.cfg.HbmBinder bindRootPersistentClassCommonValues
+INFO: Mapping class: org.picketlink.idm.impl.model.hibernate.HibernateRealm -> jbid_realm
+Apr 21, 2011 11:31:30 AM org.hibernate.cfg.HbmBinder bindCollection
+INFO: Mapping collection: org.picketlink.idm.impl.model.hibernate.HibernateRealm.properties -> jbid_real_props
+Apr 21, 2011 11:31:30 AM org.hibernate.cfg.HbmBinder bindRootPersistentClassCommonValues
+INFO: Mapping class: org.picketlink.idm.impl.model.hibernate.HibernateIdentityObjectCredentialBinaryValue -> jbid_creden_bin_value
+Apr 21, 2011 11:31:30 AM org.hibernate.cfg.HbmBinder bindRootPersistentClassCommonValues
+INFO: Mapping class: org.picketlink.idm.impl.model.hibernate.HibernateIdentityObjectAttributeBinaryValue -> jbid_attr_bin_value
+Apr 21, 2011 11:31:30 AM org.hibernate.cfg.HbmBinder bindRootPersistentClassCommonValues
+INFO: Mapping class: org.picketlink.idm.impl.model.hibernate.HibernateIdentityObject -> jbid_io
+Apr 21, 2011 11:31:30 AM org.hibernate.cfg.HbmBinder bindCollection
+INFO: Mapping collection: org.picketlink.idm.impl.model.hibernate.HibernateIdentityObject.properties -> jbid_io_props
+Apr 21, 2011 11:31:30 AM org.hibernate.cfg.HbmBinder bindRootPersistentClassCommonValues
+INFO: Mapping class: org.picketlink.idm.impl.model.hibernate.HibernateIdentityObjectCredential -> jbid_io_creden
+Apr 21, 2011 11:31:30 AM org.hibernate.cfg.HbmBinder bindCollection
+INFO: Mapping collection: org.picketlink.idm.impl.model.hibernate.HibernateIdentityObjectCredential.properties -> jbid_io_creden_props
+Apr 21, 2011 11:31:30 AM org.hibernate.cfg.HbmBinder bindRootPersistentClassCommonValues
+INFO: Mapping class: org.picketlink.idm.impl.model.hibernate.HibernateIdentityObjectCredentialType -> jbid_io_creden_type
+Apr 21, 2011 11:31:30 AM org.hibernate.cfg.HbmBinder bindRootPersistentClassCommonValues
+INFO: Mapping class: org.picketlink.idm.impl.model.hibernate.HibernateIdentityObjectAttribute -> jbid_io_attr
+Apr 21, 2011 11:31:30 AM org.hibernate.cfg.HbmBinder bindCollection
+INFO: Mapping collection: org.picketlink.idm.impl.model.hibernate.HibernateIdentityObjectAttribute.textValues -> jbid_io_attr_text_values
+Apr 21, 2011 11:31:30 AM org.hibernate.cfg.HbmBinder bindRootPersistentClassCommonValues
+INFO: Mapping class: org.picketlink.idm.impl.model.hibernate.HibernateIdentityObjectType -> jbid_io_type
+Apr 21, 2011 11:31:30 AM org.hibernate.cfg.HbmBinder bindRootPersistentClassCommonValues
+INFO: Mapping class: org.picketlink.idm.impl.model.hibernate.HibernateIdentityObjectRelationship -> jbid_io_rel
+Apr 21, 2011 11:31:30 AM org.hibernate.cfg.HbmBinder bindCollection
+INFO: Mapping collection: org.picketlink.idm.impl.model.hibernate.HibernateIdentityObjectRelationship.properties -> jbid_io_rel_props
+Apr 21, 2011 11:31:30 AM org.hibernate.cfg.HbmBinder bindRootPersistentClassCommonValues
+INFO: Mapping class: org.picketlink.idm.impl.model.hibernate.HibernateIdentityObjectRelationshipType -> jbid_io_rel_type
+Apr 21, 2011 11:31:30 AM org.hibernate.cfg.HbmBinder bindRootPersistentClassCommonValues
+INFO: Mapping class: org.picketlink.idm.impl.model.hibernate.HibernateIdentityObjectRelationshipName -> jbid_io_rel_name
+Apr 21, 2011 11:31:30 AM org.hibernate.cfg.HbmBinder bindCollection
+INFO: Mapping collection: org.picketlink.idm.impl.model.hibernate.HibernateIdentityObjectRelationshipName.properties -> jbid_io_rel_name_props
+Apr 21, 2011 11:31:30 AM org.hibernate.cfg.HbmBinder bindCollectionSecondPass
+INFO: Mapping collection: org.picketlink.idm.impl.model.hibernate.HibernateIdentityObject.attributes -> jbid_io_attr
+Apr 21, 2011 11:31:30 AM org.hibernate.cfg.HbmBinder bindCollectionSecondPass
+INFO: Mapping collection: org.picketlink.idm.impl.model.hibernate.HibernateIdentityObject.credentials -> jbid_io_creden
+Apr 21, 2011 11:31:30 AM org.hibernate.cfg.HbmBinder bindCollectionSecondPass
+INFO: Mapping collection: org.picketlink.idm.impl.model.hibernate.HibernateIdentityObject.fromRelationships -> jbid_io_rel
+Apr 21, 2011 11:31:30 AM org.hibernate.cfg.HbmBinder bindCollectionSecondPass
+INFO: Mapping collection: org.picketlink.idm.impl.model.hibernate.HibernateIdentityObject.toRelationships -> jbid_io_rel
+Apr 21, 2011 11:31:30 AM org.hibernate.cfg.AnnotationConfiguration secondPassCompile
+INFO: Hibernate Validator not found: ignoring
+Apr 21, 2011 11:31:30 AM org.hibernate.util.NamingHelper getInitialContext
+INFO: JNDI InitialContext properties:{}
+Apr 21, 2011 11:31:30 AM org.hibernate.connection.DatasourceConnectionProvider configure
+INFO: Using datasource: jdbcidm
+Apr 21, 2011 11:31:30 AM org.hibernate.cfg.SettingsFactory buildSettings
+INFO: RDBMS: HSQL Database Engine, version: 1.8.0
+Apr 21, 2011 11:31:30 AM org.hibernate.cfg.SettingsFactory buildSettings
+INFO: JDBC driver: HSQL Database Engine Driver, version: 1.8.0
+Apr 21, 2011 11:31:30 AM org.hibernate.dialect.Dialect <init>
+INFO: Using dialect: org.hibernate.dialect.HSQLDialect
+Apr 21, 2011 11:31:30 AM org.hibernate.transaction.TransactionFactoryFactory buildTransactionFactory
+INFO: Using default transaction strategy (direct JDBC transactions)
+Apr 21, 2011 11:31:30 AM org.hibernate.transaction.TransactionManagerLookupFactory getTransactionManagerLookup
+INFO: No TransactionManagerLookup configured (in JTA environment, use of read-write or transactional second-level cache is not recommended)
+Apr 21, 2011 11:31:30 AM org.hibernate.cfg.SettingsFactory buildSettings
+INFO: Automatic flush during beforeCompletion(): disabled
+Apr 21, 2011 11:31:30 AM org.hibernate.cfg.SettingsFactory buildSettings
+INFO: Automatic session close at end of transaction: disabled
+Apr 21, 2011 11:31:30 AM org.hibernate.cfg.SettingsFactory buildSettings
+INFO: JDBC batch size: 15
+Apr 21, 2011 11:31:30 AM org.hibernate.cfg.SettingsFactory buildSettings
+INFO: JDBC batch updates for versioned data: disabled
+Apr 21, 2011 11:31:30 AM org.hibernate.cfg.SettingsFactory buildSettings
+INFO: Scrollable result sets: enabled
+Apr 21, 2011 11:31:30 AM org.hibernate.cfg.SettingsFactory buildSettings
+INFO: JDBC3 getGeneratedKeys(): disabled
+Apr 21, 2011 11:31:30 AM org.hibernate.cfg.SettingsFactory buildSettings
+INFO: Connection release mode: auto
+Apr 21, 2011 11:31:30 AM org.hibernate.cfg.SettingsFactory buildSettings
+INFO: Default batch fetch size: 1
+Apr 21, 2011 11:31:30 AM org.hibernate.cfg.SettingsFactory buildSettings
+INFO: Generate SQL with comments: disabled
+Apr 21, 2011 11:31:30 AM org.hibernate.cfg.SettingsFactory buildSettings
+INFO: Order SQL updates by primary key: disabled
+Apr 21, 2011 11:31:30 AM org.hibernate.cfg.SettingsFactory buildSettings
+INFO: Order SQL inserts for batching: disabled
+Apr 21, 2011 11:31:30 AM org.hibernate.cfg.SettingsFactory createQueryTranslatorFactory
+INFO: Query translator: org.hibernate.hql.ast.ASTQueryTranslatorFactory
+Apr 21, 2011 11:31:30 AM org.hibernate.hql.ast.ASTQueryTranslatorFactory <init>
+INFO: Using ASTQueryTranslatorFactory
+Apr 21, 2011 11:31:30 AM org.hibernate.cfg.SettingsFactory buildSettings
+INFO: Query language substitutions: {}
+Apr 21, 2011 11:31:30 AM org.hibernate.cfg.SettingsFactory buildSettings
+INFO: JPA-QL strict compliance: disabled
+Apr 21, 2011 11:31:30 AM org.hibernate.cfg.SettingsFactory buildSettings
+INFO: Second-level cache: enabled
+Apr 21, 2011 11:31:30 AM org.hibernate.cfg.SettingsFactory buildSettings
+INFO: Query cache: enabled
+Apr 21, 2011 11:31:30 AM org.hibernate.cfg.SettingsFactory createRegionFactory
+INFO: Cache region factory : org.hibernate.cache.impl.bridge.RegionFactoryCacheProviderBridge
+Apr 21, 2011 11:31:30 AM org.hibernate.cache.impl.bridge.RegionFactoryCacheProviderBridge <init>
+INFO: Cache provider: org.hibernate.cache.HashtableCacheProvider
+Apr 21, 2011 11:31:30 AM org.hibernate.cfg.SettingsFactory buildSettings
+INFO: Optimize cache for minimal puts: disabled
+Apr 21, 2011 11:31:30 AM org.hibernate.cfg.SettingsFactory buildSettings
+INFO: Structured second-level cache entries: disabled
+Apr 21, 2011 11:31:30 AM org.hibernate.cfg.SettingsFactory createQueryCacheFactory
+INFO: Query cache factory: org.hibernate.cache.StandardQueryCacheFactory
+Apr 21, 2011 11:31:30 AM org.hibernate.cfg.SettingsFactory buildSettings
+INFO: Statistics: disabled
+Apr 21, 2011 11:31:30 AM org.hibernate.cfg.SettingsFactory buildSettings
+INFO: Deleted entity synthetic identifier rollback: disabled
+Apr 21, 2011 11:31:30 AM org.hibernate.cfg.SettingsFactory buildSettings
+INFO: Default entity-mode: pojo
+Apr 21, 2011 11:31:30 AM org.hibernate.cfg.SettingsFactory buildSettings
+INFO: Named query checking : enabled
+Apr 21, 2011 11:31:30 AM org.hibernate.impl.SessionFactoryImpl <init>
+INFO: building session factory
+Apr 21, 2011 11:31:30 AM org.hibernate.impl.SessionFactoryObjectFactory addInstance
+INFO: Not binding factory to JNDI, no JNDI name configured
+Apr 21, 2011 11:31:30 AM org.hibernate.cache.UpdateTimestampsCache <init>
+INFO: starting update timestamps cache at region: org.hibernate.cache.UpdateTimestampsCache
+Apr 21, 2011 11:31:30 AM org.hibernate.cache.StandardQueryCache <init>
+INFO: starting query cache at region: org.hibernate.cache.StandardQueryCache
+Apr 21, 2011 11:31:30 AM org.hibernate.dialect.Dialect <init>
+INFO: Using dialect: org.hibernate.dialect.HSQLDialect
+Apr 21, 2011 11:31:30 AM org.hibernate.tool.hbm2ddl.SchemaUpdate execute
+INFO: Running hbm2ddl schema update
+Apr 21, 2011 11:31:30 AM org.hibernate.tool.hbm2ddl.SchemaUpdate execute
+INFO: fetching database metadata
+Apr 21, 2011 11:31:30 AM org.hibernate.util.NamingHelper getInitialContext
+INFO: JNDI InitialContext properties:{}
+Apr 21, 2011 11:31:30 AM org.hibernate.connection.DatasourceConnectionProvider configure
+INFO: Using datasource: jdbcidm
+Apr 21, 2011 11:31:30 AM org.hibernate.tool.hbm2ddl.SchemaUpdate execute
+INFO: updating schema
+Apr 21, 2011 11:31:30 AM org.hibernate.tool.hbm2ddl.TableMetadata <init>
+INFO: table found: PUBLIC.JBID_ATTR_BIN_VALUE
+Apr 21, 2011 11:31:30 AM org.hibernate.tool.hbm2ddl.TableMetadata <init>
+INFO: columns: [value, bin_value_id]
+Apr 21, 2011 11:31:31 AM org.hibernate.tool.hbm2ddl.TableMetadata <init>
+INFO: foreign keys: []
+Apr 21, 2011 11:31:31 AM org.hibernate.tool.hbm2ddl.TableMetadata <init>
+INFO: indexes: [sys_idx_46]
+Apr 21, 2011 11:31:31 AM org.hibernate.tool.hbm2ddl.TableMetadata <init>
+INFO: table found: PUBLIC.JBID_CREDEN_BIN_VALUE
+Apr 21, 2011 11:31:31 AM org.hibernate.tool.hbm2ddl.TableMetadata <init>
+INFO: columns: [value, bin_value_id]
+Apr 21, 2011 11:31:31 AM org.hibernate.tool.hbm2ddl.TableMetadata <init>
+INFO: foreign keys: []
+Apr 21, 2011 11:31:31 AM org.hibernate.tool.hbm2ddl.TableMetadata <init>
+INFO: indexes: [sys_idx_48]
+Apr 21, 2011 11:31:31 AM org.hibernate.tool.hbm2ddl.TableMetadata <init>
+INFO: table found: PUBLIC.JBID_IO
+Apr 21, 2011 11:31:31 AM org.hibernate.tool.hbm2ddl.TableMetadata <init>
+INFO: columns: [id, realm, identity_type, name]
+Apr 21, 2011 11:31:31 AM org.hibernate.tool.hbm2ddl.TableMetadata <init>
+INFO: foreign keys: [fk948600921900168b, fk94860092cf26285]
+Apr 21, 2011 11:31:31 AM org.hibernate.tool.hbm2ddl.TableMetadata <init>
+INFO: indexes: [sys_idx_51, sys_idx_sys_ct_50_53, sys_idx_99, sys_idx_97]
+Apr 21, 2011 11:31:31 AM org.hibernate.tool.hbm2ddl.TableMetadata <init>
+INFO: table found: PUBLIC.JBID_IO_ATTR
+Apr 21, 2011 11:31:31 AM org.hibernate.tool.hbm2ddl.TableMetadata <init>
+INFO: columns: [name, bin_value_id, identity_object_id, attribute_id, attribute_type]
+Apr 21, 2011 11:31:31 AM org.hibernate.tool.hbm2ddl.TableMetadata <init>
+INFO: foreign keys: [fk4dc61d7e992317f0, fk4dc61d7ede7e39cb]
+Apr 21, 2011 11:31:31 AM org.hibernate.tool.hbm2ddl.TableMetadata <init>
+INFO: indexes: [sys_idx_101, sys_idx_55, sys_idx_103, sys_idx_sys_ct_54_57]
+Apr 21, 2011 11:31:31 AM org.hibernate.tool.hbm2ddl.TableMetadata <init>
+INFO: table found: PUBLIC.JBID_IO_ATTR_TEXT_VALUES
+Apr 21, 2011 11:31:31 AM org.hibernate.tool.hbm2ddl.TableMetadata <init>
+INFO: columns: [text_attr_value_id, attr_value]
+Apr 21, 2011 11:31:31 AM org.hibernate.tool.hbm2ddl.TableMetadata <init>
+INFO: foreign keys: [fkc6f8c733577faccb]
+Apr 21, 2011 11:31:31 AM org.hibernate.tool.hbm2ddl.TableMetadata <init>
+INFO: indexes: [sys_idx_105]
+Apr 21, 2011 11:31:31 AM org.hibernate.tool.hbm2ddl.TableMetadata <init>
+INFO: table found: PUBLIC.JBID_IO_CREDEN
+Apr 21, 2011 11:31:31 AM org.hibernate.tool.hbm2ddl.TableMetadata <init>
+INFO: columns: [id, text, credential_type, identity_object_id, bin_value_id]
+Apr 21, 2011 11:31:31 AM org.hibernate.tool.hbm2ddl.TableMetadata <init>
+INFO: foreign keys: [fkf7fb3ec4992317f0, fkf7fb3ec429c64409, fkf7fb3ec4f1fbd584]
+Apr 21, 2011 11:31:31 AM org.hibernate.tool.hbm2ddl.TableMetadata <init>
+INFO: indexes: [sys_idx_109, sys_idx_sys_ct_59_62, sys_idx_107, sys_idx_111, sys_idx_60]
+Apr 21, 2011 11:31:31 AM org.hibernate.tool.hbm2ddl.TableMetadata <init>
+INFO: table found: PUBLIC.JBID_IO_CREDEN_PROPS
+Apr 21, 2011 11:31:31 AM org.hibernate.tool.hbm2ddl.TableMetadata <init>
+INFO: columns: [prop_name, prop_value, prop_id]
+Apr 21, 2011 11:31:31 AM org.hibernate.tool.hbm2ddl.TableMetadata <init>
+INFO: foreign keys: [fkbad648353bd68084]
+Apr 21, 2011 11:31:31 AM org.hibernate.tool.hbm2ddl.TableMetadata <init>
+INFO: indexes: [sys_idx_63, sys_idx_113]
+Apr 21, 2011 11:31:31 AM org.hibernate.tool.hbm2ddl.TableMetadata <init>
+INFO: table found: PUBLIC.JBID_IO_CREDEN_TYPE
+Apr 21, 2011 11:31:31 AM org.hibernate.tool.hbm2ddl.TableMetadata <init>
+INFO: columns: [id, name]
+Apr 21, 2011 11:31:31 AM org.hibernate.tool.hbm2ddl.TableMetadata <init>
+INFO: foreign keys: []
+Apr 21, 2011 11:31:31 AM org.hibernate.tool.hbm2ddl.TableMetadata <init>
+INFO: indexes: [sys_idx_sys_ct_65_68, sys_idx_66]
+Apr 21, 2011 11:31:31 AM org.hibernate.tool.hbm2ddl.TableMetadata <init>
+INFO: table found: PUBLIC.JBID_IO_PROPS
+Apr 21, 2011 11:31:31 AM org.hibernate.tool.hbm2ddl.TableMetadata <init>
+INFO: columns: [prop_name, prop_value, prop_id]
+Apr 21, 2011 11:31:31 AM org.hibernate.tool.hbm2ddl.TableMetadata <init>
+INFO: foreign keys: [fk6bcff78372655f8d]
+Apr 21, 2011 11:31:31 AM org.hibernate.tool.hbm2ddl.TableMetadata <init>
+INFO: indexes: [sys_idx_69, sys_idx_115]
+Apr 21, 2011 11:31:31 AM org.hibernate.tool.hbm2ddl.TableMetadata <init>
+INFO: table found: PUBLIC.JBID_IO_REL
+Apr 21, 2011 11:31:31 AM org.hibernate.tool.hbm2ddl.TableMetadata <init>
+INFO: columns: [id, rel_type, name, to_identity, from_identity]
+Apr 21, 2011 11:31:31 AM org.hibernate.tool.hbm2ddl.TableMetadata <init>
+INFO: foreign keys: [fke9bc4f6c89def9c9, fke9bc4f6c4ef6cba4, fke9bc4f6ce5991e18, fke9bc4f6c2d9e6ce8]
+Apr 21, 2011 11:31:31 AM org.hibernate.tool.hbm2ddl.TableMetadata <init>
+INFO: indexes: [sys_idx_119, sys_idx_sys_ct_71_74, sys_idx_117, sys_idx_121, sys_idx_123, sys_idx_72]
+Apr 21, 2011 11:31:31 AM org.hibernate.tool.hbm2ddl.TableMetadata <init>
+INFO: table found: PUBLIC.JBID_IO_REL_NAME
+Apr 21, 2011 11:31:31 AM org.hibernate.tool.hbm2ddl.TableMetadata <init>
+INFO: columns: [id, realm, name]
+Apr 21, 2011 11:31:31 AM org.hibernate.tool.hbm2ddl.TableMetadata <init>
+INFO: foreign keys: [fk5856a77ecf26285]
+Apr 21, 2011 11:31:31 AM org.hibernate.tool.hbm2ddl.TableMetadata <init>
+INFO: indexes: [sys_idx_76, sys_idx_125, sys_idx_sys_ct_75_78]
+Apr 21, 2011 11:31:31 AM org.hibernate.tool.hbm2ddl.TableMetadata <init>
+INFO: table found: PUBLIC.JBID_IO_REL_NAME_PROPS
+Apr 21, 2011 11:31:31 AM org.hibernate.tool.hbm2ddl.TableMetadata <init>
+INFO: columns: [prop_name, prop_value, prop_id]
+Apr 21, 2011 11:31:31 AM org.hibernate.tool.hbm2ddl.TableMetadata <init>
+INFO: foreign keys: [fk224abd6f3c564090]
+Apr 21, 2011 11:31:31 AM org.hibernate.tool.hbm2ddl.TableMetadata <init>
+INFO: indexes: [sys_idx_127, sys_idx_79]
+Apr 21, 2011 11:31:31 AM org.hibernate.tool.hbm2ddl.TableMetadata <init>
+INFO: table found: PUBLIC.JBID_IO_REL_PROPS
+Apr 21, 2011 11:31:31 AM org.hibernate.tool.hbm2ddl.TableMetadata <init>
+INFO: columns: [prop_name, prop_value, prop_id]
+Apr 21, 2011 11:31:31 AM org.hibernate.tool.hbm2ddl.TableMetadata <init>
+INFO: foreign keys: [fkb2a23add93afb8e5]
+Apr 21, 2011 11:31:31 AM org.hibernate.tool.hbm2ddl.TableMetadata <init>
+INFO: indexes: [sys_idx_129, sys_idx_81]
+Apr 21, 2011 11:31:31 AM org.hibernate.tool.hbm2ddl.TableMetadata <init>
+INFO: table found: PUBLIC.JBID_IO_REL_TYPE
+Apr 21, 2011 11:31:31 AM org.hibernate.tool.hbm2ddl.TableMetadata <init>
+INFO: columns: [id, name]
+Apr 21, 2011 11:31:31 AM org.hibernate.tool.hbm2ddl.TableMetadata <init>
+INFO: foreign keys: []
+Apr 21, 2011 11:31:31 AM org.hibernate.tool.hbm2ddl.TableMetadata <init>
+INFO: indexes: [sys_idx_84, sys_idx_sys_ct_83_86]
+Apr 21, 2011 11:31:31 AM org.hibernate.tool.hbm2ddl.TableMetadata <init>
+INFO: table found: PUBLIC.JBID_IO_TYPE
+Apr 21, 2011 11:31:31 AM org.hibernate.tool.hbm2ddl.TableMetadata <init>
+INFO: columns: [id, name]
+Apr 21, 2011 11:31:31 AM org.hibernate.tool.hbm2ddl.TableMetadata <init>
+INFO: foreign keys: []
+Apr 21, 2011 11:31:31 AM org.hibernate.tool.hbm2ddl.TableMetadata <init>
+INFO: indexes: [sys_idx_88, sys_idx_sys_ct_87_90]
+Apr 21, 2011 11:31:31 AM org.hibernate.tool.hbm2ddl.TableMetadata <init>
+INFO: table found: PUBLIC.JBID_REAL_PROPS
+Apr 21, 2011 11:31:31 AM org.hibernate.tool.hbm2ddl.TableMetadata <init>
+INFO: columns: [prop_name, prop_value, prop_id]
+Apr 21, 2011 11:31:31 AM org.hibernate.tool.hbm2ddl.TableMetadata <init>
+INFO: foreign keys: [fk5f651efbf40f776d]
+Apr 21, 2011 11:31:31 AM org.hibernate.tool.hbm2ddl.TableMetadata <init>
+INFO: indexes: [sys_idx_91, sys_idx_131]
+Apr 21, 2011 11:31:31 AM org.hibernate.tool.hbm2ddl.TableMetadata <init>
+INFO: table found: PUBLIC.JBID_REALM
+Apr 21, 2011 11:31:31 AM org.hibernate.tool.hbm2ddl.TableMetadata <init>
+INFO: columns: [id, name]
+Apr 21, 2011 11:31:31 AM org.hibernate.tool.hbm2ddl.TableMetadata <init>
+INFO: foreign keys: []
+Apr 21, 2011 11:31:31 AM org.hibernate.tool.hbm2ddl.TableMetadata <init>
+INFO: indexes: [sys_idx_94, sys_idx_sys_ct_93_96]
+Apr 21, 2011 11:31:31 AM org.hibernate.tool.hbm2ddl.SchemaUpdate execute
+INFO: schema update complete
+Apr 21, 2011 11:31:31 AM org.jboss.cache.jmx.PlatformMBeanServerRegistration registerToPlatformMBeanServer
+INFO: JBossCache MBeans were successfully registered to the platform mbean server.
+Apr 21, 2011 11:31:31 AM org.jboss.cache.factories.ComponentRegistry internalStart
+INFO: JBoss Cache version: JBossCache 'Malagueta' 3.2.4.GA
+Apr 21, 2011 11:31:31 AM org.jboss.cache.jmx.PlatformMBeanServerRegistration registerToPlatformMBeanServer
+INFO: JBossCache MBeans were successfully registered to the platform mbean server.
+Apr 21, 2011 11:31:31 AM org.jboss.cache.factories.ComponentRegistry internalStart
+INFO: JBoss Cache version: JBossCache 'Malagueta' 3.2.4.GA
+Apr 21, 2011 11:31:32 AM org.jboss.cache.jmx.PlatformMBeanServerRegistration registerToPlatformMBeanServer
+INFO: JBossCache MBeans were successfully registered to the platform mbean server.
+Apr 21, 2011 11:31:32 AM org.jboss.cache.factories.ComponentRegistry internalStart
+INFO: JBoss Cache version: JBossCache 'Malagueta' 3.2.4.GA
+Apr 21, 2011 11:31:32 AM org.jboss.cache.jmx.PlatformMBeanServerRegistration registerToPlatformMBeanServer
+INFO: JBossCache MBeans were successfully registered to the platform mbean server.
+Apr 21, 2011 11:31:32 AM org.jboss.cache.factories.ComponentRegistry internalStart
+INFO: JBoss Cache version: JBossCache 'Malagueta' 3.2.4.GA
+Apr 21, 2011 11:31:33 AM org.jboss.cache.jmx.PlatformMBeanServerRegistration registerToPlatformMBeanServer
+INFO: JBossCache MBeans were successfully registered to the platform mbean server.
+Apr 21, 2011 11:31:33 AM org.jboss.cache.factories.ComponentRegistry internalStart
+INFO: JBoss Cache version: JBossCache 'Malagueta' 3.2.4.GA
+Apr 21, 2011 11:31:33 AM org.jboss.cache.jmx.PlatformMBeanServerRegistration registerToPlatformMBeanServer
+INFO: JBossCache MBeans were successfully registered to the platform mbean server.
+Apr 21, 2011 11:31:33 AM org.jboss.cache.factories.ComponentRegistry internalStart
+INFO: JBoss Cache version: JBossCache 'Malagueta' 3.2.4.GA
+Apr 21, 2011 11:31:33 AM org.jboss.cache.jmx.PlatformMBeanServerRegistration registerToPlatformMBeanServer
+INFO: JBossCache MBeans were successfully registered to the platform mbean server.
+Apr 21, 2011 11:31:33 AM org.jboss.cache.factories.ComponentRegistry internalStart
+INFO: JBoss Cache version: JBossCache 'Malagueta' 3.2.4.GA
+Apr 21, 2011 11:31:36 AM org.jboss.cache.jmx.PlatformMBeanServerRegistration registerToPlatformMBeanServer
+INFO: JBossCache MBeans were successfully registered to the platform mbean server.
+Apr 21, 2011 11:31:36 AM org.jboss.cache.factories.ComponentRegistry internalStart
+INFO: JBoss Cache version: JBossCache 'Malagueta' 3.2.4.GA
+Apr 21, 2011 11:31:37 AM org.jboss.cache.jmx.PlatformMBeanServerRegistration registerToPlatformMBeanServer
+INFO: JBossCache MBeans were successfully registered to the platform mbean server.
+Apr 21, 2011 11:31:37 AM org.jboss.cache.factories.ComponentRegistry internalStart
+INFO: JBoss Cache version: JBossCache 'Malagueta' 3.2.4.GA
+Apr 21, 2011 11:31:37 AM org.jboss.cache.jmx.PlatformMBeanServerRegistration registerToPlatformMBeanServer
+INFO: JBossCache MBeans were successfully registered to the platform mbean server.
+Apr 21, 2011 11:31:37 AM org.jboss.cache.factories.ComponentRegistry internalStart
+INFO: JBoss Cache version: JBossCache 'Malagueta' 3.2.4.GA
+Apr 21, 2011 11:31:37 AM org.jboss.cache.jmx.PlatformMBeanServerRegistration registerToPlatformMBeanServer
+INFO: JBossCache MBeans were successfully registered to the platform mbean server.
+Apr 21, 2011 11:31:37 AM org.jboss.cache.factories.ComponentRegistry internalStart
+INFO: JBoss Cache version: JBossCache 'Malagueta' 3.2.4.GA
+Apr 21, 2011 11:31:37 AM org.jboss.cache.jmx.PlatformMBeanServerRegistration registerToPlatformMBeanServer
+INFO: JBossCache MBeans were successfully registered to the platform mbean server.
+Apr 21, 2011 11:31:37 AM org.jboss.cache.factories.ComponentRegistry internalStart
+INFO: JBoss Cache version: JBossCache 'Malagueta' 3.2.4.GA
+Apr 21, 2011 11:31:41 AM org.gatein.common.logging.Logger log
+INFO: The WebAppController has been successfully initialized for the portal 'portal'
+Apr 21, 2011 11:31:42 AM org.exoplatform.portal.application.ResourceRequestFilter afterInit
+INFO: Cache eXo Resource at client: true
+Apr 21, 2011 11:31:42 AM org.exoplatform.portal.application.ResourceRequestFilter afterInit
+INFO: Cache eXo Resource at client: true
+Apr 21, 2011 11:31:42 AM org.exoplatform.portal.application.ResourceRequestFilter afterInit
+INFO: Cache eXo Resource at client: true
+Apr 21, 2011 11:31:42 AM org.exoplatform.portal.application.ResourceRequestFilter afterInit
+INFO: Cache eXo Resource at client: true
+Apr 21, 2011 11:31:43 AM org.exoplatform.portal.application.ResourceRequestFilter afterInit
+INFO: Cache eXo Resource at client: true
+Apr 21, 2011 11:31:50 AM org.jboss.cache.jmx.PlatformMBeanServerRegistration registerToPlatformMBeanServer
+INFO: JBossCache MBeans were successfully registered to the platform mbean server.
+Apr 21, 2011 11:31:50 AM org.jboss.cache.factories.ComponentRegistry internalStart
+INFO: JBoss Cache version: JBossCache 'Malagueta' 3.2.4.GA
+Apr 21, 2011 11:42:38 AM org.apache.shindig.common.cache.ehcache.EhCacheCacheProvider createCache
+INFO: Creating cache named expressions
+Apr 21, 2011 11:42:39 AM org.apache.shindig.config.JsonContainerConfig loadContainers
+INFO: Loading resources from: containers/default/container.js
+Apr 21, 2011 11:42:39 AM org.apache.shindig.config.JsonContainerConfig loadResources
+INFO: Reading container config: containers/default/container.js
+Apr 21, 2011 11:42:39 AM org.exoplatform.portal.gadget.core.ExoContainerConfig <init>
+INFO: Found key file /Users/hubertfonseca/intelie/GateIn-3.1.0-GA/gatein/conf/gadgets/key.txt for gadgets security
+Apr 21, 2011 11:42:39 AM org.apache.shindig.gadgets.JsFeatureLoader loadFeatures
+INFO: Loading resources from: features/features.txt
+Apr 21, 2011 11:42:39 AM org.apache.shindig.common.xml.XmlUtil <clinit>
+INFO: Not using secure XML processing.
+Apr 21, 2011 11:42:39 AM org.apache.shindig.common.xml.XmlUtil <clinit>
+INFO: Reusing document builders
+Apr 21, 2011 11:42:39 AM org.apache.shindig.common.xml.XmlUtil$2 initialValue
+INFO: Created a new document builder
+Apr 21, 2011 11:42:39 AM org.apache.shindig.gadgets.JsLibrary loadResource
+WARNING: Could not find resource: com/google/caja/plugin/domita-minified.opt.js-Can not locate resource: com/google/caja/plugin/domita-minified.opt.js
+Apr 21, 2011 11:42:39 AM org.apache.shindig.gadgets.JsLibrary loadResource
+WARNING: Could not find resource: features/caja/caja.opt.js-Can not locate resource: features/caja/caja.opt.js
+Apr 21, 2011 11:42:39 AM org.apache.shindig.gadgets.JsLibrary loadResource
+WARNING: Could not find resource: com/google/caja/plugin/valija.co.opt.js-Can not locate resource: com/google/caja/plugin/valija.co.opt.js
+Apr 21, 2011 11:42:39 AM org.apache.shindig.gadgets.JsLibrary loadResource
+WARNING: Could not find resource: com/google/caja/plugin/html-sanitizer-minified.opt.js-Can not locate resource: com/google/caja/plugin/html-sanitizer-minified.opt.js
+Apr 21, 2011 11:42:39 AM org.apache.shindig.common.cache.ehcache.EhCacheCacheProvider createCache
+INFO: Creating cache named parsedDocuments
+Apr 21, 2011 11:42:39 AM org.apache.shindig.common.cache.ehcache.EhCacheCacheProvider createCache
+INFO: Creating cache named parsedFragments
+Apr 21, 2011 11:42:39 AM org.apache.shindig.common.cache.ehcache.EhCacheCacheProvider createCache
+INFO: Creating cache named httpResponses
+Apr 21, 2011 11:42:40 AM org.apache.shindig.common.cache.ehcache.EhCacheCacheProvider createCache
+INFO: Creating cache named invalidatedUsers
+Apr 21, 2011 11:42:40 AM org.apache.shindig.common.cache.ehcache.EhCacheCacheProvider createCache
+INFO: Creating cache named gadgetSpecs
+Apr 21, 2011 11:42:40 AM org.apache.shindig.common.cache.ehcache.EhCacheCacheProvider createCache
+INFO: Creating cache named messageBundles
+Apr 21, 2011 11:42:40 AM org.apache.shindig.gadgets.oauth.OAuthModule$OAuthCrypterProvider <init>
+INFO: Using random key for OAuth client-side state encryption
+Apr 21, 2011 11:42:40 AM org.exoplatform.portal.application.ResourceRequestFilter afterInit
+INFO: Cache eXo Resource at client: true
+Apr 21, 2011 11:42:41 AM org.exoplatform.portal.application.ResourceRequestFilter afterInit
+INFO: Cache eXo Resource at client: true
+Apr 21, 2011 11:42:47 AM org.jboss.cache.jmx.PlatformMBeanServerRegistration registerToPlatformMBeanServer
+INFO: JBossCache MBeans were successfully registered to the platform mbean server.
+Apr 21, 2011 11:42:47 AM org.jboss.cache.factories.ComponentRegistry internalStart
+INFO: JBoss Cache version: JBossCache 'Malagueta' 3.2.4.GA
+Apr 21, 2011 11:42:47 AM org.jboss.cache.jmx.PlatformMBeanServerRegistration registerToPlatformMBeanServer
+INFO: JBossCache MBeans were successfully registered to the platform mbean server.
+Apr 21, 2011 11:42:47 AM org.jboss.cache.factories.ComponentRegistry internalStart
+INFO: JBoss Cache version: JBossCache 'Malagueta' 3.2.4.GA
+Apr 21, 2011 11:42:47 AM org.hibernate.cfg.annotations.Version <clinit>
+INFO: Hibernate Annotations 3.4.0.GA
+Apr 21, 2011 11:42:47 AM org.hibernate.cfg.Environment <clinit>
+INFO: Hibernate 3.3.2.GA
+Apr 21, 2011 11:42:47 AM org.hibernate.cfg.Environment <clinit>
+INFO: hibernate.properties not found
+Apr 21, 2011 11:42:47 AM org.hibernate.cfg.Environment buildBytecodeProvider
+INFO: Bytecode provider name : javassist
+Apr 21, 2011 11:42:47 AM org.hibernate.cfg.Environment <clinit>
+INFO: using JDK 1.4 java.sql.Timestamp handling
+Apr 21, 2011 11:42:47 AM org.hibernate.annotations.common.Version <clinit>
+INFO: Hibernate Commons Annotations 3.1.0.GA
+Apr 21, 2011 11:42:47 AM org.hibernate.dialect.Dialect <init>
+INFO: Using dialect: org.hibernate.dialect.HSQLDialect
+Apr 21, 2011 11:42:49 AM org.hibernate.cfg.search.HibernateSearchEventListenerRegister enableHibernateSearch
+INFO: Unable to find org.hibernate.search.event.FullTextIndexEventListener on the classpath. Hibernate Search is not enabled.
+Apr 21, 2011 11:42:49 AM org.hibernate.cfg.HbmBinder bindRootPersistentClassCommonValues
+INFO: Mapping class: org.picketlink.idm.impl.model.hibernate.HibernateRealm -> jbid_realm
+Apr 21, 2011 11:42:49 AM org.hibernate.cfg.HbmBinder bindCollection
+INFO: Mapping collection: org.picketlink.idm.impl.model.hibernate.HibernateRealm.properties -> jbid_real_props
+Apr 21, 2011 11:42:49 AM org.hibernate.cfg.HbmBinder bindRootPersistentClassCommonValues
+INFO: Mapping class: org.picketlink.idm.impl.model.hibernate.HibernateIdentityObjectCredentialBinaryValue -> jbid_creden_bin_value
+Apr 21, 2011 11:42:49 AM org.hibernate.cfg.HbmBinder bindRootPersistentClassCommonValues
+INFO: Mapping class: org.picketlink.idm.impl.model.hibernate.HibernateIdentityObjectAttributeBinaryValue -> jbid_attr_bin_value
+Apr 21, 2011 11:42:49 AM org.hibernate.cfg.HbmBinder bindRootPersistentClassCommonValues
+INFO: Mapping class: org.picketlink.idm.impl.model.hibernate.HibernateIdentityObject -> jbid_io
+Apr 21, 2011 11:42:49 AM org.hibernate.cfg.HbmBinder bindCollection
+INFO: Mapping collection: org.picketlink.idm.impl.model.hibernate.HibernateIdentityObject.properties -> jbid_io_props
+Apr 21, 2011 11:42:49 AM org.hibernate.cfg.HbmBinder bindRootPersistentClassCommonValues
+INFO: Mapping class: org.picketlink.idm.impl.model.hibernate.HibernateIdentityObjectCredential -> jbid_io_creden
+Apr 21, 2011 11:42:49 AM org.hibernate.cfg.HbmBinder bindCollection
+INFO: Mapping collection: org.picketlink.idm.impl.model.hibernate.HibernateIdentityObjectCredential.properties -> jbid_io_creden_props
+Apr 21, 2011 11:42:49 AM org.hibernate.cfg.HbmBinder bindRootPersistentClassCommonValues
+INFO: Mapping class: org.picketlink.idm.impl.model.hibernate.HibernateIdentityObjectCredentialType -> jbid_io_creden_type
+Apr 21, 2011 11:42:49 AM org.hibernate.cfg.HbmBinder bindRootPersistentClassCommonValues
+INFO: Mapping class: org.picketlink.idm.impl.model.hibernate.HibernateIdentityObjectAttribute -> jbid_io_attr
+Apr 21, 2011 11:42:49 AM org.hibernate.cfg.HbmBinder bindCollection
+INFO: Mapping collection: org.picketlink.idm.impl.model.hibernate.HibernateIdentityObjectAttribute.textValues -> jbid_io_attr_text_values
+Apr 21, 2011 11:42:49 AM org.hibernate.cfg.HbmBinder bindRootPersistentClassCommonValues
+INFO: Mapping class: org.picketlink.idm.impl.model.hibernate.HibernateIdentityObjectType -> jbid_io_type
+Apr 21, 2011 11:42:49 AM org.hibernate.cfg.HbmBinder bindRootPersistentClassCommonValues
+INFO: Mapping class: org.picketlink.idm.impl.model.hibernate.HibernateIdentityObjectRelationship -> jbid_io_rel
+Apr 21, 2011 11:42:49 AM org.hibernate.cfg.HbmBinder bindCollection
+INFO: Mapping collection: org.picketlink.idm.impl.model.hibernate.HibernateIdentityObjectRelationship.properties -> jbid_io_rel_props
+Apr 21, 2011 11:42:49 AM org.hibernate.cfg.HbmBinder bindRootPersistentClassCommonValues
+INFO: Mapping class: org.picketlink.idm.impl.model.hibernate.HibernateIdentityObjectRelationshipType -> jbid_io_rel_type
+Apr 21, 2011 11:42:49 AM org.hibernate.cfg.HbmBinder bindRootPersistentClassCommonValues
+INFO: Mapping class: org.picketlink.idm.impl.model.hibernate.HibernateIdentityObjectRelationshipName -> jbid_io_rel_name
+Apr 21, 2011 11:42:49 AM org.hibernate.cfg.HbmBinder bindCollection
+INFO: Mapping collection: org.picketlink.idm.impl.model.hibernate.HibernateIdentityObjectRelationshipName.properties -> jbid_io_rel_name_props
+Apr 21, 2011 11:42:49 AM org.hibernate.cfg.HbmBinder bindCollectionSecondPass
+INFO: Mapping collection: org.picketlink.idm.impl.model.hibernate.HibernateIdentityObject.attributes -> jbid_io_attr
+Apr 21, 2011 11:42:49 AM org.hibernate.cfg.HbmBinder bindCollectionSecondPass
+INFO: Mapping collection: org.picketlink.idm.impl.model.hibernate.HibernateIdentityObject.credentials -> jbid_io_creden
+Apr 21, 2011 11:42:49 AM org.hibernate.cfg.HbmBinder bindCollectionSecondPass
+INFO: Mapping collection: org.picketlink.idm.impl.model.hibernate.HibernateIdentityObject.fromRelationships -> jbid_io_rel
+Apr 21, 2011 11:42:49 AM org.hibernate.cfg.HbmBinder bindCollectionSecondPass
+INFO: Mapping collection: org.picketlink.idm.impl.model.hibernate.HibernateIdentityObject.toRelationships -> jbid_io_rel
+Apr 21, 2011 11:42:49 AM org.hibernate.cfg.AnnotationConfiguration secondPassCompile
+INFO: Hibernate Validator not found: ignoring
+Apr 21, 2011 11:42:49 AM org.hibernate.util.NamingHelper getInitialContext
+INFO: JNDI InitialContext properties:{}
+Apr 21, 2011 11:42:49 AM org.hibernate.connection.DatasourceConnectionProvider configure
+INFO: Using datasource: jdbcidm
+Apr 21, 2011 11:42:49 AM org.hibernate.cfg.SettingsFactory buildSettings
+INFO: RDBMS: HSQL Database Engine, version: 1.8.0
+Apr 21, 2011 11:42:49 AM org.hibernate.cfg.SettingsFactory buildSettings
+INFO: JDBC driver: HSQL Database Engine Driver, version: 1.8.0
+Apr 21, 2011 11:42:49 AM org.hibernate.dialect.Dialect <init>
+INFO: Using dialect: org.hibernate.dialect.HSQLDialect
+Apr 21, 2011 11:42:49 AM org.hibernate.transaction.TransactionFactoryFactory buildTransactionFactory
+INFO: Using default transaction strategy (direct JDBC transactions)
+Apr 21, 2011 11:42:49 AM org.hibernate.transaction.TransactionManagerLookupFactory getTransactionManagerLookup
+INFO: No TransactionManagerLookup configured (in JTA environment, use of read-write or transactional second-level cache is not recommended)
+Apr 21, 2011 11:42:49 AM org.hibernate.cfg.SettingsFactory buildSettings
+INFO: Automatic flush during beforeCompletion(): disabled
+Apr 21, 2011 11:42:49 AM org.hibernate.cfg.SettingsFactory buildSettings
+INFO: Automatic session close at end of transaction: disabled
+Apr 21, 2011 11:42:49 AM org.hibernate.cfg.SettingsFactory buildSettings
+INFO: JDBC batch size: 15
+Apr 21, 2011 11:42:49 AM org.hibernate.cfg.SettingsFactory buildSettings
+INFO: JDBC batch updates for versioned data: disabled
+Apr 21, 2011 11:42:49 AM org.hibernate.cfg.SettingsFactory buildSettings
+INFO: Scrollable result sets: enabled
+Apr 21, 2011 11:42:49 AM org.hibernate.cfg.SettingsFactory buildSettings
+INFO: JDBC3 getGeneratedKeys(): disabled
+Apr 21, 2011 11:42:49 AM org.hibernate.cfg.SettingsFactory buildSettings
+INFO: Connection release mode: auto
+Apr 21, 2011 11:42:49 AM org.hibernate.cfg.SettingsFactory buildSettings
+INFO: Default batch fetch size: 1
+Apr 21, 2011 11:42:49 AM org.hibernate.cfg.SettingsFactory buildSettings
+INFO: Generate SQL with comments: disabled
+Apr 21, 2011 11:42:49 AM org.hibernate.cfg.SettingsFactory buildSettings
+INFO: Order SQL updates by primary key: disabled
+Apr 21, 2011 11:42:49 AM org.hibernate.cfg.SettingsFactory buildSettings
+INFO: Order SQL inserts for batching: disabled
+Apr 21, 2011 11:42:49 AM org.hibernate.cfg.SettingsFactory createQueryTranslatorFactory
+INFO: Query translator: org.hibernate.hql.ast.ASTQueryTranslatorFactory
+Apr 21, 2011 11:42:49 AM org.hibernate.hql.ast.ASTQueryTranslatorFactory <init>
+INFO: Using ASTQueryTranslatorFactory
+Apr 21, 2011 11:42:49 AM org.hibernate.cfg.SettingsFactory buildSettings
+INFO: Query language substitutions: {}
+Apr 21, 2011 11:42:49 AM org.hibernate.cfg.SettingsFactory buildSettings
+INFO: JPA-QL strict compliance: disabled
+Apr 21, 2011 11:42:49 AM org.hibernate.cfg.SettingsFactory buildSettings
+INFO: Second-level cache: enabled
+Apr 21, 2011 11:42:49 AM org.hibernate.cfg.SettingsFactory buildSettings
+INFO: Query cache: enabled
+Apr 21, 2011 11:42:49 AM org.hibernate.cfg.SettingsFactory createRegionFactory
+INFO: Cache region factory : org.hibernate.cache.impl.bridge.RegionFactoryCacheProviderBridge
+Apr 21, 2011 11:42:49 AM org.hibernate.cache.impl.bridge.RegionFactoryCacheProviderBridge <init>
+INFO: Cache provider: org.hibernate.cache.HashtableCacheProvider
+Apr 21, 2011 11:42:49 AM org.hibernate.cfg.SettingsFactory buildSettings
+INFO: Optimize cache for minimal puts: disabled
+Apr 21, 2011 11:42:49 AM org.hibernate.cfg.SettingsFactory buildSettings
+INFO: Structured second-level cache entries: disabled
+Apr 21, 2011 11:42:49 AM org.hibernate.cfg.SettingsFactory createQueryCacheFactory
+INFO: Query cache factory: org.hibernate.cache.StandardQueryCacheFactory
+Apr 21, 2011 11:42:49 AM org.hibernate.cfg.SettingsFactory buildSettings
+INFO: Statistics: disabled
+Apr 21, 2011 11:42:49 AM org.hibernate.cfg.SettingsFactory buildSettings
+INFO: Deleted entity synthetic identifier rollback: disabled
+Apr 21, 2011 11:42:49 AM org.hibernate.cfg.SettingsFactory buildSettings
+INFO: Default entity-mode: pojo
+Apr 21, 2011 11:42:49 AM org.hibernate.cfg.SettingsFactory buildSettings
+INFO: Named query checking : enabled
+Apr 21, 2011 11:42:49 AM org.hibernate.impl.SessionFactoryImpl <init>
+INFO: building session factory
+Apr 21, 2011 11:42:50 AM org.hibernate.impl.SessionFactoryObjectFactory addInstance
+INFO: Not binding factory to JNDI, no JNDI name configured
+Apr 21, 2011 11:42:50 AM org.hibernate.cache.UpdateTimestampsCache <init>
+INFO: starting update timestamps cache at region: org.hibernate.cache.UpdateTimestampsCache
+Apr 21, 2011 11:42:50 AM org.hibernate.cache.StandardQueryCache <init>
+INFO: starting query cache at region: org.hibernate.cache.StandardQueryCache
+Apr 21, 2011 11:42:50 AM org.hibernate.dialect.Dialect <init>
+INFO: Using dialect: org.hibernate.dialect.HSQLDialect
+Apr 21, 2011 11:42:50 AM org.hibernate.tool.hbm2ddl.SchemaUpdate execute
+INFO: Running hbm2ddl schema update
+Apr 21, 2011 11:42:50 AM org.hibernate.tool.hbm2ddl.SchemaUpdate execute
+INFO: fetching database metadata
+Apr 21, 2011 11:42:50 AM org.hibernate.util.NamingHelper getInitialContext
+INFO: JNDI InitialContext properties:{}
+Apr 21, 2011 11:42:50 AM org.hibernate.connection.DatasourceConnectionProvider configure
+INFO: Using datasource: jdbcidm
+Apr 21, 2011 11:42:50 AM org.hibernate.tool.hbm2ddl.SchemaUpdate execute
+INFO: updating schema
+Apr 21, 2011 11:42:50 AM org.hibernate.tool.hbm2ddl.TableMetadata <init>
+INFO: table found: PUBLIC.JBID_ATTR_BIN_VALUE
+Apr 21, 2011 11:42:50 AM org.hibernate.tool.hbm2ddl.TableMetadata <init>
+INFO: columns: [value, bin_value_id]
+Apr 21, 2011 11:42:50 AM org.hibernate.tool.hbm2ddl.TableMetadata <init>
+INFO: foreign keys: []
+Apr 21, 2011 11:42:50 AM org.hibernate.tool.hbm2ddl.TableMetadata <init>
+INFO: indexes: [sys_idx_46]
+Apr 21, 2011 11:42:50 AM org.hibernate.tool.hbm2ddl.TableMetadata <init>
+INFO: table found: PUBLIC.JBID_CREDEN_BIN_VALUE
+Apr 21, 2011 11:42:50 AM org.hibernate.tool.hbm2ddl.TableMetadata <init>
+INFO: columns: [value, bin_value_id]
+Apr 21, 2011 11:42:50 AM org.hibernate.tool.hbm2ddl.TableMetadata <init>
+INFO: foreign keys: []
+Apr 21, 2011 11:42:50 AM org.hibernate.tool.hbm2ddl.TableMetadata <init>
+INFO: indexes: [sys_idx_48]
+Apr 21, 2011 11:42:50 AM org.hibernate.tool.hbm2ddl.TableMetadata <init>
+INFO: table found: PUBLIC.JBID_IO
+Apr 21, 2011 11:42:50 AM org.hibernate.tool.hbm2ddl.TableMetadata <init>
+INFO: columns: [id, realm, identity_type, name]
+Apr 21, 2011 11:42:50 AM org.hibernate.tool.hbm2ddl.TableMetadata <init>
+INFO: foreign keys: [fk948600921900168b, fk94860092cf26285]
+Apr 21, 2011 11:42:50 AM org.hibernate.tool.hbm2ddl.TableMetadata <init>
+INFO: indexes: [sys_idx_114, sys_idx_51, sys_idx_sys_ct_50_53, sys_idx_112]
+Apr 21, 2011 11:42:50 AM org.hibernate.tool.hbm2ddl.TableMetadata <init>
+INFO: table found: PUBLIC.JBID_IO_ATTR
+Apr 21, 2011 11:42:50 AM org.hibernate.tool.hbm2ddl.TableMetadata <init>
+INFO: columns: [name, bin_value_id, identity_object_id, attribute_id, attribute_type]
+Apr 21, 2011 11:42:50 AM org.hibernate.tool.hbm2ddl.TableMetadata <init>
+INFO: foreign keys: [fk4dc61d7e992317f0, fk4dc61d7ede7e39cb]
+Apr 21, 2011 11:42:50 AM org.hibernate.tool.hbm2ddl.TableMetadata <init>
+INFO: indexes: [sys_idx_58, sys_idx_55, sys_idx_60, sys_idx_sys_ct_54_57]
+Apr 21, 2011 11:42:50 AM org.hibernate.tool.hbm2ddl.TableMetadata <init>
+INFO: table found: PUBLIC.JBID_IO_ATTR_TEXT_VALUES
+Apr 21, 2011 11:42:50 AM org.hibernate.tool.hbm2ddl.TableMetadata <init>
+INFO: columns: [text_attr_value_id, attr_value]
+Apr 21, 2011 11:42:50 AM org.hibernate.tool.hbm2ddl.TableMetadata <init>
+INFO: foreign keys: [fkc6f8c733577faccb]
+Apr 21, 2011 11:42:50 AM org.hibernate.tool.hbm2ddl.TableMetadata <init>
+INFO: indexes: [sys_idx_63]
+Apr 21, 2011 11:42:50 AM org.hibernate.tool.hbm2ddl.TableMetadata <init>
+INFO: table found: PUBLIC.JBID_IO_CREDEN
+Apr 21, 2011 11:42:50 AM org.hibernate.tool.hbm2ddl.TableMetadata <init>
+INFO: columns: [id, text, credential_type, identity_object_id, bin_value_id]
+Apr 21, 2011 11:42:50 AM org.hibernate.tool.hbm2ddl.TableMetadata <init>
+INFO: foreign keys: [fkf7fb3ec4992317f0, fkf7fb3ec429c64409, fkf7fb3ec4f1fbd584]
+Apr 21, 2011 11:42:50 AM org.hibernate.tool.hbm2ddl.TableMetadata <init>
+INFO: indexes: [sys_idx_68, sys_idx_116, sys_idx_65, sys_idx_sys_ct_59_67, sys_idx_70]
+Apr 21, 2011 11:42:50 AM org.hibernate.tool.hbm2ddl.TableMetadata <init>
+INFO: table found: PUBLIC.JBID_IO_CREDEN_PROPS
+Apr 21, 2011 11:42:50 AM org.hibernate.tool.hbm2ddl.TableMetadata <init>
+INFO: columns: [prop_name, prop_value, prop_id]
+Apr 21, 2011 11:42:50 AM org.hibernate.tool.hbm2ddl.TableMetadata <init>
+INFO: foreign keys: [fkbad648353bd68084]
+Apr 21, 2011 11:42:50 AM org.hibernate.tool.hbm2ddl.TableMetadata <init>
+INFO: indexes: [sys_idx_74, sys_idx_72]
+Apr 21, 2011 11:42:50 AM org.hibernate.tool.hbm2ddl.TableMetadata <init>
+INFO: table found: PUBLIC.JBID_IO_CREDEN_TYPE
+Apr 21, 2011 11:42:50 AM org.hibernate.tool.hbm2ddl.TableMetadata <init>
+INFO: columns: [id, name]
+Apr 21, 2011 11:42:50 AM org.hibernate.tool.hbm2ddl.TableMetadata <init>
+INFO: foreign keys: []
+Apr 21, 2011 11:42:50 AM org.hibernate.tool.hbm2ddl.TableMetadata <init>
+INFO: indexes: [sys_idx_sys_ct_65_78, sys_idx_76]
+Apr 21, 2011 11:42:50 AM org.hibernate.tool.hbm2ddl.TableMetadata <init>
+INFO: table found: PUBLIC.JBID_IO_PROPS
+Apr 21, 2011 11:42:50 AM org.hibernate.tool.hbm2ddl.TableMetadata <init>
+INFO: columns: [prop_name, prop_value, prop_id]
+Apr 21, 2011 11:42:50 AM org.hibernate.tool.hbm2ddl.TableMetadata <init>
+INFO: foreign keys: [fk6bcff78372655f8d]
+Apr 21, 2011 11:42:50 AM org.hibernate.tool.hbm2ddl.TableMetadata <init>
+INFO: indexes: [sys_idx_79, sys_idx_81]
+Apr 21, 2011 11:42:50 AM org.hibernate.tool.hbm2ddl.TableMetadata <init>
+INFO: table found: PUBLIC.JBID_IO_REL
+Apr 21, 2011 11:42:50 AM org.hibernate.tool.hbm2ddl.TableMetadata <init>
+INFO: columns: [id, rel_type, name, to_identity, from_identity]
+Apr 21, 2011 11:42:50 AM org.hibernate.tool.hbm2ddl.TableMetadata <init>
+INFO: foreign keys: [fke9bc4f6c89def9c9, fke9bc4f6c4ef6cba4, fke9bc4f6ce5991e18, fke9bc4f6c2d9e6ce8]
+Apr 21, 2011 11:42:50 AM org.hibernate.tool.hbm2ddl.TableMetadata <init>
+INFO: indexes: [sys_idx_118, sys_idx_86, sys_idx_sys_ct_71_85, sys_idx_88, sys_idx_120, sys_idx_83]
+Apr 21, 2011 11:42:50 AM org.hibernate.tool.hbm2ddl.TableMetadata <init>
+INFO: table found: PUBLIC.JBID_IO_REL_NAME
+Apr 21, 2011 11:42:50 AM org.hibernate.tool.hbm2ddl.TableMetadata <init>
+INFO: columns: [id, realm, name]
+Apr 21, 2011 11:42:50 AM org.hibernate.tool.hbm2ddl.TableMetadata <init>
+INFO: foreign keys: [fk5856a77ecf26285]
+Apr 21, 2011 11:42:50 AM org.hibernate.tool.hbm2ddl.TableMetadata <init>
+INFO: indexes: [sys_idx_sys_ct_75_92, sys_idx_90, sys_idx_122]
+Apr 21, 2011 11:42:50 AM org.hibernate.tool.hbm2ddl.TableMetadata <init>
+INFO: table found: PUBLIC.JBID_IO_REL_NAME_PROPS
+Apr 21, 2011 11:42:50 AM org.hibernate.tool.hbm2ddl.TableMetadata <init>
+INFO: columns: [prop_name, prop_value, prop_id]
+Apr 21, 2011 11:42:50 AM org.hibernate.tool.hbm2ddl.TableMetadata <init>
+INFO: foreign keys: [fk224abd6f3c564090]
+Apr 21, 2011 11:42:50 AM org.hibernate.tool.hbm2ddl.TableMetadata <init>
+INFO: indexes: [sys_idx_93, sys_idx_95]
+Apr 21, 2011 11:42:50 AM org.hibernate.tool.hbm2ddl.TableMetadata <init>
+INFO: table found: PUBLIC.JBID_IO_REL_PROPS
+Apr 21, 2011 11:42:50 AM org.hibernate.tool.hbm2ddl.TableMetadata <init>
+INFO: columns: [prop_name, prop_value, prop_id]
+Apr 21, 2011 11:42:50 AM org.hibernate.tool.hbm2ddl.TableMetadata <init>
+INFO: foreign keys: [fkb2a23add93afb8e5]
+Apr 21, 2011 11:42:50 AM org.hibernate.tool.hbm2ddl.TableMetadata <init>
+INFO: indexes: [sys_idx_99, sys_idx_97]
+Apr 21, 2011 11:42:50 AM org.hibernate.tool.hbm2ddl.TableMetadata <init>
+INFO: table found: PUBLIC.JBID_IO_REL_TYPE
+Apr 21, 2011 11:42:50 AM org.hibernate.tool.hbm2ddl.TableMetadata <init>
+INFO: columns: [id, name]
+Apr 21, 2011 11:42:50 AM org.hibernate.tool.hbm2ddl.TableMetadata <init>
+INFO: foreign keys: []
+Apr 21, 2011 11:42:50 AM org.hibernate.tool.hbm2ddl.TableMetadata <init>
+INFO: indexes: [sys_idx_101, sys_idx_sys_ct_83_103]
+Apr 21, 2011 11:42:50 AM org.hibernate.tool.hbm2ddl.TableMetadata <init>
+INFO: table found: PUBLIC.JBID_IO_TYPE
+Apr 21, 2011 11:42:50 AM org.hibernate.tool.hbm2ddl.TableMetadata <init>
+INFO: columns: [id, name]
+Apr 21, 2011 11:42:50 AM org.hibernate.tool.hbm2ddl.TableMetadata <init>
+INFO: foreign keys: []
+Apr 21, 2011 11:42:50 AM org.hibernate.tool.hbm2ddl.TableMetadata <init>
+INFO: indexes: [sys_idx_sys_ct_87_106, sys_idx_104]
+Apr 21, 2011 11:42:50 AM org.hibernate.tool.hbm2ddl.TableMetadata <init>
+INFO: table found: PUBLIC.JBID_REAL_PROPS
+Apr 21, 2011 11:42:50 AM org.hibernate.tool.hbm2ddl.TableMetadata <init>
+INFO: columns: [prop_name, prop_value, prop_id]
+Apr 21, 2011 11:42:50 AM org.hibernate.tool.hbm2ddl.TableMetadata <init>
+INFO: foreign keys: [fk5f651efbf40f776d]
+Apr 21, 2011 11:42:50 AM org.hibernate.tool.hbm2ddl.TableMetadata <init>
+INFO: indexes: [sys_idx_107, sys_idx_124]
+Apr 21, 2011 11:42:50 AM org.hibernate.tool.hbm2ddl.TableMetadata <init>
+INFO: table found: PUBLIC.JBID_REALM
+Apr 21, 2011 11:42:50 AM org.hibernate.tool.hbm2ddl.TableMetadata <init>
+INFO: columns: [id, name]
+Apr 21, 2011 11:42:50 AM org.hibernate.tool.hbm2ddl.TableMetadata <init>
+INFO: foreign keys: []
+Apr 21, 2011 11:42:50 AM org.hibernate.tool.hbm2ddl.TableMetadata <init>
+INFO: indexes: [sys_idx_109, sys_idx_sys_ct_93_111]
+Apr 21, 2011 11:42:50 AM org.hibernate.tool.hbm2ddl.SchemaUpdate execute
+INFO: schema update complete
+Apr 21, 2011 11:42:50 AM org.jboss.cache.jmx.PlatformMBeanServerRegistration registerToPlatformMBeanServer
+INFO: JBossCache MBeans were successfully registered to the platform mbean server.
+Apr 21, 2011 11:42:50 AM org.jboss.cache.factories.ComponentRegistry internalStart
+INFO: JBoss Cache version: JBossCache 'Malagueta' 3.2.4.GA
+Apr 21, 2011 11:42:50 AM org.jboss.cache.jmx.PlatformMBeanServerRegistration registerToPlatformMBeanServer
+INFO: JBossCache MBeans were successfully registered to the platform mbean server.
+Apr 21, 2011 11:42:50 AM org.jboss.cache.factories.ComponentRegistry internalStart
+INFO: JBoss Cache version: JBossCache 'Malagueta' 3.2.4.GA
+Apr 21, 2011 11:42:52 AM org.jboss.cache.jmx.PlatformMBeanServerRegistration registerToPlatformMBeanServer
+INFO: JBossCache MBeans were successfully registered to the platform mbean server.
+Apr 21, 2011 11:42:52 AM org.jboss.cache.factories.ComponentRegistry internalStart
+INFO: JBoss Cache version: JBossCache 'Malagueta' 3.2.4.GA
+Apr 21, 2011 11:42:53 AM org.jboss.cache.jmx.PlatformMBeanServerRegistration registerToPlatformMBeanServer
+INFO: JBossCache MBeans were successfully registered to the platform mbean server.
+Apr 21, 2011 11:42:53 AM org.jboss.cache.factories.ComponentRegistry internalStart
+INFO: JBoss Cache version: JBossCache 'Malagueta' 3.2.4.GA
+Apr 21, 2011 11:42:53 AM org.jboss.cache.jmx.PlatformMBeanServerRegistration registerToPlatformMBeanServer
+INFO: JBossCache MBeans were successfully registered to the platform mbean server.
+Apr 21, 2011 11:42:53 AM org.jboss.cache.factories.ComponentRegistry internalStart
+INFO: JBoss Cache version: JBossCache 'Malagueta' 3.2.4.GA
+Apr 21, 2011 11:42:53 AM org.jboss.cache.jmx.PlatformMBeanServerRegistration registerToPlatformMBeanServer
+INFO: JBossCache MBeans were successfully registered to the platform mbean server.
+Apr 21, 2011 11:42:53 AM org.jboss.cache.factories.ComponentRegistry internalStart
+INFO: JBoss Cache version: JBossCache 'Malagueta' 3.2.4.GA
+Apr 21, 2011 11:42:54 AM org.jboss.cache.jmx.PlatformMBeanServerRegistration registerToPlatformMBeanServer
+INFO: JBossCache MBeans were successfully registered to the platform mbean server.
+Apr 21, 2011 11:42:54 AM org.jboss.cache.factories.ComponentRegistry internalStart
+INFO: JBoss Cache version: JBossCache 'Malagueta' 3.2.4.GA
+Apr 21, 2011 11:42:57 AM org.jboss.cache.jmx.PlatformMBeanServerRegistration registerToPlatformMBeanServer
+INFO: JBossCache MBeans were successfully registered to the platform mbean server.
+Apr 21, 2011 11:42:57 AM org.jboss.cache.factories.ComponentRegistry internalStart
+INFO: JBoss Cache version: JBossCache 'Malagueta' 3.2.4.GA
+Apr 21, 2011 11:42:58 AM org.jboss.cache.jmx.PlatformMBeanServerRegistration registerToPlatformMBeanServer
+INFO: JBossCache MBeans were successfully registered to the platform mbean server.
+Apr 21, 2011 11:42:58 AM org.jboss.cache.factories.ComponentRegistry internalStart
+INFO: JBoss Cache version: JBossCache 'Malagueta' 3.2.4.GA
+Apr 21, 2011 11:42:58 AM org.jboss.cache.jmx.PlatformMBeanServerRegistration registerToPlatformMBeanServer
+INFO: JBossCache MBeans were successfully registered to the platform mbean server.
+Apr 21, 2011 11:42:58 AM org.jboss.cache.factories.ComponentRegistry internalStart
+INFO: JBoss Cache version: JBossCache 'Malagueta' 3.2.4.GA
+Apr 21, 2011 11:42:58 AM org.jboss.cache.jmx.PlatformMBeanServerRegistration registerToPlatformMBeanServer
+INFO: JBossCache MBeans were successfully registered to the platform mbean server.
+Apr 21, 2011 11:42:58 AM org.jboss.cache.factories.ComponentRegistry internalStart
+INFO: JBoss Cache version: JBossCache 'Malagueta' 3.2.4.GA
+Apr 21, 2011 11:42:58 AM org.jboss.cache.jmx.PlatformMBeanServerRegistration registerToPlatformMBeanServer
+INFO: JBossCache MBeans were successfully registered to the platform mbean server.
+Apr 21, 2011 11:42:58 AM org.jboss.cache.factories.ComponentRegistry internalStart
+INFO: JBoss Cache version: JBossCache 'Malagueta' 3.2.4.GA
+Apr 21, 2011 11:43:03 AM org.gatein.common.logging.Logger log
+INFO: The WebAppController has been successfully initialized for the portal 'portal'
+Apr 21, 2011 11:43:03 AM org.exoplatform.portal.application.ResourceRequestFilter afterInit
+INFO: Cache eXo Resource at client: true
+Apr 21, 2011 11:43:04 AM org.exoplatform.portal.application.ResourceRequestFilter afterInit
+INFO: Cache eXo Resource at client: true
+Apr 21, 2011 11:43:04 AM org.exoplatform.portal.application.ResourceRequestFilter afterInit
+INFO: Cache eXo Resource at client: true
+Apr 21, 2011 11:43:05 AM org.exoplatform.portal.application.ResourceRequestFilter afterInit
+INFO: Cache eXo Resource at client: true
+Apr 21, 2011 11:43:05 AM org.exoplatform.portal.application.ResourceRequestFilter afterInit
+INFO: Cache eXo Resource at client: true
+Apr 21, 2011 11:44:02 AM org.jboss.cache.jmx.PlatformMBeanServerRegistration registerToPlatformMBeanServer
+INFO: JBossCache MBeans were successfully registered to the platform mbean server.
+Apr 21, 2011 11:44:02 AM org.jboss.cache.factories.ComponentRegistry internalStart
+INFO: JBoss Cache version: JBossCache 'Malagueta' 3.2.4.GA
+Apr 21, 2011 11:45:04 AM com.arjuna.common.internal.util.logging.jakarta.JakartaLogger warn
+WARNING: [com.arjuna.ats.arjuna.coordinator.TxControl_1] - Name of XA node not defined. Using 7f000001:d425:4db042f0:1
+Apr 21, 2011 11:45:04 AM com.arjuna.common.internal.util.logging.jakarta.JakartaLogger info
+INFO: [com.arjuna.ats.arjuna.recovery.TransactionStatusManager_1] - Starting service com.arjuna.ats.arjuna.recovery.ActionStatusService on port 54310
+Apr 21, 2011 11:45:04 AM com.arjuna.common.internal.util.logging.jakarta.JakartaLogger info
+INFO: TransactionStatusManagerItem - host: 127.0.0.1 port: 54310
+Apr 21, 2011 11:45:04 AM com.arjuna.common.internal.util.logging.jakarta.JakartaLogger info
+INFO: [com.arjuna.ats.arjuna.recovery.TransactionStatusManager_3] - TransactionStatusManager started on port 54310 and host 127.0.0.1 with service com.arjuna.ats.arjuna.recovery.ActionStatusService
+Apr 21, 2011 11:48:27 AM org.gatein.common.logging.Logger log
+INFO: About to import portlets in application registry
+Apr 21, 2011 11:48:27 AM org.gatein.common.logging.Logger log
+INFO: Importing portlet (exoadmin,PortalNavigationPortlet) in categories [System]
+Apr 21, 2011 11:48:27 AM org.gatein.common.logging.Logger log
+INFO: Importing portlet (dashboard,DashboardPortlet) in categories [Integration]
+Apr 21, 2011 11:48:27 AM org.gatein.common.logging.Logger log
+INFO: Importing portlet (web,NavigationPortlet) in categories [System]
+Apr 21, 2011 11:48:27 AM org.gatein.common.logging.Logger log
+INFO: Importing portlet (dashboard,GadgetPortlet) in categories [Integration]
+Apr 21, 2011 11:48:27 AM org.gatein.common.logging.Logger log
+INFO: Importing portlet (web,LogoPortlet) in categories [System]
+Apr 21, 2011 11:48:27 AM org.gatein.common.logging.Logger log
+INFO: Importing portlet (web,BannerPortlet) in categories [System]
+Apr 21, 2011 11:48:27 AM org.gatein.common.logging.Logger log
+INFO: Importing portlet (web,BreadcumbsPortlet) in categories [System]
+Apr 21, 2011 11:48:27 AM org.gatein.common.logging.Logger log
+INFO: Importing portlet (web,IFramePortlet) in categories [Integration]
+Apr 21, 2011 11:48:27 AM org.gatein.common.logging.Logger log
+INFO: Importing portlet (exoadmin,RegisterPortlet) in categories [Administration]
+Apr 21, 2011 11:48:27 AM org.gatein.common.logging.Logger log
+INFO: Importing portlet (web,FooterPortlet) in categories [System]
+Apr 21, 2011 11:48:27 AM org.gatein.common.logging.Logger log
+INFO: Importing portlet (exoadmin,OrganizationPortlet) in categories [Administration]
+Apr 21, 2011 11:48:27 AM org.gatein.common.logging.Logger log
+INFO: Importing portlet (web,SiteMapPortlet) in categories [Navigation]
+Apr 21, 2011 11:48:27 AM org.gatein.common.logging.Logger log
+INFO: Importing portlet (exoadmin,ApplicationRegistryPortlet) in categories [Administration]
+Apr 21, 2011 11:48:27 AM org.gatein.common.logging.Logger log
+INFO: Importing portlet (exoadmin,AccountPortlet) in categories [Administration]
+Apr 21, 2011 11:48:27 AM org.gatein.common.logging.Logger log
+INFO: Importing portlet (exoadmin,PageManagementPortlet) in categories [Administration]
+Apr 21, 2011 11:48:27 AM org.gatein.common.logging.Logger log
+INFO: Importing portlet (dashboard,TabbedDashboardPortlet) in categories [System]
+Apr 21, 2011 11:48:27 AM org.gatein.common.logging.Logger log
+INFO: Importing portlet (web,HomePagePortlet) in categories [System]
+Apr 21, 2011 11:48:27 AM org.gatein.common.logging.Logger log
+INFO: Importing portlet (exoadmin,GroupNavigationPortlet) in categories [Administration]
+Apr 21, 2011 11:48:27 AM org.gatein.common.logging.Logger log
+INFO: Importing portlet (portlet-proxy-1.0-SNAPSHOT,portlet-proxy) in categories [put keywords here]
+Apr 21, 2011 11:54:23 AM org.apache.shindig.common.cache.ehcache.EhCacheCacheProvider createCache
+INFO: Creating cache named httpResponses
+Apr 21, 2011 11:54:24 AM org.apache.shindig.common.cache.ehcache.EhCacheCacheProvider createCache
+INFO: Creating cache named invalidatedUsers
+Apr 21, 2011 11:54:24 AM org.apache.shindig.common.cache.ehcache.EhCacheCacheProvider createCache
+INFO: Creating cache named gadgetSpecs
+Apr 21, 2011 11:54:24 AM org.apache.shindig.common.cache.ehcache.EhCacheCacheProvider createCache
+INFO: Creating cache named expressions
+Apr 21, 2011 11:54:24 AM org.apache.shindig.config.JsonContainerConfig loadContainers
+INFO: Loading resources from: containers/default/container.js
+Apr 21, 2011 11:54:24 AM org.apache.shindig.config.JsonContainerConfig loadResources
+INFO: Reading container config: containers/default/container.js
+Apr 21, 2011 11:54:24 AM org.exoplatform.portal.gadget.core.ExoContainerConfig <init>
+INFO: Found key file /Users/hubertfonseca/intelie/portlet-proxy/GateIn-3.1.0-GA/gatein/conf/gadgets/key.txt for gadgets security
+Apr 21, 2011 11:54:24 AM org.apache.shindig.common.cache.ehcache.EhCacheCacheProvider createCache
+INFO: Creating cache named messageBundles
+Apr 21, 2011 11:54:24 AM org.apache.shindig.gadgets.JsFeatureLoader loadFeatures
+INFO: Loading resources from: features/features.txt
+Apr 21, 2011 11:54:24 AM org.apache.shindig.common.xml.XmlUtil <clinit>
+INFO: Not using secure XML processing.
+Apr 21, 2011 11:54:24 AM org.apache.shindig.common.xml.XmlUtil <clinit>
+INFO: Reusing document builders
+Apr 21, 2011 11:54:24 AM org.apache.shindig.common.xml.XmlUtil$2 initialValue
+INFO: Created a new document builder
+Apr 21, 2011 11:54:25 AM org.apache.shindig.gadgets.JsLibrary loadResource
+WARNING: Could not find resource: com/google/caja/plugin/domita-minified.opt.js-Can not locate resource: com/google/caja/plugin/domita-minified.opt.js
+Apr 21, 2011 11:54:25 AM org.apache.shindig.gadgets.JsLibrary loadResource
+WARNING: Could not find resource: features/caja/caja.opt.js-Can not locate resource: features/caja/caja.opt.js
+Apr 21, 2011 11:54:25 AM org.apache.shindig.gadgets.JsLibrary loadResource
+WARNING: Could not find resource: com/google/caja/plugin/valija.co.opt.js-Can not locate resource: com/google/caja/plugin/valija.co.opt.js
+Apr 21, 2011 11:54:25 AM org.apache.shindig.gadgets.JsLibrary loadResource
+WARNING: Could not find resource: com/google/caja/plugin/html-sanitizer-minified.opt.js-Can not locate resource: com/google/caja/plugin/html-sanitizer-minified.opt.js
+Apr 21, 2011 11:54:25 AM org.apache.shindig.common.cache.ehcache.EhCacheCacheProvider createCache
+INFO: Creating cache named parsedDocuments
+Apr 21, 2011 11:54:25 AM org.apache.shindig.common.cache.ehcache.EhCacheCacheProvider createCache
+INFO: Creating cache named parsedFragments
+Apr 21, 2011 11:54:25 AM org.apache.shindig.gadgets.oauth.OAuthModule$OAuthCrypterProvider <init>
+INFO: Using random key for OAuth client-side state encryption
+Apr 21, 2011 11:54:25 AM org.exoplatform.portal.application.ResourceRequestFilter afterInit
+INFO: Cache eXo Resource at client: true
+Apr 21, 2011 11:54:27 AM org.exoplatform.portal.application.ResourceRequestFilter afterInit
+INFO: Cache eXo Resource at client: true
+Apr 21, 2011 11:54:33 AM org.jboss.cache.jmx.PlatformMBeanServerRegistration registerToPlatformMBeanServer
+INFO: JBossCache MBeans were successfully registered to the platform mbean server.
+Apr 21, 2011 11:54:33 AM org.jboss.cache.factories.ComponentRegistry internalStart
+INFO: JBoss Cache version: JBossCache 'Malagueta' 3.2.4.GA
+Apr 21, 2011 11:54:33 AM org.jboss.cache.jmx.PlatformMBeanServerRegistration registerToPlatformMBeanServer
+INFO: JBossCache MBeans were successfully registered to the platform mbean server.
+Apr 21, 2011 11:54:33 AM org.jboss.cache.factories.ComponentRegistry internalStart
+INFO: JBoss Cache version: JBossCache 'Malagueta' 3.2.4.GA
+Apr 21, 2011 11:54:33 AM org.hibernate.cfg.annotations.Version <clinit>
+INFO: Hibernate Annotations 3.4.0.GA
+Apr 21, 2011 11:54:33 AM org.hibernate.cfg.Environment <clinit>
+INFO: Hibernate 3.3.2.GA
+Apr 21, 2011 11:54:33 AM org.hibernate.cfg.Environment <clinit>
+INFO: hibernate.properties not found
+Apr 21, 2011 11:54:33 AM org.hibernate.cfg.Environment buildBytecodeProvider
+INFO: Bytecode provider name : javassist
+Apr 21, 2011 11:54:33 AM org.hibernate.cfg.Environment <clinit>
+INFO: using JDK 1.4 java.sql.Timestamp handling
+Apr 21, 2011 11:54:34 AM org.hibernate.annotations.common.Version <clinit>
+INFO: Hibernate Commons Annotations 3.1.0.GA
+Apr 21, 2011 11:54:34 AM org.hibernate.dialect.Dialect <init>
+INFO: Using dialect: org.hibernate.dialect.HSQLDialect
+Apr 21, 2011 11:54:35 AM org.hibernate.cfg.search.HibernateSearchEventListenerRegister enableHibernateSearch
+INFO: Unable to find org.hibernate.search.event.FullTextIndexEventListener on the classpath. Hibernate Search is not enabled.
+Apr 21, 2011 11:54:35 AM org.hibernate.cfg.HbmBinder bindRootPersistentClassCommonValues
+INFO: Mapping class: org.picketlink.idm.impl.model.hibernate.HibernateRealm -> jbid_realm
+Apr 21, 2011 11:54:35 AM org.hibernate.cfg.HbmBinder bindCollection
+INFO: Mapping collection: org.picketlink.idm.impl.model.hibernate.HibernateRealm.properties -> jbid_real_props
+Apr 21, 2011 11:54:35 AM org.hibernate.cfg.HbmBinder bindRootPersistentClassCommonValues
+INFO: Mapping class: org.picketlink.idm.impl.model.hibernate.HibernateIdentityObjectCredentialBinaryValue -> jbid_creden_bin_value
+Apr 21, 2011 11:54:35 AM org.hibernate.cfg.HbmBinder bindRootPersistentClassCommonValues
+INFO: Mapping class: org.picketlink.idm.impl.model.hibernate.HibernateIdentityObjectAttributeBinaryValue -> jbid_attr_bin_value
+Apr 21, 2011 11:54:35 AM org.hibernate.cfg.HbmBinder bindRootPersistentClassCommonValues
+INFO: Mapping class: org.picketlink.idm.impl.model.hibernate.HibernateIdentityObject -> jbid_io
+Apr 21, 2011 11:54:35 AM org.hibernate.cfg.HbmBinder bindCollection
+INFO: Mapping collection: org.picketlink.idm.impl.model.hibernate.HibernateIdentityObject.properties -> jbid_io_props
+Apr 21, 2011 11:54:35 AM org.hibernate.cfg.HbmBinder bindRootPersistentClassCommonValues
+INFO: Mapping class: org.picketlink.idm.impl.model.hibernate.HibernateIdentityObjectCredential -> jbid_io_creden
+Apr 21, 2011 11:54:35 AM org.hibernate.cfg.HbmBinder bindCollection
+INFO: Mapping collection: org.picketlink.idm.impl.model.hibernate.HibernateIdentityObjectCredential.properties -> jbid_io_creden_props
+Apr 21, 2011 11:54:35 AM org.hibernate.cfg.HbmBinder bindRootPersistentClassCommonValues
+INFO: Mapping class: org.picketlink.idm.impl.model.hibernate.HibernateIdentityObjectCredentialType -> jbid_io_creden_type
+Apr 21, 2011 11:54:35 AM org.hibernate.cfg.HbmBinder bindRootPersistentClassCommonValues
+INFO: Mapping class: org.picketlink.idm.impl.model.hibernate.HibernateIdentityObjectAttribute -> jbid_io_attr
+Apr 21, 2011 11:54:35 AM org.hibernate.cfg.HbmBinder bindCollection
+INFO: Mapping collection: org.picketlink.idm.impl.model.hibernate.HibernateIdentityObjectAttribute.textValues -> jbid_io_attr_text_values
+Apr 21, 2011 11:54:35 AM org.hibernate.cfg.HbmBinder bindRootPersistentClassCommonValues
+INFO: Mapping class: org.picketlink.idm.impl.model.hibernate.HibernateIdentityObjectType -> jbid_io_type
+Apr 21, 2011 11:54:35 AM org.hibernate.cfg.HbmBinder bindRootPersistentClassCommonValues
+INFO: Mapping class: org.picketlink.idm.impl.model.hibernate.HibernateIdentityObjectRelationship -> jbid_io_rel
+Apr 21, 2011 11:54:35 AM org.hibernate.cfg.HbmBinder bindCollection
+INFO: Mapping collection: org.picketlink.idm.impl.model.hibernate.HibernateIdentityObjectRelationship.properties -> jbid_io_rel_props
+Apr 21, 2011 11:54:35 AM org.hibernate.cfg.HbmBinder bindRootPersistentClassCommonValues
+INFO: Mapping class: org.picketlink.idm.impl.model.hibernate.HibernateIdentityObjectRelationshipType -> jbid_io_rel_type
+Apr 21, 2011 11:54:35 AM org.hibernate.cfg.HbmBinder bindRootPersistentClassCommonValues
+INFO: Mapping class: org.picketlink.idm.impl.model.hibernate.HibernateIdentityObjectRelationshipName -> jbid_io_rel_name
+Apr 21, 2011 11:54:35 AM org.hibernate.cfg.HbmBinder bindCollection
+INFO: Mapping collection: org.picketlink.idm.impl.model.hibernate.HibernateIdentityObjectRelationshipName.properties -> jbid_io_rel_name_props
+Apr 21, 2011 11:54:35 AM org.hibernate.cfg.HbmBinder bindCollectionSecondPass
+INFO: Mapping collection: org.picketlink.idm.impl.model.hibernate.HibernateIdentityObject.attributes -> jbid_io_attr
+Apr 21, 2011 11:54:35 AM org.hibernate.cfg.HbmBinder bindCollectionSecondPass
+INFO: Mapping collection: org.picketlink.idm.impl.model.hibernate.HibernateIdentityObject.credentials -> jbid_io_creden
+Apr 21, 2011 11:54:35 AM org.hibernate.cfg.HbmBinder bindCollectionSecondPass
+INFO: Mapping collection: org.picketlink.idm.impl.model.hibernate.HibernateIdentityObject.fromRelationships -> jbid_io_rel
+Apr 21, 2011 11:54:35 AM org.hibernate.cfg.HbmBinder bindCollectionSecondPass
+INFO: Mapping collection: org.picketlink.idm.impl.model.hibernate.HibernateIdentityObject.toRelationships -> jbid_io_rel
+Apr 21, 2011 11:54:35 AM org.hibernate.cfg.AnnotationConfiguration secondPassCompile
+INFO: Hibernate Validator not found: ignoring
+Apr 21, 2011 11:54:36 AM org.hibernate.util.NamingHelper getInitialContext
+INFO: JNDI InitialContext properties:{}
+Apr 21, 2011 11:54:36 AM org.hibernate.connection.DatasourceConnectionProvider configure
+INFO: Using datasource: jdbcidm
+Apr 21, 2011 11:54:36 AM org.hibernate.cfg.SettingsFactory buildSettings
+INFO: RDBMS: HSQL Database Engine, version: 1.8.0
+Apr 21, 2011 11:54:36 AM org.hibernate.cfg.SettingsFactory buildSettings
+INFO: JDBC driver: HSQL Database Engine Driver, version: 1.8.0
+Apr 21, 2011 11:54:36 AM org.hibernate.dialect.Dialect <init>
+INFO: Using dialect: org.hibernate.dialect.HSQLDialect
+Apr 21, 2011 11:54:36 AM org.hibernate.transaction.TransactionFactoryFactory buildTransactionFactory
+INFO: Using default transaction strategy (direct JDBC transactions)
+Apr 21, 2011 11:54:36 AM org.hibernate.transaction.TransactionManagerLookupFactory getTransactionManagerLookup
+INFO: No TransactionManagerLookup configured (in JTA environment, use of read-write or transactional second-level cache is not recommended)
+Apr 21, 2011 11:54:36 AM org.hibernate.cfg.SettingsFactory buildSettings
+INFO: Automatic flush during beforeCompletion(): disabled
+Apr 21, 2011 11:54:36 AM org.hibernate.cfg.SettingsFactory buildSettings
+INFO: Automatic session close at end of transaction: disabled
+Apr 21, 2011 11:54:36 AM org.hibernate.cfg.SettingsFactory buildSettings
+INFO: JDBC batch size: 15
+Apr 21, 2011 11:54:36 AM org.hibernate.cfg.SettingsFactory buildSettings
+INFO: JDBC batch updates for versioned data: disabled
+Apr 21, 2011 11:54:36 AM org.hibernate.cfg.SettingsFactory buildSettings
+INFO: Scrollable result sets: enabled
+Apr 21, 2011 11:54:36 AM org.hibernate.cfg.SettingsFactory buildSettings
+INFO: JDBC3 getGeneratedKeys(): disabled
+Apr 21, 2011 11:54:36 AM org.hibernate.cfg.SettingsFactory buildSettings
+INFO: Connection release mode: auto
+Apr 21, 2011 11:54:36 AM org.hibernate.cfg.SettingsFactory buildSettings
+INFO: Default batch fetch size: 1
+Apr 21, 2011 11:54:36 AM org.hibernate.cfg.SettingsFactory buildSettings
+INFO: Generate SQL with comments: disabled
+Apr 21, 2011 11:54:36 AM org.hibernate.cfg.SettingsFactory buildSettings
+INFO: Order SQL updates by primary key: disabled
+Apr 21, 2011 11:54:36 AM org.hibernate.cfg.SettingsFactory buildSettings
+INFO: Order SQL inserts for batching: disabled
+Apr 21, 2011 11:54:36 AM org.hibernate.cfg.SettingsFactory createQueryTranslatorFactory
+INFO: Query translator: org.hibernate.hql.ast.ASTQueryTranslatorFactory
+Apr 21, 2011 11:54:36 AM org.hibernate.hql.ast.ASTQueryTranslatorFactory <init>
+INFO: Using ASTQueryTranslatorFactory
+Apr 21, 2011 11:54:36 AM org.hibernate.cfg.SettingsFactory buildSettings
+INFO: Query language substitutions: {}
+Apr 21, 2011 11:54:36 AM org.hibernate.cfg.SettingsFactory buildSettings
+INFO: JPA-QL strict compliance: disabled
+Apr 21, 2011 11:54:36 AM org.hibernate.cfg.SettingsFactory buildSettings
+INFO: Second-level cache: enabled
+Apr 21, 2011 11:54:36 AM org.hibernate.cfg.SettingsFactory buildSettings
+INFO: Query cache: enabled
+Apr 21, 2011 11:54:36 AM org.hibernate.cfg.SettingsFactory createRegionFactory
+INFO: Cache region factory : org.hibernate.cache.impl.bridge.RegionFactoryCacheProviderBridge
+Apr 21, 2011 11:54:36 AM org.hibernate.cache.impl.bridge.RegionFactoryCacheProviderBridge <init>
+INFO: Cache provider: org.hibernate.cache.HashtableCacheProvider
+Apr 21, 2011 11:54:36 AM org.hibernate.cfg.SettingsFactory buildSettings
+INFO: Optimize cache for minimal puts: disabled
+Apr 21, 2011 11:54:36 AM org.hibernate.cfg.SettingsFactory buildSettings
+INFO: Structured second-level cache entries: disabled
+Apr 21, 2011 11:54:36 AM org.hibernate.cfg.SettingsFactory createQueryCacheFactory
+INFO: Query cache factory: org.hibernate.cache.StandardQueryCacheFactory
+Apr 21, 2011 11:54:36 AM org.hibernate.cfg.SettingsFactory buildSettings
+INFO: Statistics: disabled
+Apr 21, 2011 11:54:36 AM org.hibernate.cfg.SettingsFactory buildSettings
+INFO: Deleted entity synthetic identifier rollback: disabled
+Apr 21, 2011 11:54:36 AM org.hibernate.cfg.SettingsFactory buildSettings
+INFO: Default entity-mode: pojo
+Apr 21, 2011 11:54:36 AM org.hibernate.cfg.SettingsFactory buildSettings
+INFO: Named query checking : enabled
+Apr 21, 2011 11:54:36 AM org.hibernate.impl.SessionFactoryImpl <init>
+INFO: building session factory
+Apr 21, 2011 11:54:36 AM org.hibernate.impl.SessionFactoryObjectFactory addInstance
+INFO: Not binding factory to JNDI, no JNDI name configured
+Apr 21, 2011 11:54:36 AM org.hibernate.cache.UpdateTimestampsCache <init>
+INFO: starting update timestamps cache at region: org.hibernate.cache.UpdateTimestampsCache
+Apr 21, 2011 11:54:36 AM org.hibernate.cache.StandardQueryCache <init>
+INFO: starting query cache at region: org.hibernate.cache.StandardQueryCache
+Apr 21, 2011 11:54:36 AM org.hibernate.dialect.Dialect <init>
+INFO: Using dialect: org.hibernate.dialect.HSQLDialect
+Apr 21, 2011 11:54:36 AM org.hibernate.tool.hbm2ddl.SchemaUpdate execute
+INFO: Running hbm2ddl schema update
+Apr 21, 2011 11:54:36 AM org.hibernate.tool.hbm2ddl.SchemaUpdate execute
+INFO: fetching database metadata
+Apr 21, 2011 11:54:36 AM org.hibernate.util.NamingHelper getInitialContext
+INFO: JNDI InitialContext properties:{}
+Apr 21, 2011 11:54:36 AM org.hibernate.connection.DatasourceConnectionProvider configure
+INFO: Using datasource: jdbcidm
+Apr 21, 2011 11:54:36 AM org.hibernate.tool.hbm2ddl.SchemaUpdate execute
+INFO: updating schema
+Apr 21, 2011 11:54:36 AM org.hibernate.tool.hbm2ddl.TableMetadata <init>
+INFO: table found: PUBLIC.JBID_ATTR_BIN_VALUE
+Apr 21, 2011 11:54:36 AM org.hibernate.tool.hbm2ddl.TableMetadata <init>
+INFO: columns: [value, bin_value_id]
+Apr 21, 2011 11:54:36 AM org.hibernate.tool.hbm2ddl.TableMetadata <init>
+INFO: foreign keys: []
+Apr 21, 2011 11:54:36 AM org.hibernate.tool.hbm2ddl.TableMetadata <init>
+INFO: indexes: [sys_idx_46]
+Apr 21, 2011 11:54:36 AM org.hibernate.tool.hbm2ddl.TableMetadata <init>
+INFO: table found: PUBLIC.JBID_CREDEN_BIN_VALUE
+Apr 21, 2011 11:54:36 AM org.hibernate.tool.hbm2ddl.TableMetadata <init>
+INFO: columns: [value, bin_value_id]
+Apr 21, 2011 11:54:36 AM org.hibernate.tool.hbm2ddl.TableMetadata <init>
+INFO: foreign keys: []
+Apr 21, 2011 11:54:36 AM org.hibernate.tool.hbm2ddl.TableMetadata <init>
+INFO: indexes: [sys_idx_48]
+Apr 21, 2011 11:54:36 AM org.hibernate.tool.hbm2ddl.TableMetadata <init>
+INFO: table found: PUBLIC.JBID_IO
+Apr 21, 2011 11:54:36 AM org.hibernate.tool.hbm2ddl.TableMetadata <init>
+INFO: columns: [id, realm, identity_type, name]
+Apr 21, 2011 11:54:36 AM org.hibernate.tool.hbm2ddl.TableMetadata <init>
+INFO: foreign keys: [fk948600921900168b, fk94860092cf26285]
+Apr 21, 2011 11:54:36 AM org.hibernate.tool.hbm2ddl.TableMetadata <init>
+INFO: indexes: [sys_idx_114, sys_idx_51, sys_idx_sys_ct_50_53, sys_idx_112]
+Apr 21, 2011 11:54:36 AM org.hibernate.tool.hbm2ddl.TableMetadata <init>
+INFO: table found: PUBLIC.JBID_IO_ATTR
+Apr 21, 2011 11:54:36 AM org.hibernate.tool.hbm2ddl.TableMetadata <init>
+INFO: columns: [name, bin_value_id, identity_object_id, attribute_id, attribute_type]
+Apr 21, 2011 11:54:36 AM org.hibernate.tool.hbm2ddl.TableMetadata <init>
+INFO: foreign keys: [fk4dc61d7e992317f0, fk4dc61d7ede7e39cb]
+Apr 21, 2011 11:54:36 AM org.hibernate.tool.hbm2ddl.TableMetadata <init>
+INFO: indexes: [sys_idx_58, sys_idx_55, sys_idx_60, sys_idx_sys_ct_54_57]
+Apr 21, 2011 11:54:36 AM org.hibernate.tool.hbm2ddl.TableMetadata <init>
+INFO: table found: PUBLIC.JBID_IO_ATTR_TEXT_VALUES
+Apr 21, 2011 11:54:36 AM org.hibernate.tool.hbm2ddl.TableMetadata <init>
+INFO: columns: [text_attr_value_id, attr_value]
+Apr 21, 2011 11:54:36 AM org.hibernate.tool.hbm2ddl.TableMetadata <init>
+INFO: foreign keys: [fkc6f8c733577faccb]
+Apr 21, 2011 11:54:36 AM org.hibernate.tool.hbm2ddl.TableMetadata <init>
+INFO: indexes: [sys_idx_63]
+Apr 21, 2011 11:54:36 AM org.hibernate.tool.hbm2ddl.TableMetadata <init>
+INFO: table found: PUBLIC.JBID_IO_CREDEN
+Apr 21, 2011 11:54:36 AM org.hibernate.tool.hbm2ddl.TableMetadata <init>
+INFO: columns: [id, text, credential_type, identity_object_id, bin_value_id]
+Apr 21, 2011 11:54:36 AM org.hibernate.tool.hbm2ddl.TableMetadata <init>
+INFO: foreign keys: [fkf7fb3ec4992317f0, fkf7fb3ec429c64409, fkf7fb3ec4f1fbd584]
+Apr 21, 2011 11:54:36 AM org.hibernate.tool.hbm2ddl.TableMetadata <init>
+INFO: indexes: [sys_idx_68, sys_idx_116, sys_idx_65, sys_idx_sys_ct_59_67, sys_idx_70]
+Apr 21, 2011 11:54:36 AM org.hibernate.tool.hbm2ddl.TableMetadata <init>
+INFO: table found: PUBLIC.JBID_IO_CREDEN_PROPS
+Apr 21, 2011 11:54:36 AM org.hibernate.tool.hbm2ddl.TableMetadata <init>
+INFO: columns: [prop_name, prop_value, prop_id]
+Apr 21, 2011 11:54:36 AM org.hibernate.tool.hbm2ddl.TableMetadata <init>
+INFO: foreign keys: [fkbad648353bd68084]
+Apr 21, 2011 11:54:36 AM org.hibernate.tool.hbm2ddl.TableMetadata <init>
+INFO: indexes: [sys_idx_74, sys_idx_72]
+Apr 21, 2011 11:54:36 AM org.hibernate.tool.hbm2ddl.TableMetadata <init>
+INFO: table found: PUBLIC.JBID_IO_CREDEN_TYPE
+Apr 21, 2011 11:54:36 AM org.hibernate.tool.hbm2ddl.TableMetadata <init>
+INFO: columns: [id, name]
+Apr 21, 2011 11:54:36 AM org.hibernate.tool.hbm2ddl.TableMetadata <init>
+INFO: foreign keys: []
+Apr 21, 2011 11:54:36 AM org.hibernate.tool.hbm2ddl.TableMetadata <init>
+INFO: indexes: [sys_idx_sys_ct_65_78, sys_idx_76]
+Apr 21, 2011 11:54:36 AM org.hibernate.tool.hbm2ddl.TableMetadata <init>
+INFO: table found: PUBLIC.JBID_IO_PROPS
+Apr 21, 2011 11:54:36 AM org.hibernate.tool.hbm2ddl.TableMetadata <init>
+INFO: columns: [prop_name, prop_value, prop_id]
+Apr 21, 2011 11:54:36 AM org.hibernate.tool.hbm2ddl.TableMetadata <init>
+INFO: foreign keys: [fk6bcff78372655f8d]
+Apr 21, 2011 11:54:36 AM org.hibernate.tool.hbm2ddl.TableMetadata <init>
+INFO: indexes: [sys_idx_79, sys_idx_81]
+Apr 21, 2011 11:54:36 AM org.hibernate.tool.hbm2ddl.TableMetadata <init>
+INFO: table found: PUBLIC.JBID_IO_REL
+Apr 21, 2011 11:54:36 AM org.hibernate.tool.hbm2ddl.TableMetadata <init>
+INFO: columns: [id, rel_type, name, to_identity, from_identity]
+Apr 21, 2011 11:54:36 AM org.hibernate.tool.hbm2ddl.TableMetadata <init>
+INFO: foreign keys: [fke9bc4f6c89def9c9, fke9bc4f6c4ef6cba4, fke9bc4f6ce5991e18, fke9bc4f6c2d9e6ce8]
+Apr 21, 2011 11:54:36 AM org.hibernate.tool.hbm2ddl.TableMetadata <init>
+INFO: indexes: [sys_idx_118, sys_idx_86, sys_idx_sys_ct_71_85, sys_idx_88, sys_idx_120, sys_idx_83]
+Apr 21, 2011 11:54:36 AM org.hibernate.tool.hbm2ddl.TableMetadata <init>
+INFO: table found: PUBLIC.JBID_IO_REL_NAME
+Apr 21, 2011 11:54:36 AM org.hibernate.tool.hbm2ddl.TableMetadata <init>
+INFO: columns: [id, realm, name]
+Apr 21, 2011 11:54:36 AM org.hibernate.tool.hbm2ddl.TableMetadata <init>
+INFO: foreign keys: [fk5856a77ecf26285]
+Apr 21, 2011 11:54:36 AM org.hibernate.tool.hbm2ddl.TableMetadata <init>
+INFO: indexes: [sys_idx_sys_ct_75_92, sys_idx_90, sys_idx_122]
+Apr 21, 2011 11:54:36 AM org.hibernate.tool.hbm2ddl.TableMetadata <init>
+INFO: table found: PUBLIC.JBID_IO_REL_NAME_PROPS
+Apr 21, 2011 11:54:36 AM org.hibernate.tool.hbm2ddl.TableMetadata <init>
+INFO: columns: [prop_name, prop_value, prop_id]
+Apr 21, 2011 11:54:36 AM org.hibernate.tool.hbm2ddl.TableMetadata <init>
+INFO: foreign keys: [fk224abd6f3c564090]
+Apr 21, 2011 11:54:36 AM org.hibernate.tool.hbm2ddl.TableMetadata <init>
+INFO: indexes: [sys_idx_93, sys_idx_95]
+Apr 21, 2011 11:54:36 AM org.hibernate.tool.hbm2ddl.TableMetadata <init>
+INFO: table found: PUBLIC.JBID_IO_REL_PROPS
+Apr 21, 2011 11:54:36 AM org.hibernate.tool.hbm2ddl.TableMetadata <init>
+INFO: columns: [prop_name, prop_value, prop_id]
+Apr 21, 2011 11:54:36 AM org.hibernate.tool.hbm2ddl.TableMetadata <init>
+INFO: foreign keys: [fkb2a23add93afb8e5]
+Apr 21, 2011 11:54:36 AM org.hibernate.tool.hbm2ddl.TableMetadata <init>
+INFO: indexes: [sys_idx_99, sys_idx_97]
+Apr 21, 2011 11:54:36 AM org.hibernate.tool.hbm2ddl.TableMetadata <init>
+INFO: table found: PUBLIC.JBID_IO_REL_TYPE
+Apr 21, 2011 11:54:36 AM org.hibernate.tool.hbm2ddl.TableMetadata <init>
+INFO: columns: [id, name]
+Apr 21, 2011 11:54:36 AM org.hibernate.tool.hbm2ddl.TableMetadata <init>
+INFO: foreign keys: []
+Apr 21, 2011 11:54:36 AM org.hibernate.tool.hbm2ddl.TableMetadata <init>
+INFO: indexes: [sys_idx_101, sys_idx_sys_ct_83_103]
+Apr 21, 2011 11:54:36 AM org.hibernate.tool.hbm2ddl.TableMetadata <init>
+INFO: table found: PUBLIC.JBID_IO_TYPE
+Apr 21, 2011 11:54:36 AM org.hibernate.tool.hbm2ddl.TableMetadata <init>
+INFO: columns: [id, name]
+Apr 21, 2011 11:54:36 AM org.hibernate.tool.hbm2ddl.TableMetadata <init>
+INFO: foreign keys: []
+Apr 21, 2011 11:54:36 AM org.hibernate.tool.hbm2ddl.TableMetadata <init>
+INFO: indexes: [sys_idx_sys_ct_87_106, sys_idx_104]
+Apr 21, 2011 11:54:36 AM org.hibernate.tool.hbm2ddl.TableMetadata <init>
+INFO: table found: PUBLIC.JBID_REAL_PROPS
+Apr 21, 2011 11:54:36 AM org.hibernate.tool.hbm2ddl.TableMetadata <init>
+INFO: columns: [prop_name, prop_value, prop_id]
+Apr 21, 2011 11:54:36 AM org.hibernate.tool.hbm2ddl.TableMetadata <init>
+INFO: foreign keys: [fk5f651efbf40f776d]
+Apr 21, 2011 11:54:36 AM org.hibernate.tool.hbm2ddl.TableMetadata <init>
+INFO: indexes: [sys_idx_107, sys_idx_124]
+Apr 21, 2011 11:54:36 AM org.hibernate.tool.hbm2ddl.TableMetadata <init>
+INFO: table found: PUBLIC.JBID_REALM
+Apr 21, 2011 11:54:36 AM org.hibernate.tool.hbm2ddl.TableMetadata <init>
+INFO: columns: [id, name]
+Apr 21, 2011 11:54:36 AM org.hibernate.tool.hbm2ddl.TableMetadata <init>
+INFO: foreign keys: []
+Apr 21, 2011 11:54:36 AM org.hibernate.tool.hbm2ddl.TableMetadata <init>
+INFO: indexes: [sys_idx_109, sys_idx_sys_ct_93_111]
+Apr 21, 2011 11:54:36 AM org.hibernate.tool.hbm2ddl.SchemaUpdate execute
+INFO: schema update complete
+Apr 21, 2011 11:54:36 AM org.jboss.cache.jmx.PlatformMBeanServerRegistration registerToPlatformMBeanServer
+INFO: JBossCache MBeans were successfully registered to the platform mbean server.
+Apr 21, 2011 11:54:36 AM org.jboss.cache.factories.ComponentRegistry internalStart
+INFO: JBoss Cache version: JBossCache 'Malagueta' 3.2.4.GA
+Apr 21, 2011 11:54:36 AM org.jboss.cache.jmx.PlatformMBeanServerRegistration registerToPlatformMBeanServer
+INFO: JBossCache MBeans were successfully registered to the platform mbean server.
+Apr 21, 2011 11:54:36 AM org.jboss.cache.factories.ComponentRegistry internalStart
+INFO: JBoss Cache version: JBossCache 'Malagueta' 3.2.4.GA
+Apr 21, 2011 11:54:38 AM org.jboss.cache.jmx.PlatformMBeanServerRegistration registerToPlatformMBeanServer
+INFO: JBossCache MBeans were successfully registered to the platform mbean server.
+Apr 21, 2011 11:54:38 AM org.jboss.cache.factories.ComponentRegistry internalStart
+INFO: JBoss Cache version: JBossCache 'Malagueta' 3.2.4.GA
+Apr 21, 2011 11:54:39 AM org.jboss.cache.jmx.PlatformMBeanServerRegistration registerToPlatformMBeanServer
+INFO: JBossCache MBeans were successfully registered to the platform mbean server.
+Apr 21, 2011 11:54:39 AM org.jboss.cache.factories.ComponentRegistry internalStart
+INFO: JBoss Cache version: JBossCache 'Malagueta' 3.2.4.GA
+Apr 21, 2011 11:54:39 AM org.jboss.cache.jmx.PlatformMBeanServerRegistration registerToPlatformMBeanServer
+INFO: JBossCache MBeans were successfully registered to the platform mbean server.
+Apr 21, 2011 11:54:39 AM org.jboss.cache.factories.ComponentRegistry internalStart
+INFO: JBoss Cache version: JBossCache 'Malagueta' 3.2.4.GA
+Apr 21, 2011 11:54:39 AM org.jboss.cache.jmx.PlatformMBeanServerRegistration registerToPlatformMBeanServer
+INFO: JBossCache MBeans were successfully registered to the platform mbean server.
+Apr 21, 2011 11:54:39 AM org.jboss.cache.factories.ComponentRegistry internalStart
+INFO: JBoss Cache version: JBossCache 'Malagueta' 3.2.4.GA
+Apr 21, 2011 11:54:40 AM org.jboss.cache.jmx.PlatformMBeanServerRegistration registerToPlatformMBeanServer
+INFO: JBossCache MBeans were successfully registered to the platform mbean server.
+Apr 21, 2011 11:54:40 AM org.jboss.cache.factories.ComponentRegistry internalStart
+INFO: JBoss Cache version: JBossCache 'Malagueta' 3.2.4.GA
+Apr 21, 2011 11:54:43 AM org.jboss.cache.jmx.PlatformMBeanServerRegistration registerToPlatformMBeanServer
+INFO: JBossCache MBeans were successfully registered to the platform mbean server.
+Apr 21, 2011 11:54:43 AM org.jboss.cache.factories.ComponentRegistry internalStart
+INFO: JBoss Cache version: JBossCache 'Malagueta' 3.2.4.GA
+Apr 21, 2011 11:54:43 AM org.jboss.cache.jmx.PlatformMBeanServerRegistration registerToPlatformMBeanServer
+INFO: JBossCache MBeans were successfully registered to the platform mbean server.
+Apr 21, 2011 11:54:43 AM org.jboss.cache.factories.ComponentRegistry internalStart
+INFO: JBoss Cache version: JBossCache 'Malagueta' 3.2.4.GA
+Apr 21, 2011 11:54:44 AM org.jboss.cache.jmx.PlatformMBeanServerRegistration registerToPlatformMBeanServer
+INFO: JBossCache MBeans were successfully registered to the platform mbean server.
+Apr 21, 2011 11:54:44 AM org.jboss.cache.factories.ComponentRegistry internalStart
+INFO: JBoss Cache version: JBossCache 'Malagueta' 3.2.4.GA
+Apr 21, 2011 11:54:44 AM org.jboss.cache.jmx.PlatformMBeanServerRegistration registerToPlatformMBeanServer
+INFO: JBossCache MBeans were successfully registered to the platform mbean server.
+Apr 21, 2011 11:54:44 AM org.jboss.cache.factories.ComponentRegistry internalStart
+INFO: JBoss Cache version: JBossCache 'Malagueta' 3.2.4.GA
+Apr 21, 2011 11:54:44 AM org.jboss.cache.jmx.PlatformMBeanServerRegistration registerToPlatformMBeanServer
+INFO: JBossCache MBeans were successfully registered to the platform mbean server.
+Apr 21, 2011 11:54:44 AM org.jboss.cache.factories.ComponentRegistry internalStart
+INFO: JBoss Cache version: JBossCache 'Malagueta' 3.2.4.GA
+Apr 21, 2011 11:54:49 AM org.gatein.common.logging.Logger log
+INFO: The WebAppController has been successfully initialized for the portal 'portal'
+Apr 21, 2011 11:54:49 AM org.exoplatform.portal.application.ResourceRequestFilter afterInit
+INFO: Cache eXo Resource at client: true
+Apr 21, 2011 11:54:49 AM org.exoplatform.portal.application.ResourceRequestFilter afterInit
+INFO: Cache eXo Resource at client: true
+Apr 21, 2011 11:54:50 AM org.exoplatform.portal.application.ResourceRequestFilter afterInit
+INFO: Cache eXo Resource at client: true
+Apr 21, 2011 11:54:50 AM org.exoplatform.portal.application.ResourceRequestFilter afterInit
+INFO: Cache eXo Resource at client: true
+Apr 21, 2011 11:54:50 AM org.exoplatform.portal.application.ResourceRequestFilter afterInit
+INFO: Cache eXo Resource at client: true
+Apr 21, 2011 11:56:02 AM org.jboss.cache.jmx.PlatformMBeanServerRegistration registerToPlatformMBeanServer
+INFO: JBossCache MBeans were successfully registered to the platform mbean server.
+Apr 21, 2011 11:56:02 AM org.jboss.cache.factories.ComponentRegistry internalStart
+INFO: JBoss Cache version: JBossCache 'Malagueta' 3.2.4.GA
