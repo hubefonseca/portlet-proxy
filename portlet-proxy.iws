@@ -105,22 +105,22 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="portlet.xml" pinned="false" current="false" current-in-tab="false">
+      <file leaf-file-name="portlet.xml" pinned="false" current="true" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/src/main/webapp/WEB-INF/portlet.xml">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="28" column="14" selection-start="1039" selection-end="1039" vertical-scroll-proportion="0.0">
+            <state line="25" column="33" selection-start="912" selection-end="912" vertical-scroll-proportion="0.58685446">
               <folding />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="web.xml" pinned="false" current="true" current-in-tab="true">
+      <file leaf-file-name="web.xml" pinned="false" current="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/main/webapp/WEB-INF/web.xml">
           <provider editor-type-id="com.intellij.javaee.module.view.web.viewlets.WebModuleAssemblyDescriptorProvider">
             <state />
           </provider>
           <provider selected="true" editor-type-id="text-editor">
-            <state line="14" column="0" selection-start="582" selection-end="582" vertical-scroll-proportion="0.32148626">
+            <state line="14" column="0" selection-start="582" selection-end="582" vertical-scroll-proportion="-10.5">
               <folding />
             </state>
           </provider>
@@ -603,19 +603,12 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/webapp/WEB-INF/portlet.xml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="28" column="14" selection-start="1039" selection-end="1039" vertical-scroll-proportion="0.0">
-          <folding />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/main/webapp/WEB-INF/web.xml">
       <provider editor-type-id="com.intellij.javaee.module.view.web.viewlets.WebModuleAssemblyDescriptorProvider">
         <state />
       </provider>
       <provider selected="true" editor-type-id="text-editor">
-        <state line="14" column="0" selection-start="582" selection-end="582" vertical-scroll-proportion="0.32148626">
+        <state line="14" column="0" selection-start="582" selection-end="582" vertical-scroll-proportion="-10.5">
           <folding />
         </state>
       </provider>
@@ -624,6 +617,13 @@
       </provider>
       <provider editor-type-id="com.intellij.javaee.module.view.web.viewlets.WebModuleAssemblyDescriptorReferencesProvider">
         <state />
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/webapp/WEB-INF/portlet.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="25" column="33" selection-start="912" selection-end="912" vertical-scroll-proportion="0.58685446">
+          <folding />
+        </state>
       </provider>
     </entry>
   </component>

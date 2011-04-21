@@ -10,6 +10,8 @@
 
 * Copy the war to	GateIn-3.1.0-GA/webapps
 
+* Change connector port to other then 8080 (for instance 8090) to avoid conflicts with IEM, if running on same host
+
 * Run GateIn container:
 
 	./GateIn-3.1.0-GA/bin/gatein.sh run  

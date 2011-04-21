@@ -22,9 +22,9 @@
         <supported-locale>en</supported-locale>
 
         <portlet-info>
-            <title>Put the portlet title here</title>
-            <short-title>Portlet Short Title</short-title>
-            <keywords>put keywords here</keywords>
+            <title>IEM Dashboards</title>
+            <short-title>IEM</short-title>
+            <keywords>IEM</keywords>
         </portlet-info>
     </portlet>
 </portlet-app>
