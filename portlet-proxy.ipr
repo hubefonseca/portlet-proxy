@@ -1,5 +1,8 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
+  <component name="AntConfiguration">
+    <defaultAnt bundledAnt="true" />
+  </component>
   <component name="ArtifactManager">
     <artifact type="war" name="portlet-proxy:war">
       <output-path>$PROJECT_DIR$/target</output-path>
@@ -25,12 +28,10 @@
             <element id="library" level="project" name="Maven: org.springframework:spring-beans:3.0.3.RELEASE" />
             <element id="library" level="project" name="Maven: org.springframework:spring-core:3.0.3.RELEASE" />
             <element id="library" level="project" name="Maven: org.springframework:spring-asm:3.0.3.RELEASE" />
-            <element id="library" level="project" name="Maven: commons-logging:commons-logging:1.0.4" />
+            <element id="library" level="project" name="Maven: commons-logging:commons-logging:1.1.1" />
             <element id="library" level="project" name="Maven: org.springframework:spring-context:3.0.3.RELEASE" />
             <element id="library" level="project" name="Maven: org.springframework:spring-aop:3.0.3.RELEASE" />
             <element id="library" level="project" name="Maven: org.springframework:spring-expression:3.0.3.RELEASE" />
-            <element id="library" level="project" name="Maven: commons-httpclient:commons-httpclient:3.1" />
-            <element id="library" level="project" name="Maven: commons-codec:commons-codec:1.2" />
           </element>
         </element>
       </root>
@@ -717,37 +718,26 @@
         <root url="jar://$MAVEN_REPOSITORY$/aopalliance/aopalliance/1.0/aopalliance-1.0-sources.jar!/" />
       </SOURCES>
     </library>
-    <library name="Maven: commons-codec:commons-codec:1.2">
+    <library name="Maven: commons-logging:commons-logging:1.1.1">
       <CLASSES>
-        <root url="jar://$MAVEN_REPOSITORY$/commons-codec/commons-codec/1.2/commons-codec-1.2.jar!/" />
+        <root url="jar://$MAVEN_REPOSITORY$/commons-logging/commons-logging/1.1.1/commons-logging-1.1.1.jar!/" />
       </CLASSES>
       <JAVADOC>
-        <root url="jar://$MAVEN_REPOSITORY$/commons-codec/commons-codec/1.2/commons-codec-1.2-javadoc.jar!/" />
+        <root url="jar://$MAVEN_REPOSITORY$/commons-logging/commons-logging/1.1.1/commons-logging-1.1.1-javadoc.jar!/" />
       </JAVADOC>
       <SOURCES>
-        <root url="jar://$MAVEN_REPOSITORY$/commons-codec/commons-codec/1.2/commons-codec-1.2-sources.jar!/" />
+        <root url="jar://$MAVEN_REPOSITORY$/commons-logging/commons-logging/1.1.1/commons-logging-1.1.1-sources.jar!/" />
       </SOURCES>
     </library>
-    <library name="Maven: commons-httpclient:commons-httpclient:3.1">
+    <library name="Maven: javax.portlet:portlet-api:2.0">
       <CLASSES>
-        <root url="jar://$MAVEN_REPOSITORY$/commons-httpclient/commons-httpclient/3.1/commons-httpclient-3.1.jar!/" />
+        <root url="jar://$MAVEN_REPOSITORY$/javax/portlet/portlet-api/2.0/portlet-api-2.0.jar!/" />
       </CLASSES>
       <JAVADOC>
-        <root url="jar://$MAVEN_REPOSITORY$/commons-httpclient/commons-httpclient/3.1/commons-httpclient-3.1-javadoc.jar!/" />
+        <root url="jar://$MAVEN_REPOSITORY$/javax/portlet/portlet-api/2.0/portlet-api-2.0-javadoc.jar!/" />
       </JAVADOC>
       <SOURCES>
-        <root url="jar://$MAVEN_REPOSITORY$/commons-httpclient/commons-httpclient/3.1/commons-httpclient-3.1-sources.jar!/" />
-      </SOURCES>
-    </library>
-    <library name="Maven: commons-logging:commons-logging:1.0.4">
-      <CLASSES>
-        <root url="jar://$MAVEN_REPOSITORY$/commons-logging/commons-logging/1.0.4/commons-logging-1.0.4.jar!/" />
-      </CLASSES>
-      <JAVADOC>
-        <root url="jar://$MAVEN_REPOSITORY$/commons-logging/commons-logging/1.0.4/commons-logging-1.0.4-javadoc.jar!/" />
-      </JAVADOC>
-      <SOURCES>
-        <root url="jar://$MAVEN_REPOSITORY$/commons-logging/commons-logging/1.0.4/commons-logging-1.0.4-sources.jar!/" />
+        <root url="jar://$MAVEN_REPOSITORY$/javax/portlet/portlet-api/2.0/portlet-api-2.0-sources.jar!/" />
       </SOURCES>
     </library>
     <library name="Maven: javax.servlet:jstl:1.0.2">
@@ -759,6 +749,28 @@
       </JAVADOC>
       <SOURCES>
         <root url="jar://$MAVEN_REPOSITORY$/javax/servlet/jstl/1.0.2/jstl-1.0.2-sources.jar!/" />
+      </SOURCES>
+    </library>
+    <library name="Maven: junit:junit:4.8.1">
+      <CLASSES>
+        <root url="jar://$MAVEN_REPOSITORY$/junit/junit/4.8.1/junit-4.8.1.jar!/" />
+      </CLASSES>
+      <JAVADOC>
+        <root url="jar://$MAVEN_REPOSITORY$/junit/junit/4.8.1/junit-4.8.1-javadoc.jar!/" />
+      </JAVADOC>
+      <SOURCES>
+        <root url="jar://$MAVEN_REPOSITORY$/junit/junit/4.8.1/junit-4.8.1-sources.jar!/" />
+      </SOURCES>
+    </library>
+    <library name="Maven: org.mockito:mockito-all:1.8.0">
+      <CLASSES>
+        <root url="jar://$MAVEN_REPOSITORY$/org/mockito/mockito-all/1.8.0/mockito-all-1.8.0.jar!/" />
+      </CLASSES>
+      <JAVADOC>
+        <root url="jar://$MAVEN_REPOSITORY$/org/mockito/mockito-all/1.8.0/mockito-all-1.8.0-javadoc.jar!/" />
+      </JAVADOC>
+      <SOURCES>
+        <root url="jar://$MAVEN_REPOSITORY$/org/mockito/mockito-all/1.8.0/mockito-all-1.8.0-sources.jar!/" />
       </SOURCES>
     </library>
     <library name="Maven: org.springframework:spring-aop:3.0.3.RELEASE">
@@ -838,17 +850,6 @@
         <root url="jar://$MAVEN_REPOSITORY$/org/springframework/spring-web/3.0.3.RELEASE/spring-web-3.0.3.RELEASE-sources.jar!/" />
       </SOURCES>
     </library>
-    <library name="Maven: portlet-api:portlet-api:1.0">
-      <CLASSES>
-        <root url="jar://$MAVEN_REPOSITORY$/portlet-api/portlet-api/1.0/portlet-api-1.0.jar!/" />
-      </CLASSES>
-      <JAVADOC>
-        <root url="jar://$MAVEN_REPOSITORY$/portlet-api/portlet-api/1.0/portlet-api-1.0-javadoc.jar!/" />
-      </JAVADOC>
-      <SOURCES>
-        <root url="jar://$MAVEN_REPOSITORY$/portlet-api/portlet-api/1.0/portlet-api-1.0-sources.jar!/" />
-      </SOURCES>
-    </library>
     <library name="Maven: taglibs:standard:1.0.4">
       <CLASSES>
         <root url="jar://$MAVEN_REPOSITORY$/taglibs/standard/1.0.4/standard-1.0.4.jar!/" />
@@ -882,48 +883,6 @@
         <root url="jar://$MAVEN_REPOSITORY$/xml-apis/xml-apis/1.0.b2/xml-apis-1.0.b2-sources.jar!/" />
       </SOURCES>
     </library>
-  </component>
-  <component name="masterDetails">
-    <states>
-      <state key="ArtifactsStructureConfigurable.UI">
-        <settings>
-          <artifact-editor />
-          <splitter-proportions />
-        </settings>
-      </state>
-      <state key="FacetStructureConfigurable.UI">
-        <settings>
-          <splitter-proportions />
-        </settings>
-      </state>
-      <state key="GlobalLibrariesConfigurable.UI">
-        <settings>
-          <splitter-proportions />
-        </settings>
-      </state>
-      <state key="ModuleStructureConfigurable.UI">
-        <settings>
-          <splitter-proportions />
-        </settings>
-      </state>
-      <state key="ProjectJDKs.UI">
-        <settings>
-          <last-edited>1.6</last-edited>
-          <splitter-proportions>
-            <option name="proportions">
-              <list>
-                <option value="0.2" />
-              </list>
-            </option>
-          </splitter-proportions>
-        </settings>
-      </state>
-      <state key="ProjectLibrariesConfigurable.UI">
-        <settings>
-          <splitter-proportions />
-        </settings>
-      </state>
-    </states>
   </component>
 </project>
 

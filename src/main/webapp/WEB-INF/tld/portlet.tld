@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="ISO-8859-1" ?>
 <!DOCTYPE taglib PUBLIC
-  "-//Sun Microsystems, Inc.//DTD JSP Tag Library 1.1//EN"
-  "http://java.sun.com/j2ee/dtds/web-jsptaglibrary_1_1.dtd">
+        "-//Sun Microsystems, Inc.//DTD JSP Tag Library 1.1//EN"
+        "http://java.sun.com/j2ee/dtds/web-jsptaglibrary_1_1.dtd">
 <!-- 
 Copyright 2004 The Apache Software Foundation
 Licensed  under the  Apache License,  Version 2.0  (the "License");
@@ -101,4 +101,5 @@ limitations under the License.
         <tagclass>org.apache.pluto.tags.NamespaceTag</tagclass>
         <bodycontent>empty</bodycontent>
     </tag>
+
 </taglib>

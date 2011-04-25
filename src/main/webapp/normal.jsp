@@ -9,6 +9,6 @@
 
 Dashboards teste:
 
-<%=dashboardResource.allDashboards()%>
+<%=dashboardResource.printDashboad(1)%>
 
 ----
