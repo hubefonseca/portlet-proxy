@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE deployments PUBLIC
+        "-//JBoss Portal//DTD Portal Object 2.6//EN"
+        "http://www.jboss.org/portal/dtd/portal-object_2_6.dtd">
+
+<deployments>
+
+    <deployment>
+        <parent-ref>default</parent-ref>
+        <if-exists>overwrite</if-exists>
+        <page>
+            <page-name>IEM Dashboard</page-name>
+            <window>
+                <window-name>DashboardPortletWindow</window-name>
+                <instance-ref>DashboardPortletInstance</instance-ref>
+                <region>center</region>
+                <height>0</height>
+            </window>
+        </page>
+    </deployment>
+
+    <deployment>
+        <if-exists>overwrite</if-exists>
+        <parent-ref>default</parent-ref>
+        <page>
+            <page-name>default</page-name>
+            <window>
+                <window-name>ajax</window-name>
+                <instance-ref>AJAXPortletInstance</instance-ref>
+                <region>center</region>
+                <height>2</height>
+            </window>
+        </page>
+    </deployment>
+    
+</deployments>
