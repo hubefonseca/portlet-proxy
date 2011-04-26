@@ -21,7 +21,7 @@ public class DashboardResource {
         RestTemplate restTemplate = new RestTemplate(commons);
 
         HttpHeaders headers = new HttpHeaders();
-        headers.set("Cookie", "JSESSIONID=1ip7rxdh76cej;");
+        headers.set("Cookie", "JSESSIONID=1x2xkd5kv6yas;");
 
         String s = null;
         s = restTemplate.exchange(url,
@@ -40,7 +40,7 @@ public class DashboardResource {
         RestTemplate restTemplate = new RestTemplate();
 
         HttpHeaders headers = new HttpHeaders();
-        headers.set("Cookie", "JSESSIONID=1ip7rxdh76cej;");
+        headers.set("Cookie", "JSESSIONID=1x2xkd5kv6yas;");
 
         String html = restTemplate.exchange(url,
                 HttpMethod.GET,

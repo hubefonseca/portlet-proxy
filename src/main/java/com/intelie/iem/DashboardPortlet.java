@@ -30,41 +30,6 @@ public class DashboardPortlet extends GenericPortlet {
     private PortletRequestDispatcher maximizedView;
     private PortletRequestDispatcher helpView;
 
-    public void doView(RenderRequest request, RenderResponse response)
-            throws PortletException, IOException {
-        System.out.println(">>> DO VIEW");
-        if (WindowState.MINIMIZED.equals(request.getWindowState())) {
-            return;
-        }
-
-        if (WindowState.NORMAL.equals(request.getWindowState())) {
-            normalView.include(request, response);
-        } else {
-            maximizedView.include(request, response);
-        }
-    }
-
-    protected void doHelp(RenderRequest request, RenderResponse response)
-            throws PortletException, IOException {
-
-        helpView.include(request, response);
-
-    }
-
-    public void init(PortletConfig config) throws PortletException {
-        super.init(config);
-        normalView = config.getPortletContext().getRequestDispatcher(NORMAL_VIEW);
-        maximizedView = config.getPortletContext().getRequestDispatcher(MAXIMIZED_VIEW);
-        helpView = config.getPortletContext().getRequestDispatcher(HELP_VIEW);
-    }
-
-    public void destroy() {
-        normalView = null;
-        maximizedView = null;
-        helpView = null;
-        super.destroy();
-    }
-
     // async requests and responses are processed here
     public void serveResource(ResourceRequest req, ResourceResponse resp) throws PortletException, IOException {
         System.out.println(">>> SERVE RESOURCE");
@@ -77,6 +42,18 @@ public class DashboardPortlet extends GenericPortlet {
     // parent page delivery
     public void render(RenderRequest renderRequest, RenderResponse
             renderResponse) throws PortletException, IOException {
+
+//        System.out.println(">>> DO VIEW");
+//        if (WindowState.MINIMIZED.equals(request.getWindowState())) {
+//            return;
+//        }
+//
+//        if (WindowState.NORMAL.equals(request.getWindowState())) {
+//            normalView.include(request, response);
+//        } else {
+//            maximizedView.include(request, response);
+//        }
+
         System.out.println(">>> rENDER" + renderResponse.createResourceURL());
         PortletContext context = getPortletContext();
         PortletRequestDispatcher rd = context.getRequestDispatcher(NORMAL_VIEW);
