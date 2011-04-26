@@ -4,13 +4,9 @@
 <%@ page session="false" %>
 <%@ taglib uri="http://java.sun.com/portlet_2_0" prefix="portlet" %>
 
-<portlet:defineObjects/>
+<portlet :defineObjects/>
 
 
-<%
-    re
-
-%>
 <h4>Welcome to the Maven 2 World!</h4>
 
 <%

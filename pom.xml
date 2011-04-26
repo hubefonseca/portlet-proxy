@@ -53,6 +53,7 @@
             <groupId>javax.portlet</groupId>
             <artifactId>portlet-api</artifactId>
             <version>2.0</version>
+            <scope>provided</scope>
         </dependency>
 
         <!-- TagLibrary 1.1.x-->
@@ -76,49 +77,6 @@
             <type>jar</type>
             <version>3.0.3.RELEASE</version>
         </dependency>
-
-        <!--<dependency>-->
-        <!--<groupId>commons-httpclient</groupId>-->
-        <!--<artifactId>commons-httpclient</artifactId>-->
-        <!--<type>jar</type>-->
-        <!--<version>3.1</version>-->
-        <!--</dependency>-->
-
-        <!--<dependency>-->
-        <!--<groupId>javax.servlet</groupId>-->
-        <!--<artifactId>servlet-api</artifactId>-->
-        <!--<version>2.5</version>-->
-        <!--</dependency>-->
-
-        <!--<dependency>-->
-        <!--<groupId>com.sun.jersey</groupId>-->
-        <!--<artifactId>jersey-server</artifactId>-->
-        <!--<version>1.1.4.1</version>-->
-        <!--</dependency>-->
-        <!--<dependency>-->
-        <!--<groupId>com.sun.jersey.contribs</groupId>-->
-        <!--<artifactId>jersey-spring</artifactId>-->
-        <!--<version>1.1.4.1</version>-->
-        <!--<exclusions>-->
-        <!--<exclusion>-->
-        <!--<groupId>org.springframework</groupId>-->
-        <!--<artifactId>spring</artifactId>-->
-        <!--</exclusion>-->
-        <!--<exclusion>-->
-        <!--<groupId>org.springframework</groupId>-->
-        <!--<artifactId>spring-core</artifactId>-->
-        <!--</exclusion>-->
-        <!--<exclusion>-->
-        <!--<groupId>org.springframework</groupId>-->
-        <!--<artifactId>spring-beans</artifactId>-->
-        <!--</exclusion>-->
-        <!--<exclusion>-->
-        <!--<groupId>org.springframework</groupId>-->
-        <!--<artifactId>spring-context</artifactId>-->
-        <!--</exclusion>-->
-        <!--</exclusions>-->
-        <!--</dependency>-->
-
 
         <dependency>
             <groupId>junit</groupId>

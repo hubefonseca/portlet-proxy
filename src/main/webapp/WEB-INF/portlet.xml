@@ -5,15 +5,26 @@
              id="myPortletApp" version="2.0">
 
     <portlet>
-        <portlet-name>IEM Dashboard Portlet</portlet-name>
-        <portlet-class>com.intelie.iem.DashboardPortlet</portlet-class>
+        <description>IEM Dashboard Portlet 2</description>
+        <display-name>IEM Dashboard Portlet 2</display-name>
+        <portlet-name>IEM Dashboard Portlet 2</portlet-name>
+        <expiration-cache>0</expiration-cache>
+
+        <portlet-class>com.intelie.iem.IEMDashboardPortlet</portlet-class>
+
+        <supports>
+            <mime-type>text/html</mime-type>
+            <portlet-mode>VIEW</portlet-mode>
+            <portlet-mode>HELP</portlet-mode>
+        </supports>
+
         <!--<init-param>-->
-            <!--<name>holmesUrl</name>-->
-            <!--<value>http://localhost:8080</value>-->
+        <!--<name>holmesUrl</name>-->
+        <!--<value>http://localhost:8080</value>-->
         <!--</init-param>-->
         <!--<init-param>-->
-            <!--<name>dashboardId</name>-->
-            <!--<value>1</value>-->
+        <!--<name>dashboardId</name>-->
+        <!--<value>1</value>-->
         <!--</init-param>-->
 
         <supports>
@@ -23,6 +34,7 @@
 
         <portlet-info>
             <title>IEM Dashboard Portlet</title>
+            <short-title>IEM</short-title>
         </portlet-info>
     </portlet>
 
