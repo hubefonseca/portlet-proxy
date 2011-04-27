@@ -1,41 +1,43 @@
 <?xml version="1.0" encoding="UTF-8"?>
+
 <portlet-app xmlns="http://java.sun.com/xml/ns/portlet/portlet-app_2_0.xsd"
              xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
              xsi:schemaLocation="http://java.sun.com/xml/ns/portlet/portlet-app_2_0.xsd http://java.sun.com/xml/ns/portlet/portlet-app_2_0.xsd"
              id="myPortletApp" version="2.0">
 
     <portlet>
-        <description>IEM Dashboard Portlet 2</description>
-        <display-name>IEM Dashboard Portlet 2</display-name>
-        <portlet-name>IEM Dashboard Portlet 2</portlet-name>
-        <expiration-cache>0</expiration-cache>
-
+        <description>IEM Dashboard 3</description>
+        <portlet-name>IEM Dashboard 3a</portlet-name>
+        <display-name>IEM Dashboard 3b</display-name>
         <portlet-class>com.intelie.iem.IEMDashboardPortlet</portlet-class>
-
+        <expiration-cache>0</expiration-cache>
         <supports>
             <mime-type>text/html</mime-type>
             <portlet-mode>VIEW</portlet-mode>
             <portlet-mode>HELP</portlet-mode>
         </supports>
-
-        <!--<init-param>-->
-        <!--<name>holmesUrl</name>-->
-        <!--<value>http://localhost:8080</value>-->
-        <!--</init-param>-->
-        <!--<init-param>-->
-        <!--<name>dashboardId</name>-->
-        <!--<value>1</value>-->
-        <!--</init-param>-->
-
-        <supports>
-            <mime-type>text/html</mime-type>
-            <portlet-mode>VIEW</portlet-mode>
-        </supports>
-
+        <supported-locale>de</supported-locale>
+        <supported-locale>es</supported-locale>
+        <supported-locale>fr</supported-locale>
+        <supported-locale>ja</supported-locale>
+        <supported-locale>ko</supported-locale>
+        <supported-locale>zh</supported-locale>
+        <supported-locale>zh_CN</supported-locale>
+        <supported-locale>zh_TW</supported-locale>
+        <resource-bundle>IEMDashboardPortlet</resource-bundle>
         <portlet-info>
-            <title>IEM Dashboard Portlet</title>
-            <short-title>IEM</short-title>
+            <title>IEM Dashboard 3d</title>
+            <short-title>IEM Dashboard 3e</short-title>
         </portlet-info>
+        <!--<supported-processing-event>-->
+            <!--<qname xmlns:x="http:sun.com/events">x:Continent</qname>-->
+        <!--</supported-processing-event>-->
     </portlet>
 
+
+    <!--<event-definition>-->
+    <!--<qname xmlns:x="http:sun.com/events">x:Continent</qname>-->
+    <!--<value-type>com.intelie.iem.Continent</value-type>-->
+    <!--</event-definition>-->
 </portlet-app>
+
