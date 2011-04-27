@@ -63,17 +63,21 @@
       <file leaf-file-name="IEMDashboardPortlet.java" pinned="false" current="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/main/java/com/intelie/iem/IEMDashboardPortlet.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="45" column="19" selection-start="1827" selection-end="1827" vertical-scroll-proportion="0.0">
-              <folding />
+            <state line="83" column="40" selection-start="3231" selection-end="3231" vertical-scroll-proportion="0.0">
+              <folding>
+                <element signature="imports" expanded="true" />
+              </folding>
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="sun-portlet.xml" pinned="false" current="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/main/webapp/WEB-INF/sun-portlet.xml">
+      <file leaf-file-name="TestResourceWrapper.java" pinned="false" current="true" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/src/test/com/intelie/iem/TestResourceWrapper.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="5" column="24" selection-start="429" selection-end="429" vertical-scroll-proportion="0.0">
-              <folding />
+            <state line="34" column="41" selection-start="1102" selection-end="1102" vertical-scroll-proportion="0.614726">
+              <folding>
+                <element signature="imports" expanded="true" />
+              </folding>
             </state>
           </provider>
         </entry>
@@ -114,28 +118,10 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="dashboard.jsp" pinned="false" current="true" current-in-tab="true">
+      <file leaf-file-name="dashboard.jsp" pinned="false" current="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/main/webapp/WEB-INF/jsp/dashboard.jsp">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="5" column="19" selection-start="139" selection-end="139" vertical-scroll-proportion="0.084650114">
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="portlet_2_0.tld" pinned="false" current="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/main/resources/portlet_2_0.tld">
-          <provider selected="true" editor-type-id="text-editor">
-            <state line="177" column="9" selection-start="6091" selection-end="6091" vertical-scroll-proportion="0.0">
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="portlet.properties" pinned="false" current="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/main/resources/portlet.properties">
-          <provider selected="true" editor-type-id="text-editor">
-            <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="0.0">
+            <state line="13" column="23" selection-start="428" selection-end="428" vertical-scroll-proportion="-7.8">
               <folding />
             </state>
           </provider>
@@ -144,7 +130,38 @@
       <file leaf-file-name="DashboardResource.java" pinned="false" current="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/main/java/com/intelie/iem/DashboardResource.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="28" column="48" selection-start="955" selection-end="955" vertical-scroll-proportion="0.0">
+            <state line="59" column="55" selection-start="1979" selection-end="1979" vertical-scroll-proportion="-10.96">
+              <folding>
+                <element signature="imports" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="ResourceWrapper.java" pinned="false" current="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/main/java/com/intelie/iem/ResourceWrapper.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state line="17" column="112" selection-start="689" selection-end="689" vertical-scroll-proportion="0.0">
+              <folding>
+                <element signature="imports" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="TestDashboardResource.java" pinned="false" current="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/test/com/intelie/iem/TestDashboardResource.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state line="65" column="2" selection-start="2283" selection-end="2283" vertical-scroll-proportion="0.0">
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="TestRestResource.java" pinned="false" current="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/test/com/intelie/iem/TestRestResource.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state line="15" column="0" selection-start="0" selection-end="271" vertical-scroll-proportion="0.0">
               <folding />
             </state>
           </provider>
@@ -164,11 +181,6 @@
   <component name="IdeDocumentHistory">
     <option name="changedFiles">
       <list>
-        <option value="$PROJECT_DIR$/src/main/webapp/help.jsp" />
-        <option value="$PROJECT_DIR$/src/main/java/com/intelie/iem/DashboardPortlet.java" />
-        <option value="$PROJECT_DIR$/src/main/webapp/WEB-INF/app-portlet.xml" />
-        <option value="$PROJECT_DIR$/src/main/java/com/intelie/iem/DashboardResource.java" />
-        <option value="$PROJECT_DIR$/src/main/webapp/normal.jsp" />
         <option value="$PROJECT_DIR$/src/main/webapp/WEB-INF/sun-portlet.xml" />
         <option value="$PROJECT_DIR$/src/main/java/com/intelie/iem/ContinentPortlet.java" />
         <option value="$PROJECT_DIR$/src/main/java/com/intelie/iem/Continent.java" />
@@ -177,9 +189,14 @@
         <option value="$PROJECT_DIR$/src/main/webapp/WEB-INF/web.xml" />
         <option value="$PROJECT_DIR$/src/main/resources/portlet_2_0.tld" />
         <option value="$PROJECT_DIR$/pom.xml" />
-        <option value="$PROJECT_DIR$/src/main/java/com/intelie/iem/IEMDashboardPortlet.java" />
         <option value="$PROJECT_DIR$/src/main/webapp/WEB-INF/portlet.xml" />
         <option value="$PROJECT_DIR$/src/main/webapp/WEB-INF/jsp/dashboard.jsp" />
+        <option value="$PROJECT_DIR$/src/test/com/intelie/iem/TestRestResource.java" />
+        <option value="$PROJECT_DIR$/src/test/com/intelie/iem/TestDashboardResource.java" />
+        <option value="$PROJECT_DIR$/src/main/java/com/intelie/iem/IEMDashboardPortlet.java" />
+        <option value="$PROJECT_DIR$/src/main/java/com/intelie/iem/DashboardResource.java" />
+        <option value="$PROJECT_DIR$/src/main/java/com/intelie/iem/ResourceWrapper.java" />
+        <option value="$PROJECT_DIR$/src/test/com/intelie/iem/TestResourceWrapper.java" />
       </list>
     </option>
   </component>
@@ -254,6 +271,14 @@
             </PATH_ELEMENT>
             <PATH_ELEMENT>
               <option name="myItemId" value="src" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="test" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="iem" />
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
           </PATH>
@@ -407,8 +432,8 @@
     <property name="options.splitter.details.proportions" value="0.2" />
     <property name="dynamic.classpath" value="false" />
   </component>
-  <component name="RunManager" selected="JUnit.TestDashboardResource">
-    <configuration default="false" name="TestDashboardResource.testRemoveTitle" type="JUnit" factoryName="JUnit" temporary="true">
+  <component name="RunManager" selected="JUnit.TestResourceWrapper">
+    <configuration default="false" name="TestDashboardResource" type="JUnit" factoryName="JUnit" temporary="true">
       <extension name="coverage" enabled="false" merge="false" runner="emma">
         <pattern>
           <option name="PATTERN" value="com.intelie.iem.*" />
@@ -420,8 +445,8 @@
       <option name="ALTERNATIVE_JRE_PATH" />
       <option name="PACKAGE_NAME" value="com.intelie.iem" />
       <option name="MAIN_CLASS_NAME" value="com.intelie.iem.TestDashboardResource" />
-      <option name="METHOD_NAME" value="testRemoveTitle" />
-      <option name="TEST_OBJECT" value="method" />
+      <option name="METHOD_NAME" />
+      <option name="TEST_OBJECT" value="class" />
       <option name="VM_PARAMETERS" />
       <option name="PARAMETERS" />
       <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
@@ -436,7 +461,7 @@
       <ConfigurationWrapper RunnerId="Run" />
       <method />
     </configuration>
-    <configuration default="false" name="TestRestResource.testGatherDashboardInfo" type="JUnit" factoryName="JUnit" temporary="true">
+    <configuration default="false" name="TestResourceWrapper.testReplaceRESTUrls" type="JUnit" factoryName="JUnit" temporary="true">
       <extension name="coverage" enabled="false" merge="false" runner="emma">
         <pattern>
           <option name="PATTERN" value="com.intelie.iem.*" />
@@ -447,41 +472,7 @@
       <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
       <option name="ALTERNATIVE_JRE_PATH" />
       <option name="PACKAGE_NAME" value="com.intelie.iem" />
-      <option name="MAIN_CLASS_NAME" value="com.intelie.iem.TestRestResource" />
-      <option name="METHOD_NAME" value="testGatherDashboardInfo" />
-      <option name="TEST_OBJECT" value="method" />
-      <option name="VM_PARAMETERS" />
-      <option name="PARAMETERS" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
-      <option name="ENV_VARIABLES" />
-      <option name="PASS_PARENT_ENVS" value="true" />
-      <option name="TEST_SEARCH_SCOPE">
-        <value defaultName="moduleWithDependencies" />
-      </option>
-      <envs />
-      <patterns />
-      <RunnerSettings RunnerId="Debug">
-        <option name="DEBUG_PORT" value="62147" />
-        <option name="TRANSPORT" value="0" />
-        <option name="LOCAL" value="true" />
-      </RunnerSettings>
-      <RunnerSettings RunnerId="Run" />
-      <ConfigurationWrapper RunnerId="Debug" />
-      <ConfigurationWrapper RunnerId="Run" />
-      <method />
-    </configuration>
-    <configuration default="false" name="TestDashboardResource.testReplaceRESTUrls" type="JUnit" factoryName="JUnit" temporary="true">
-      <extension name="coverage" enabled="false" merge="false" runner="emma">
-        <pattern>
-          <option name="PATTERN" value="com.intelie.iem.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <module name="portlet-proxy" />
-      <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
-      <option name="ALTERNATIVE_JRE_PATH" />
-      <option name="PACKAGE_NAME" value="com.intelie.iem" />
-      <option name="MAIN_CLASS_NAME" value="com.intelie.iem.TestDashboardResource" />
+      <option name="MAIN_CLASS_NAME" value="com.intelie.iem.TestResourceWrapper" />
       <option name="METHOD_NAME" value="testReplaceRESTUrls" />
       <option name="TEST_OBJECT" value="method" />
       <option name="VM_PARAMETERS" />
@@ -498,7 +489,7 @@
       <ConfigurationWrapper RunnerId="Run" />
       <method />
     </configuration>
-    <configuration default="false" name="TestDashboardResource.testprintDashboad" type="JUnit" factoryName="JUnit" temporary="true">
+    <configuration default="false" name="TestResourceWrapper.testReplaceRESTUrlsWithOriginalParams" type="JUnit" factoryName="JUnit" temporary="true">
       <extension name="coverage" enabled="false" merge="false" runner="emma">
         <pattern>
           <option name="PATTERN" value="com.intelie.iem.*" />
@@ -509,8 +500,8 @@
       <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
       <option name="ALTERNATIVE_JRE_PATH" />
       <option name="PACKAGE_NAME" value="com.intelie.iem" />
-      <option name="MAIN_CLASS_NAME" value="com.intelie.iem.TestDashboardResource" />
-      <option name="METHOD_NAME" value="testprintDashboad" />
+      <option name="MAIN_CLASS_NAME" value="com.intelie.iem.TestResourceWrapper" />
+      <option name="METHOD_NAME" value="testReplaceRESTUrlsWithOriginalParams" />
       <option name="TEST_OBJECT" value="method" />
       <option name="VM_PARAMETERS" />
       <option name="PARAMETERS" />
@@ -526,7 +517,7 @@
       <ConfigurationWrapper RunnerId="Run" />
       <method />
     </configuration>
-    <configuration default="false" name="TestDashboardResource" type="JUnit" factoryName="JUnit" temporary="true">
+    <configuration default="false" name="TestResourceWrapper.testAjaxEndingParams" type="JUnit" factoryName="JUnit" temporary="true">
       <extension name="coverage" enabled="false" merge="false" runner="emma">
         <pattern>
           <option name="PATTERN" value="com.intelie.iem.*" />
@@ -537,7 +528,35 @@
       <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
       <option name="ALTERNATIVE_JRE_PATH" />
       <option name="PACKAGE_NAME" value="com.intelie.iem" />
-      <option name="MAIN_CLASS_NAME" value="com.intelie.iem.TestDashboardResource" />
+      <option name="MAIN_CLASS_NAME" value="com.intelie.iem.TestResourceWrapper" />
+      <option name="METHOD_NAME" value="testAjaxEndingParams" />
+      <option name="TEST_OBJECT" value="method" />
+      <option name="VM_PARAMETERS" />
+      <option name="PARAMETERS" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
+      <option name="ENV_VARIABLES" />
+      <option name="PASS_PARENT_ENVS" value="true" />
+      <option name="TEST_SEARCH_SCOPE">
+        <value defaultName="moduleWithDependencies" />
+      </option>
+      <envs />
+      <patterns />
+      <RunnerSettings RunnerId="Run" />
+      <ConfigurationWrapper RunnerId="Run" />
+      <method />
+    </configuration>
+    <configuration default="false" name="TestResourceWrapper" type="JUnit" factoryName="JUnit" temporary="true">
+      <extension name="coverage" enabled="false" merge="false" runner="emma">
+        <pattern>
+          <option name="PATTERN" value="com.intelie.iem.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <module name="portlet-proxy" />
+      <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
+      <option name="ALTERNATIVE_JRE_PATH" />
+      <option name="PACKAGE_NAME" value="com.intelie.iem" />
+      <option name="MAIN_CLASS_NAME" value="com.intelie.iem.TestResourceWrapper" />
       <option name="METHOD_NAME" />
       <option name="TEST_OBJECT" value="class" />
       <option name="VM_PARAMETERS" />
@@ -657,11 +676,11 @@
       </method>
     </configuration>
     <list size="5">
-      <item index="0" class="java.lang.String" itemvalue="JUnit.TestDashboardResource.testRemoveTitle" />
-      <item index="1" class="java.lang.String" itemvalue="JUnit.TestRestResource.testGatherDashboardInfo" />
-      <item index="2" class="java.lang.String" itemvalue="JUnit.TestDashboardResource.testReplaceRESTUrls" />
-      <item index="3" class="java.lang.String" itemvalue="JUnit.TestDashboardResource.testprintDashboad" />
-      <item index="4" class="java.lang.String" itemvalue="JUnit.TestDashboardResource" />
+      <item index="0" class="java.lang.String" itemvalue="JUnit.TestDashboardResource" />
+      <item index="1" class="java.lang.String" itemvalue="JUnit.TestResourceWrapper.testReplaceRESTUrls" />
+      <item index="2" class="java.lang.String" itemvalue="JUnit.TestResourceWrapper.testReplaceRESTUrlsWithOriginalParams" />
+      <item index="3" class="java.lang.String" itemvalue="JUnit.TestResourceWrapper.testAjaxEndingParams" />
+      <item index="4" class="java.lang.String" itemvalue="JUnit.TestResourceWrapper" />
     </list>
     <configuration name="&lt;template&gt;" type="WebApp" default="true" selected="false">
       <Host>localhost</Host>
@@ -694,29 +713,29 @@
     <servers />
   </component>
   <component name="ToolWindowManager">
-    <frame x="11" y="29" width="1800" height="1028" extended-state="0" />
+    <frame x="15" y="24" width="1800" height="1028" extended-state="0" />
     <editor active="true" />
     <layout>
       <window_info id="Changes" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Palette" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
+      <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.32942432" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Leiningen" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Ant Build" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.39908257" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="IDEtalk Messages" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="IDEtalk" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
+      <window_info id="Messages" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.32912844" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
       <window_info id="Web" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="2" side_tool="true" content_ui="tabs" />
       <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="1" side_tool="true" content_ui="tabs" />
       <window_info id="Maven Projects" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Commander" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.4" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
       <window_info id="Dependency Viewer" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
-      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.24171428" sideWeight="0.99890107" order="0" side_tool="false" content_ui="tabs" />
-      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.32343236" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
+      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.24171428" sideWeight="0.6705757" order="0" side_tool="false" content_ui="tabs" />
+      <window_info id="Run" active="true" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.32942432" sideWeight="0.0" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Cvs" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
       <window_info id="Message" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
-      <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
-      <window_info id="Messages" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.32912844" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Hierarchy" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="2" side_tool="false" content_ui="combo" />
       <window_info id="Inspection" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.4" sideWeight="0.5" order="5" side_tool="false" content_ui="tabs" />
     </layout>
@@ -810,20 +829,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/com/intelie/iem/IEMDashboardPortlet.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="45" column="19" selection-start="1827" selection-end="1827" vertical-scroll-proportion="0.0">
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/com/intelie/iem/DashboardResource.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="28" column="48" selection-start="955" selection-end="955" vertical-scroll-proportion="0.0">
-          <folding />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/main/webapp/WEB-INF/portlet.xml">
       <provider selected="true" editor-type-id="text-editor">
         <state line="33" column="37" selection-start="1468" selection-end="1602" vertical-scroll-proportion="0.0">
@@ -833,8 +838,58 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/src/main/webapp/WEB-INF/jsp/dashboard.jsp">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="5" column="19" selection-start="139" selection-end="139" vertical-scroll-proportion="0.084650114">
+        <state line="13" column="23" selection-start="428" selection-end="428" vertical-scroll-proportion="-7.8">
           <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/test/com/intelie/iem/TestRestResource.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="15" column="0" selection-start="0" selection-end="271" vertical-scroll-proportion="0.0">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/intelie/iem/DashboardResource.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="59" column="55" selection-start="1979" selection-end="1979" vertical-scroll-proportion="-10.96">
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/intelie/iem/IEMDashboardPortlet.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="83" column="40" selection-start="3231" selection-end="3231" vertical-scroll-proportion="0.0">
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/test/com/intelie/iem/TestDashboardResource.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="65" column="2" selection-start="2283" selection-end="2283" vertical-scroll-proportion="0.0">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/intelie/iem/ResourceWrapper.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="17" column="112" selection-start="689" selection-end="689" vertical-scroll-proportion="0.0">
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/test/com/intelie/iem/TestResourceWrapper.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="34" column="41" selection-start="1102" selection-end="1102" vertical-scroll-proportion="0.614726">
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
         </state>
       </provider>
     </entry>
