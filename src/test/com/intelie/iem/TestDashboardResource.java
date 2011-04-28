@@ -49,7 +49,7 @@
 //    public void testprintDashboad() {
 //        DashboardResource dashboardResource = new DashboardResource();
 //
-//        String s = dashboardResource.printDashboad(1);
+//        String s = dashboardResource.printDashboard(1);
 //
 //        System.out.println(s);
 //    }

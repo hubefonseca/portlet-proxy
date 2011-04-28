@@ -22,7 +22,7 @@ public class DashboardResource {
         RestTemplate restTemplate = new RestTemplate(commons);
 
         HttpHeaders headers = new HttpHeaders();
-        headers.set("Cookie", "JSESSIONID=8d2q559n26rp;");
+        headers.set("Cookie", "JSESSIONID=h4v60uvdjvtj;");
 
         String s = restTemplate.exchange(url,
                 HttpMethod.GET,
@@ -34,13 +34,13 @@ public class DashboardResource {
         return s;
     }
 
-    public String printDashboad(Integer id, RenderResponse renderResponse) {
+    public String printDashboard(Integer id, RenderResponse renderResponse) {
         RestTemplate restTemplate = new RestTemplate();
 
         HttpHeaders headers = new HttpHeaders();
-        headers.set("Cookie", "JSESSIONID=8d2q559n26rp;");
+        headers.set("Cookie", "JSESSIONID=h4v60uvdjvtj;");
 
-        String html = restTemplate.exchange(url + "/dashboard?id=" + id,
+        String html = restTemplate.exchange(url + "/dashboard?id=" + id + "&renderDashboardTo=dashboard-portlet-div",
                 HttpMethod.GET,
                 new HttpEntity<String>(headers),
                 String.class).getBody();
@@ -60,7 +60,7 @@ public class DashboardResource {
         RestTemplate restTemplate = new RestTemplate();
 
         HttpHeaders headers = new HttpHeaders();
-        headers.set("Cookie", "JSESSIONID=8d2q559n26rp;");
+        headers.set("Cookie", "JSESSIONID=h4v60uvdjvtj;");
 
         String json = restTemplate.exchange(url + "/rest/dashboard/" + id,
                 HttpMethod.GET,

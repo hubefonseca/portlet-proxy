@@ -5,13 +5,16 @@
 <portlet:defineObjects/>
 
 <%--<script type="text/javascript">--%>
-    <%--ResourceURL = "<%=renderResponse.createResourceURL()%>";--%>
-    <%--alert(ResourceURL);--%>
+<%--ResourceURL = "<%=renderResponse.createResourceURL()%>";--%>
+<%--alert(ResourceURL);--%>
 <%--</script>--%>
+
+<div id="dashboard-portlet-div" style="height: 600px; width: 100%;"></div>
 
 <% DashboardResource dashboardResource = new DashboardResource(); %>
 
-<%=dashboardResource.printDashboad(1, renderResponse)%>
+<%=dashboardResource.printDashboard(1, renderResponse)%>
+
 
 <%--<MAP NAME=MyMap>--%>
 <%--<AREA SHAPE=rect--%>

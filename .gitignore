@@ -9,4 +9,6 @@ GateIn-3.1.0-GA/gatein/data/db/data/*.lck
 *.ipr
 *.pyc
 *.swp
+dist
+build
 

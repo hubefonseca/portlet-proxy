@@ -85,7 +85,7 @@ public class IEMDashboardPortlet extends GenericPortlet {
                 connection.setRequestProperty("Connection", "keep-alive");
                 connection.setRequestProperty("Content-Length", "140");
                 connection.setRequestProperty("Content-Type", "application/json");
-                connection.setRequestProperty("Cookie", "wp-settings-time-1=1294006244; BAYEUX_BROWSER=e3591mlwcpguju1zggmt61sys18wp; JSESSIONID=8d2q559n26rp");
+                connection.setRequestProperty("Cookie", "wp-settings-time-1=1294006244; BAYEUX_BROWSER=e3591mlwcpguju1zggmt61sys18wp; JSESSIONID=h4v60uvdjvtj");
                 connection.setRequestProperty("Host", "localhost:8080");
                 connection.setRequestProperty("Origin", "http://localhost:8080");
                 connection.setRequestProperty("Referer", "http://localhost:8080/");
@@ -145,7 +145,7 @@ public class IEMDashboardPortlet extends GenericPortlet {
                 RestTemplate restTemplate = new RestTemplate();
 
                 HttpHeaders headers = new HttpHeaders();
-                headers.set("Cookie", "JSESSIONID=8d2q559n26rp;");
+                headers.set("Cookie", "JSESSIONID=h4v60uvdjvtj;");
 
                 Map<String, String[]> parameters = req.getParameterMap();
 
