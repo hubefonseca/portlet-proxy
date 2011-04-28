@@ -60,13 +60,31 @@
   </component>
   <component name="FileEditorManager">
     <leaf>
-      <file leaf-file-name="IEMDashboardPortlet.java" pinned="false" current="true" current-in-tab="true">
+      <file leaf-file-name="IEMDashboardPortlet.java" pinned="false" current="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/main/java/com/intelie/iem/IEMDashboardPortlet.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="109" column="77" selection-start="4340" selection-end="4340" vertical-scroll-proportion="0.79568106">
+            <state line="116" column="38" selection-start="5204" selection-end="5204" vertical-scroll-proportion="0.0">
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="Channel.java" pinned="false" current="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/main/java/com/intelie/iem/proxy/Channel.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state line="14" column="0" selection-start="322" selection-end="322" vertical-scroll-proportion="0.0">
               <folding>
                 <element signature="imports" expanded="true" />
               </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="DashboardResource.java" pinned="false" current="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/main/java/com/intelie/iem/DashboardResource.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state line="62" column="54" selection-start="2084" selection-end="2084" vertical-scroll-proportion="0.0">
+              <folding />
             </state>
           </provider>
         </entry>
@@ -75,6 +93,15 @@
         <entry file="file://$PROJECT_DIR$/src/test/com/intelie/iem/TestResourceWrapper.java">
           <provider selected="true" editor-type-id="text-editor">
             <state line="34" column="41" selection-start="1102" selection-end="1102" vertical-scroll-proportion="0.0">
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="TestRestResource.java" pinned="false" current="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/test/com/intelie/iem/TestRestResource.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state line="80" column="33" selection-start="3407" selection-end="3407" vertical-scroll-proportion="0.0">
               <folding>
                 <element signature="imports" expanded="true" />
               </folding>
@@ -82,13 +109,11 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="ResourceWrapper.java" pinned="false" current="false" current-in-tab="false">
+      <file leaf-file-name="ResourceWrapper.java" pinned="false" current="true" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/src/main/java/com/intelie/iem/ResourceWrapper.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="17" column="112" selection-start="689" selection-end="689" vertical-scroll-proportion="0.0">
-              <folding>
-                <element signature="imports" expanded="true" />
-              </folding>
+            <state line="41" column="13" selection-start="1492" selection-end="1492" vertical-scroll-proportion="0.54347825">
+              <folding />
             </state>
           </provider>
         </entry>
@@ -116,7 +141,6 @@
   <component name="IdeDocumentHistory">
     <option name="changedFiles">
       <list>
-        <option value="$PROJECT_DIR$/src/main/webapp/WEB-INF/sun-portlet.xml" />
         <option value="$PROJECT_DIR$/src/main/java/com/intelie/iem/ContinentPortlet.java" />
         <option value="$PROJECT_DIR$/src/main/java/com/intelie/iem/Continent.java" />
         <option value="$PROJECT_DIR$/src/main/java/com/intelie/iem/ContinentInfoPortlet.java" />
@@ -126,12 +150,13 @@
         <option value="$PROJECT_DIR$/pom.xml" />
         <option value="$PROJECT_DIR$/src/main/webapp/WEB-INF/portlet.xml" />
         <option value="$PROJECT_DIR$/src/main/webapp/WEB-INF/jsp/dashboard.jsp" />
-        <option value="$PROJECT_DIR$/src/test/com/intelie/iem/TestRestResource.java" />
         <option value="$PROJECT_DIR$/src/test/com/intelie/iem/TestDashboardResource.java" />
-        <option value="$PROJECT_DIR$/src/main/java/com/intelie/iem/DashboardResource.java" />
-        <option value="$PROJECT_DIR$/src/main/java/com/intelie/iem/ResourceWrapper.java" />
         <option value="$PROJECT_DIR$/src/test/com/intelie/iem/TestResourceWrapper.java" />
+        <option value="$PROJECT_DIR$/src/main/java/com/intelie/iem/proxy/Channel.java" />
+        <option value="$PROJECT_DIR$/src/main/java/com/intelie/iem/DashboardResource.java" />
+        <option value="$PROJECT_DIR$/src/test/com/intelie/iem/TestRestResource.java" />
         <option value="$PROJECT_DIR$/src/main/java/com/intelie/iem/IEMDashboardPortlet.java" />
+        <option value="$PROJECT_DIR$/src/main/java/com/intelie/iem/ResourceWrapper.java" />
       </list>
     </option>
   </component>
@@ -175,8 +200,6 @@
       <sortByType />
     </navigator>
     <panes>
-      <pane id="PackagesPane" />
-      <pane id="Favorites" />
       <pane id="ProjectPane">
         <subPane>
           <PATH>
@@ -234,10 +257,6 @@
               <option name="myItemId" value="main" />
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="webapp" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
           </PATH>
           <PATH>
             <PATH_ELEMENT>
@@ -257,63 +276,11 @@
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
             <PATH_ELEMENT>
-              <option name="myItemId" value="webapp" />
+              <option name="myItemId" value="java" />
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
             <PATH_ELEMENT>
-              <option name="myItemId" value="WEB-INF" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-          </PATH>
-          <PATH>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="portlet-proxy" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="portlet-proxy" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="src" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="main" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="webapp" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="WEB-INF" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="jsp" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-          </PATH>
-          <PATH>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="portlet-proxy" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="portlet-proxy" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="src" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="main" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="resources" />
+              <option name="myItemId" value="iem" />
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
           </PATH>
@@ -342,9 +309,15 @@
               <option name="myItemId" value="iem" />
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="proxy" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
           </PATH>
         </subPane>
       </pane>
+      <pane id="Favorites" />
+      <pane id="PackagesPane" />
       <pane id="Scope" />
     </panes>
   </component>
@@ -363,39 +336,11 @@
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="MemberChooser.showClasses" value="true" />
     <property name="GoToClass.includeLibraries" value="false" />
-    <property name="options.searchVisible" value="true" />
-    <property name="options.splitter.details.proportions" value="0.2" />
     <property name="dynamic.classpath" value="false" />
+    <property name="options.splitter.details.proportions" value="0.2" />
+    <property name="options.searchVisible" value="true" />
   </component>
-  <component name="RunManager" selected="JUnit.TestResourceWrapper">
-    <configuration default="false" name="TestDashboardResource" type="JUnit" factoryName="JUnit" temporary="true">
-      <extension name="coverage" enabled="false" merge="false" runner="emma">
-        <pattern>
-          <option name="PATTERN" value="com.intelie.iem.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <module name="portlet-proxy" />
-      <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
-      <option name="ALTERNATIVE_JRE_PATH" />
-      <option name="PACKAGE_NAME" value="com.intelie.iem" />
-      <option name="MAIN_CLASS_NAME" value="com.intelie.iem.TestDashboardResource" />
-      <option name="METHOD_NAME" />
-      <option name="TEST_OBJECT" value="class" />
-      <option name="VM_PARAMETERS" />
-      <option name="PARAMETERS" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
-      <option name="ENV_VARIABLES" />
-      <option name="PASS_PARENT_ENVS" value="true" />
-      <option name="TEST_SEARCH_SCOPE">
-        <value defaultName="moduleWithDependencies" />
-      </option>
-      <envs />
-      <patterns />
-      <RunnerSettings RunnerId="Run" />
-      <ConfigurationWrapper RunnerId="Run" />
-      <method />
-    </configuration>
+  <component name="RunManager" selected="JUnit.TestRestResource.testConnect">
     <configuration default="false" name="TestResourceWrapper.testReplaceRESTUrls" type="JUnit" factoryName="JUnit" temporary="true">
       <extension name="coverage" enabled="false" merge="false" runner="emma">
         <pattern>
@@ -508,6 +453,34 @@
       <ConfigurationWrapper RunnerId="Run" />
       <method />
     </configuration>
+    <configuration default="false" name="TestRestResource.testConnect" type="JUnit" factoryName="JUnit" temporary="true">
+      <extension name="coverage" enabled="false" merge="false" runner="emma">
+        <pattern>
+          <option name="PATTERN" value="com.intelie.iem.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <module name="portlet-proxy" />
+      <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
+      <option name="ALTERNATIVE_JRE_PATH" />
+      <option name="PACKAGE_NAME" value="com.intelie.iem" />
+      <option name="MAIN_CLASS_NAME" value="com.intelie.iem.TestRestResource" />
+      <option name="METHOD_NAME" value="testConnect" />
+      <option name="TEST_OBJECT" value="method" />
+      <option name="VM_PARAMETERS" />
+      <option name="PARAMETERS" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
+      <option name="ENV_VARIABLES" />
+      <option name="PASS_PARENT_ENVS" value="true" />
+      <option name="TEST_SEARCH_SCOPE">
+        <value defaultName="moduleWithDependencies" />
+      </option>
+      <envs />
+      <patterns />
+      <RunnerSettings RunnerId="Run" />
+      <ConfigurationWrapper RunnerId="Run" />
+      <method />
+    </configuration>
     <configuration default="true" type="PHPUnitRunConfigurationType" factoryName="PHPUnit">
       <method>
         <option name="AntTarget" enabled="false" />
@@ -573,6 +546,17 @@
         <option name="Maven.BeforeRunTask" enabled="false" />
       </method>
     </configuration>
+    <configuration default="true" type="PhpUnitRemoteRunConfigurationType" factoryName="PHPUnit on Server">
+      <method>
+        <option name="AntTarget" enabled="false" />
+        <option name="BuildArtifacts" enabled="false" />
+        <option name="FtpUpload" enabled="false">
+          <server_id />
+          <server_name />
+        </option>
+        <option name="Maven.BeforeRunTask" enabled="false" />
+      </method>
+    </configuration>
     <configuration default="true" type="JUnit" factoryName="JUnit">
       <extension name="coverage" enabled="false" merge="false" runner="emma" />
       <module name="" />
@@ -599,23 +583,12 @@
         <option name="Maven.BeforeRunTask" enabled="false" />
       </method>
     </configuration>
-    <configuration default="true" type="PhpUnitRemoteRunConfigurationType" factoryName="PHPUnit on Server">
-      <method>
-        <option name="AntTarget" enabled="false" />
-        <option name="BuildArtifacts" enabled="false" />
-        <option name="FtpUpload" enabled="false">
-          <server_id />
-          <server_name />
-        </option>
-        <option name="Maven.BeforeRunTask" enabled="false" />
-      </method>
-    </configuration>
     <list size="5">
-      <item index="0" class="java.lang.String" itemvalue="JUnit.TestDashboardResource" />
-      <item index="1" class="java.lang.String" itemvalue="JUnit.TestResourceWrapper.testReplaceRESTUrls" />
-      <item index="2" class="java.lang.String" itemvalue="JUnit.TestResourceWrapper.testReplaceRESTUrlsWithOriginalParams" />
-      <item index="3" class="java.lang.String" itemvalue="JUnit.TestResourceWrapper.testAjaxEndingParams" />
-      <item index="4" class="java.lang.String" itemvalue="JUnit.TestResourceWrapper" />
+      <item index="0" class="java.lang.String" itemvalue="JUnit.TestResourceWrapper.testReplaceRESTUrls" />
+      <item index="1" class="java.lang.String" itemvalue="JUnit.TestResourceWrapper.testReplaceRESTUrlsWithOriginalParams" />
+      <item index="2" class="java.lang.String" itemvalue="JUnit.TestResourceWrapper.testAjaxEndingParams" />
+      <item index="3" class="java.lang.String" itemvalue="JUnit.TestResourceWrapper" />
+      <item index="4" class="java.lang.String" itemvalue="JUnit.TestRestResource.testConnect" />
     </list>
     <configuration name="&lt;template&gt;" type="WebApp" default="true" selected="false">
       <Host>localhost</Host>
@@ -648,29 +621,29 @@
     <servers />
   </component>
   <component name="ToolWindowManager">
-    <frame x="15" y="24" width="1800" height="1028" extended-state="0" />
+    <frame x="0" y="22" width="1280" height="774" extended-state="0" />
     <editor active="true" />
     <layout>
       <window_info id="Changes" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Palette" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
-      <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.32942432" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Leiningen" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Ant Build" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.39908257" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="IDEtalk Messages" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="IDEtalk" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
-      <window_info id="Messages" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.32912844" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
+      <window_info id="Messages" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.32894737" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
       <window_info id="Web" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="2" side_tool="true" content_ui="tabs" />
       <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="1" side_tool="true" content_ui="tabs" />
       <window_info id="Maven Projects" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Commander" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.4" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
       <window_info id="Dependency Viewer" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
-      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.24171428" sideWeight="0.6705757" order="0" side_tool="false" content_ui="tabs" />
-      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.32942432" sideWeight="0.0" order="2" side_tool="false" content_ui="tabs" />
+      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.24227643" sideWeight="0.67105263" order="0" side_tool="false" content_ui="tabs" />
+      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.32894737" sideWeight="0.0" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Cvs" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
       <window_info id="Message" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
+      <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.32942432" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Hierarchy" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="2" side_tool="false" content_ui="combo" />
       <window_info id="Inspection" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.4" sideWeight="0.5" order="5" side_tool="false" content_ui="tabs" />
     </layout>
@@ -720,123 +693,99 @@
     <option name="FILTER_TARGETS" value="false" />
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/src/main/webapp/WEB-INF/portlet.xml">
+    <entry file="jar://$MAVEN_REPOSITORY$/org/springframework/spring-web/3.0.3.RELEASE/spring-web-3.0.3.RELEASE-sources.jar!/org/springframework/http/HttpMethod.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="33" column="37" selection-start="1468" selection-end="1602" vertical-scroll-proportion="0.0">
+        <state line="28" column="4" selection-start="924" selection-end="924" vertical-scroll-proportion="0.7191781" />
+      </provider>
+    </entry>
+    <entry file="jar:///System/Library/Java/JavaVirtualMachines/1.6.0.jdk/Contents/Classes/classes.jar!/java/net/URLConnection.class">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="70" column="28" selection-start="2817" selection-end="2817" vertical-scroll-proportion="0.9982487" />
+      </provider>
+    </entry>
+    <entry file="jar://$MAVEN_REPOSITORY$/org/springframework/spring-web/3.0.3.RELEASE/spring-web-3.0.3.RELEASE-sources.jar!/org/springframework/http/client/CommonsClientHttpResponse.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="68" column="41" selection-start="1955" selection-end="1955" vertical-scroll-proportion="0.8458904" />
+      </provider>
+    </entry>
+    <entry file="jar://$MAVEN_REPOSITORY$/org/springframework/spring-web/3.0.3.RELEASE/spring-web-3.0.3.RELEASE-sources.jar!/org/springframework/http/HttpInputMessage.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="30" column="17" selection-start="1020" selection-end="1020" vertical-scroll-proportion="0.5890411" />
+      </provider>
+    </entry>
+    <entry file="jar://$MAVEN_REPOSITORY$/org/springframework/spring-web/3.0.3.RELEASE/spring-web-3.0.3.RELEASE-sources.jar!/org/springframework/http/converter/StringHttpMessageConverter.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="68" column="60" selection-start="2376" selection-end="2376" vertical-scroll-proportion="0.30650684" />
+      </provider>
+    </entry>
+    <entry file="jar://$MAVEN_REPOSITORY$/org/springframework/spring-web/3.0.3.RELEASE/spring-web-3.0.3.RELEASE-sources.jar!/org/springframework/http/converter/HttpMessageConverter.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="32" column="17" selection-start="1065" selection-end="1065" vertical-scroll-proportion="0.025684932" />
+      </provider>
+    </entry>
+    <entry file="jar://$MAVEN_REPOSITORY$/org/springframework/spring-web/3.0.3.RELEASE/spring-web-3.0.3.RELEASE-sources.jar!/org/springframework/web/client/HttpMessageConverterExtractor.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="53" column="74" selection-start="1917" selection-end="1917" vertical-scroll-proportion="0.3305648" />
+      </provider>
+    </entry>
+    <entry file="jar://$MAVEN_REPOSITORY$/org/springframework/spring-web/3.0.3.RELEASE/spring-web-3.0.3.RELEASE-sources.jar!/org/springframework/web/client/RestTemplate.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="610" column="48" selection-start="26915" selection-end="26915" vertical-scroll-proportion="0.37209302" />
+      </provider>
+    </entry>
+    <entry file="jar:///System/Library/Java/JavaVirtualMachines/1.6.0.jdk/Contents/Classes/classes.jar!/java/lang/String.class">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="60" column="16" selection-start="2280" selection-end="2280" vertical-scroll-proportion="0.33226836">
           <folding />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/webapp/WEB-INF/jsp/dashboard.jsp">
+    <entry file="file://$PROJECT_DIR$/src/test/com/intelie/iem/TestDashboardResource.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="13" column="23" selection-start="428" selection-end="428" vertical-scroll-proportion="-7.8">
-          <folding />
+        <state line="65" column="2" selection-start="2283" selection-end="2283" vertical-scroll-proportion="0.0" />
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/intelie/iem/proxy/Channel.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="14" column="0" selection-start="322" selection-end="322" vertical-scroll-proportion="0.0">
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
         </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/test/com/intelie/iem/TestResourceWrapper.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="34" column="41" selection-start="1102" selection-end="1102" vertical-scroll-proportion="0.0" />
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/src/test/com/intelie/iem/TestRestResource.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="15" column="0" selection-start="0" selection-end="271" vertical-scroll-proportion="0.0">
+        <state line="80" column="33" selection-start="3407" selection-end="3407" vertical-scroll-proportion="0.0">
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/intelie/iem/IEMDashboardPortlet.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="116" column="38" selection-start="5204" selection-end="5204" vertical-scroll-proportion="0.0">
           <folding />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/src/main/java/com/intelie/iem/DashboardResource.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="59" column="55" selection-start="1979" selection-end="1979" vertical-scroll-proportion="-10.96">
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/test/com/intelie/iem/TestDashboardResource.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="65" column="2" selection-start="2283" selection-end="2283" vertical-scroll-proportion="0.0">
+        <state line="62" column="54" selection-start="2084" selection-end="2084" vertical-scroll-proportion="0.0">
           <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/test/com/intelie/iem/TestResourceWrapper.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="34" column="41" selection-start="1102" selection-end="1102" vertical-scroll-proportion="0.0">
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/src/main/java/com/intelie/iem/ResourceWrapper.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="17" column="112" selection-start="689" selection-end="689" vertical-scroll-proportion="0.0">
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="jar://$MAVEN_REPOSITORY$/org/springframework/spring-web/3.0.3.RELEASE/spring-web-3.0.3.RELEASE-sources.jar!/org/springframework/http/HttpMethod.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="28" column="4" selection-start="924" selection-end="924" vertical-scroll-proportion="0.7191781">
+        <state line="41" column="13" selection-start="1492" selection-end="1492" vertical-scroll-proportion="0.54347825">
           <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="jar:///System/Library/Java/JavaVirtualMachines/1.6.0.jdk/Contents/Classes/classes.jar!/java/net/URLConnection.class">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="70" column="28" selection-start="2817" selection-end="2817" vertical-scroll-proportion="0.9982487">
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="jar://$MAVEN_REPOSITORY$/org/springframework/spring-web/3.0.3.RELEASE/spring-web-3.0.3.RELEASE-sources.jar!/org/springframework/http/client/CommonsClientHttpResponse.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="68" column="41" selection-start="1955" selection-end="1955" vertical-scroll-proportion="0.8458904">
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="jar://$MAVEN_REPOSITORY$/org/springframework/spring-web/3.0.3.RELEASE/spring-web-3.0.3.RELEASE-sources.jar!/org/springframework/http/HttpInputMessage.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="30" column="17" selection-start="1020" selection-end="1020" vertical-scroll-proportion="0.5890411">
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="jar://$MAVEN_REPOSITORY$/org/springframework/spring-web/3.0.3.RELEASE/spring-web-3.0.3.RELEASE-sources.jar!/org/springframework/http/converter/StringHttpMessageConverter.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="68" column="60" selection-start="2376" selection-end="2376" vertical-scroll-proportion="0.30650684">
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="jar://$MAVEN_REPOSITORY$/org/springframework/spring-web/3.0.3.RELEASE/spring-web-3.0.3.RELEASE-sources.jar!/org/springframework/http/converter/HttpMessageConverter.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="32" column="17" selection-start="1065" selection-end="1065" vertical-scroll-proportion="0.025684932">
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="jar://$MAVEN_REPOSITORY$/org/springframework/spring-web/3.0.3.RELEASE/spring-web-3.0.3.RELEASE-sources.jar!/org/springframework/web/client/HttpMessageConverterExtractor.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="53" column="74" selection-start="1917" selection-end="1917" vertical-scroll-proportion="0.3305648">
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="jar://$MAVEN_REPOSITORY$/org/springframework/spring-web/3.0.3.RELEASE/spring-web-3.0.3.RELEASE-sources.jar!/org/springframework/web/client/RestTemplate.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="610" column="48" selection-start="26915" selection-end="26915" vertical-scroll-proportion="0.37209302">
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/com/intelie/iem/IEMDashboardPortlet.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="109" column="77" selection-start="4340" selection-end="4340" vertical-scroll-proportion="0.79568106">
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
         </state>
       </provider>
     </entry>

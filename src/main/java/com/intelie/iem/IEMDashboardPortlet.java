@@ -52,7 +52,8 @@ public class IEMDashboardPortlet extends GenericPortlet {
     @Override
     // async requests and responses are processed here
     public void serveResource(ResourceRequest req, ResourceResponse resp) throws PortletException, IOException {
-        String content = null;
+
+        PrintWriter writer = resp.getWriter();
 
         String originalUrl = req.getParameter("originalUrl");
         if (originalUrl.contains("?")) {
@@ -60,35 +61,42 @@ public class IEMDashboardPortlet extends GenericPortlet {
         }
 
         String resourceUrl = resp.createResourceURL().toString();
-        boolean deum = originalUrl.contains("/portal/private/classic/");
+        boolean deum = originalUrl.contains("/portal/private/classic/") || originalUrl.contains("/portal/public/classic/");
         if (deum) {
             System.out.println("ITS A PROBLEM!!!");
             originalUrl = "cometd/handshake";
         }
 
         if (originalUrl != null) {
-            if (originalUrl.endsWith(".js") || (originalUrl.contains("?") && originalUrl.substring(0, originalUrl.indexOf("?")).endsWith(".js"))) {
-                resp.setContentType("text/javascript");
-            } else {
-                resp.setContentType("text/html");
-            }
 
             if (originalUrl.charAt(0) != '/') {
                 originalUrl = "/" + originalUrl;
             }
-            RestTemplate restTemplate = new RestTemplate();
-
-            HttpHeaders headers = new HttpHeaders();
-            headers.set("Cookie", "JSESSIONID=c496sbhlxkve;");
-
-            Map<String, String[]> parameters = req.getParameterMap();
 
             StringBuffer payload;
-            if (originalUrl.contains("cometd")) {
+            if (originalUrl.contains("cometd/handshake")) {
 
                 URL u = new URL(iemUrl + originalUrl);
                 URLConnection connection = u.openConnection();
-                connection.setRequestProperty("Cookie", "JSESSIONID=c496sbhlxkve;");
+                connection.setRequestProperty("Accept", "application/json");
+                connection.setRequestProperty("Accept-Charset", "ISO-8859-1,utf-8;q=0.7,*;q=0.3");
+                connection.setRequestProperty("Accept-Encoding", "gzip,deflate,sdch");
+                connection.setRequestProperty("Accept-Language", "en-US,en;q=0.8");
+                connection.setRequestProperty("Connection", "keep-alive");
+                connection.setRequestProperty("Content-Length", "140");
+                connection.setRequestProperty("Content-Type", "application/json");
+                connection.setRequestProperty("Cookie", "wp-settings-time-1=1294006244; BAYEUX_BROWSER=e3591mlwcpguju1zggmt61sys18wp; JSESSIONID=8d2q559n26rp");
+                connection.setRequestProperty("Host", "localhost:8080");
+                connection.setRequestProperty("Origin", "http://localhost:8080");
+                connection.setRequestProperty("Referer", "http://localhost:8080/");
+                connection.setRequestProperty("User-Agent", "Mozilla/5.0 (Macintosh; U; Intel Mac OS X 10_6_7; en-US) AppleWebKit/534.16 (KHTML, like Gecko) Chrome/10.0.648.205 Safari/534.16");
+                connection.setRequestProperty("X-Requested-With", "Ext.basex");
+
+//                for (Map.Entry<String, String[]> e : parameters.entrySet()) {
+//                    System.out.println(e.getKey() + ": " + e.getValue()[0]);
+//                    connection.setRequestProperty(e.getKey(), e.getValue()[0]);
+//                }
+
                 connection.setDoOutput(true);
                 connection.setDoInput(true);
                 DataOutputStream dos = new DataOutputStream(connection.getOutputStream());
@@ -98,7 +106,7 @@ public class IEMDashboardPortlet extends GenericPortlet {
                 int r = reader.read();
                 while (r > 0) {
                     payload.append((char) r);
-                    dos.write(r);
+                    dos.write((char) r);
                     r = reader.read();
                 }
 
@@ -109,22 +117,38 @@ public class IEMDashboardPortlet extends GenericPortlet {
                 System.out.println(">>> " + connection.getContentType());
                 System.out.println(">>> " + connection.getContentEncoding());
 
+                resp.setContentType("application/json;charset=UTF-8");
 
                 DataInputStream dis = new DataInputStream(connection.getInputStream());
-                StringBuffer str = new StringBuffer();
 
-                int a = dis.read();
-                while (a >= 0) {
+                StringBuffer content = new StringBuffer();
+                while (dis.available() != 0) {
+                    byte a = dis.readByte();
                     System.out.print((char) a);
-                    str.append((char) a);
-                    a = dis.read();
+                    content.append((char) a);
                 }
+                writer.print(content.toString());
                 dis.close();
-                content = str.toString();
-
+                writer.close();
+                return;
 
             } else {
+                String content = null;
+
+                if (originalUrl.endsWith(".js") || (originalUrl.contains("?") && originalUrl.substring(0, originalUrl.indexOf("?")).endsWith(".js"))) {
+                    resp.setContentType("text/javascript");
+                } else {
+                    resp.setContentType("text/html");
+                }
+
                 HttpMethod method = HttpMethod.valueOf(req.getMethod());
+                RestTemplate restTemplate = new RestTemplate();
+
+                HttpHeaders headers = new HttpHeaders();
+                headers.set("Cookie", "JSESSIONID=8d2q559n26rp;");
+
+                Map<String, String[]> parameters = req.getParameterMap();
+
                 try {
                     content = restTemplate.exchange(iemUrl + originalUrl,
                             method,
@@ -132,28 +156,15 @@ public class IEMDashboardPortlet extends GenericPortlet {
                             String.class,
                             parameters).getBody();
 
+                    // Guarantee
+                    content = ResourceWrapper.replaceAjaxUrls(content, resourceUrl);
+                    writer.write(content);
                 } catch (Exception e) {
                     e.printStackTrace();
                 }
             }
-
-            if (deum) {
-
-                System.out.println("Content: " + content);
-            }
-
-        } else {
-            content = dashboardResource.getDashboardInfo(1);
         }
 
-        if (content.contains("cometd/handshake")) {
-            System.out.println("aQUI!! >>>>>>>>> " + originalUrl);
-        }
-        // Guarantee
-        content = ResourceWrapper.replaceAjaxUrls(content, resourceUrl);
-
-        PrintWriter writer = resp.getWriter();
-        writer.print(content);
         writer.close();
     }
 //

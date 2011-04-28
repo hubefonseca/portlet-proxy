@@ -34,10 +34,12 @@ public class ResourceWrapper {
             String refType = matcher.group(1);
             String ref = matcher.group(2);
 
-            String separator = resourceUrl.contains("?") ? "&" : "?";
-            String replacement = refType + "=\"" + resourceUrl + separator + "originalUrl=" + ref + "\"";
+            if (!ref.contains(resourceUrl)) {
+                String separator = resourceUrl.contains("?") ? "&" : "?";
+                String replacement = refType + "=\"" + resourceUrl + separator + "originalUrl=" + ref + "\"";
 
-            matcher.appendReplacement(sb, replacement);
+                matcher.appendReplacement(sb, replacement);
+            }
         }
 
         matcher.appendTail(sb);

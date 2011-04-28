@@ -22,7 +22,7 @@ public class DashboardResource {
         RestTemplate restTemplate = new RestTemplate(commons);
 
         HttpHeaders headers = new HttpHeaders();
-        headers.set("Cookie", "JSESSIONID=c496sbhlxkve;");
+        headers.set("Cookie", "JSESSIONID=8d2q559n26rp;");
 
         String s = restTemplate.exchange(url,
                 HttpMethod.GET,
@@ -38,7 +38,7 @@ public class DashboardResource {
         RestTemplate restTemplate = new RestTemplate();
 
         HttpHeaders headers = new HttpHeaders();
-        headers.set("Cookie", "JSESSIONID=c496sbhlxkve;");
+        headers.set("Cookie", "JSESSIONID=8d2q559n26rp;");
 
         String html = restTemplate.exchange(url + "/dashboard?id=" + id,
                 HttpMethod.GET,
@@ -60,7 +60,7 @@ public class DashboardResource {
         RestTemplate restTemplate = new RestTemplate();
 
         HttpHeaders headers = new HttpHeaders();
-        headers.set("Cookie", "JSESSIONID=c496sbhlxkve;");
+        headers.set("Cookie", "JSESSIONID=8d2q559n26rp;");
 
         String json = restTemplate.exchange(url + "/rest/dashboard/" + id,
                 HttpMethod.GET,
