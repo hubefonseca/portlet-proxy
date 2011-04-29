@@ -40,4 +40,32 @@ public class TestResourceWrapper {
         assertEquals("Fail in replacement", "{url: 'resourceUrl?originalUrl=' + url}", result);
     }
 
+    @Test
+    public void testReplaceUrls() {
+        String html = "<a href=\"/abc\">";
+
+        String result = ResourceWrapper.replaceUrls(html, "resourceUrl?t=1");
+
+        assertEquals("Fail in replacement", "<a href=\"resourceUrl?t=1&originalUrl=/abc\">", result);
+    }
+
+
+    @Test
+    public void testSimpleQuotesInReplaceUrls() {
+        String html = "html : \"<img height='22' width='53' src='/images/logo.png'/><span>\" + (this.title || \"\") + \"</span>\"";
+
+        String result = ResourceWrapper.replaceUrls(html, "resourceUrl?t=1");
+
+        assertEquals("Fail in replacement", "html : \"<img height='22' width='53' src='resourceUrl?t=1&originalUrl=/images/logo.png'/><span>\" + (this.title || \"\") + \"</span>\"", result);
+    }
+
+    @Test
+    public void testMatchWithTwoQuotes() {
+        String html = "'<img src=\"', this.emptyIcon, '\" class=\"x-tree-ec-icon x-tree-elbow\" />',";
+
+        String result = ResourceWrapper.replaceUrls(html, "resourceUrl");
+
+        assertEquals("Fail in replacement", "'<img src=\"resourceUrl?originalUrl=', this.emptyIcon, '\" class=\"x-tree-ec-icon x-tree-elbow\" />',", result);
+    }
+
 }

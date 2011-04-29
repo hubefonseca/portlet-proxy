@@ -14,10 +14,13 @@ public class ResourceWrapper {
             String ref = matcher.group(1);
             String endingChar = matcher.group(2);
 
-            String separator = resourceUrl.contains("?") ? "&" : "?";
-            String replacement = "url: '" + resourceUrl + separator + "originalUrl=' + " + "" + ref + endingChar;
+            System.out.println(matcher.group());
+            if (!matcher.group().contains("originalUrl=") || matcher.group().contains(resourceUrl)) {
+                String separator = resourceUrl.contains("?") ? "&" : "?";
+                String replacement = "url: '" + resourceUrl + separator + "originalUrl=' + " + "" + ref + endingChar;
 
-            matcher.appendReplacement(sb, replacement);
+                matcher.appendReplacement(sb, replacement);
+            }
         }
 
         matcher.appendTail(sb);
@@ -27,16 +30,25 @@ public class ResourceWrapper {
 
     public static String replaceUrls(String html, String resourceUrl) {
         StringBuffer sb = new StringBuffer();
-        Pattern pattern = Pattern.compile("(src|href)=\"(.*?)\"");
+        Pattern pattern = Pattern.compile("(src|href)=(((\")(.+?)(\"))|((')(.+?)(')))");
         Matcher matcher = pattern.matcher(html);
 
         while (matcher.find()) {
             String refType = matcher.group(1);
-            String ref = matcher.group(2);
 
-            if (!ref.contains(resourceUrl)) {
+            String ref = matcher.group(5);
+            if (ref == null) {
+                ref = matcher.group(9);
+            }
+            String quote = matcher.group(4);
+            if (quote == null) {
+                quote = matcher.group(8);
+            }
+
+            System.out.println("rest: " + matcher.group());
+            if (!matcher.group().contains("originalUrl=") || matcher.group().contains(resourceUrl)) {
                 String separator = resourceUrl.contains("?") ? "&" : "?";
-                String replacement = refType + "=\"" + resourceUrl + separator + "originalUrl=" + ref + "\"";
+                String replacement = refType + "=" + quote + resourceUrl + separator + "originalUrl=" + ref + quote;
 
                 matcher.appendReplacement(sb, replacement);
             }
