@@ -1,46 +1,34 @@
 package com.intelie.iem;
 
+import com.intelie.iem.util.Integration;
 import org.springframework.http.HttpEntity;
 import org.springframework.http.HttpHeaders;
 import org.springframework.http.HttpMethod;
-import org.springframework.http.client.CommonsClientHttpRequestFactory;
 import org.springframework.web.client.RestTemplate;
 
+import javax.portlet.RenderRequest;
 import javax.portlet.RenderResponse;
-import java.util.regex.Matcher;
-import java.util.regex.Pattern;
+import java.util.ArrayList;
+import java.util.List;
 
 public class DashboardResource {
 
-    protected static final String url = "http://localhost:8080";
+    protected static final String dashboardJspUrlSuffix = "/dashboard";
+    protected static final String dashboardRestUrlSuffix = "/rest/dashboard";
 
-    public String allDashboards() {
-        String url = "http://localhost:8080/rest/dashboard/";
-
-        CommonsClientHttpRequestFactory commons = new CommonsClientHttpRequestFactory();
-
-        RestTemplate restTemplate = new RestTemplate(commons);
-
-        HttpHeaders headers = new HttpHeaders();
-        headers.set("Cookie", "JSESSIONID=h4v60uvdjvtj;");
-
-        String s = restTemplate.exchange(url,
-                HttpMethod.GET,
-                new HttpEntity<String>(headers),
-                String.class).getBody();
-
-        System.out.println(s);
-
-        return s;
-    }
-
-    public String printDashboard(Integer id, RenderResponse renderResponse) {
+    public String printDashboard(Integer id, RenderRequest renderRequest, RenderResponse renderResponse) {
         RestTemplate restTemplate = new RestTemplate();
 
-        HttpHeaders headers = new HttpHeaders();
-        headers.set("Cookie", "JSESSIONID=h4v60uvdjvtj;");
+        Authentication authentication = new Authentication();
+        String cookie = authentication.ensureAuthentication(renderRequest, renderResponse);
 
-        String html = restTemplate.exchange(url + "/dashboard?id=" + id + "&renderDashboardTo=dashboard-portlet-div",
+        List<String> cookies = new ArrayList<String>();
+        cookies.add(cookie);
+
+        HttpHeaders headers = new HttpHeaders();
+        headers.put("Cookie", cookies);
+
+        String html = restTemplate.exchange(Integration.getIemUrl() + dashboardJspUrlSuffix + "?id=" + id + "&renderDashboardTo=dashboard-portlet-div",
                 HttpMethod.GET,
                 new HttpEntity<String>(headers),
                 String.class).getBody();
@@ -54,20 +42,6 @@ public class DashboardResource {
         html = ResourceWrapper.replaceAjaxUrls(html, resourceUrl);
 
         return html;
-    }
-
-    public String getDashboardInfo(Integer id) {
-        RestTemplate restTemplate = new RestTemplate();
-
-        HttpHeaders headers = new HttpHeaders();
-        headers.set("Cookie", "JSESSIONID=h4v60uvdjvtj;");
-
-        String json = restTemplate.exchange(url + "/rest/dashboard/" + id,
-                HttpMethod.GET,
-                new HttpEntity<String>(headers),
-                String.class).getBody();
-
-        return json;
     }
 
 }

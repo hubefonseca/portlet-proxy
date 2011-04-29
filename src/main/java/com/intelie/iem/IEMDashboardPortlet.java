@@ -1,5 +1,6 @@
 package com.intelie.iem;
 
+import com.intelie.iem.util.Integration;
 import org.springframework.http.HttpEntity;
 import org.springframework.http.HttpHeaders;
 import org.springframework.http.HttpMethod;
@@ -9,6 +10,7 @@ import javax.portlet.*;
 import java.io.*;
 import java.net.URL;
 import java.net.URLConnection;
+import java.util.Enumeration;
 import java.util.Map;
 
 public class IEMDashboardPortlet extends GenericPortlet {
@@ -16,25 +18,11 @@ public class IEMDashboardPortlet extends GenericPortlet {
     private static final String NORMAL_VIEW = "/WEB-INF/jsp/dashboard.jsp";
     private static final String HELP_VIEW = "/WEB-INF/jsp/help.jsp";
 
-    String iemUrl = "http://localhost:8080";
-
     protected DashboardResource dashboardResource = new DashboardResource();
-
-//    public void processAction(ActionRequest request, ActionResponse response) throws PortletException, IOException {
-//
-//        QName qname = new QName("http:sun.com/events", "Continent");
-//        String value = request.getParameter("continent");
-//        Continent continent = new Continent();
-//        continent.setName(value);
-//        ResourceBundle rb = getPortletConfig().getResourceBundle(request.getLocale());
-//        continent.setDescription(rb.getString(value));
-//        response.setEvent(qname, continent);
-//    }
 
     @Override
     public void doView(RenderRequest request, RenderResponse response) throws PortletException, IOException {
         response.setContentType("text/html");
-
         PortletRequestDispatcher dispatcher =
                 getPortletContext().getRequestDispatcher(NORMAL_VIEW);
         dispatcher.include(request, response);
@@ -42,7 +30,6 @@ public class IEMDashboardPortlet extends GenericPortlet {
 
     @Override
     public void doHelp(RenderRequest request, RenderResponse response) throws PortletException, IOException {
-
         response.setContentType("text/html");
         PortletRequestDispatcher dispatcher =
                 getPortletContext().getRequestDispatcher(HELP_VIEW);
@@ -52,6 +39,9 @@ public class IEMDashboardPortlet extends GenericPortlet {
     @Override
     // async requests and responses are processed here
     public void serveResource(ResourceRequest req, ResourceResponse resp) throws PortletException, IOException {
+
+        Authentication authentication = new Authentication();
+        String cookie = authentication.ensureAuthentication(req, resp);
 
         PrintWriter writer = resp.getWriter();
 
@@ -76,26 +66,34 @@ public class IEMDashboardPortlet extends GenericPortlet {
             StringBuffer payload;
             if (originalUrl.contains("cometd/handshake")) {
 
-                URL u = new URL(iemUrl + originalUrl);
+                URL u = new URL(Integration.getIemUrl() + originalUrl);
                 URLConnection connection = u.openConnection();
-                connection.setRequestProperty("Accept", "application/json");
-                connection.setRequestProperty("Accept-Charset", "ISO-8859-1,utf-8;q=0.7,*;q=0.3");
-                connection.setRequestProperty("Accept-Encoding", "gzip,deflate,sdch");
-                connection.setRequestProperty("Accept-Language", "en-US,en;q=0.8");
-                connection.setRequestProperty("Connection", "keep-alive");
-                connection.setRequestProperty("Content-Length", "140");
-                connection.setRequestProperty("Content-Type", "application/json");
-                connection.setRequestProperty("Cookie", "wp-settings-time-1=1294006244; BAYEUX_BROWSER=e3591mlwcpguju1zggmt61sys18wp; JSESSIONID=h4v60uvdjvtj");
-                connection.setRequestProperty("Host", "localhost:8080");
-                connection.setRequestProperty("Origin", "http://localhost:8080");
-                connection.setRequestProperty("Referer", "http://localhost:8080/");
-                connection.setRequestProperty("User-Agent", "Mozilla/5.0 (Macintosh; U; Intel Mac OS X 10_6_7; en-US) AppleWebKit/534.16 (KHTML, like Gecko) Chrome/10.0.648.205 Safari/534.16");
-                connection.setRequestProperty("X-Requested-With", "Ext.basex");
 
-//                for (Map.Entry<String, String[]> e : parameters.entrySet()) {
-//                    System.out.println(e.getKey() + ": " + e.getValue()[0]);
-//                    connection.setRequestProperty(e.getKey(), e.getValue()[0]);
-//                }
+                Enumeration properties = req.getPropertyNames();
+                while (properties.hasMoreElements()) {
+                    String propertyName = (String) properties.nextElement();
+                    connection.setRequestProperty(propertyName, req.getProperty(propertyName));
+                    System.out.println(propertyName + " :  " + req.getProperty(propertyName));
+                }
+//                connection.setRequestProperty("Accept", "application/json");
+//                connection.setRequestProperty("Accept-Charset", "ISO-8859-1,utf-8;q=0.7,*;q=0.3");
+//                connection.setRequestProperty("Accept-Encoding", "gzip,deflate,sdch");
+//                connection.setRequestProperty("Accept-Language", "en-US,en;q=0.8");
+//                connection.setRequestProperty("Connection", "keep-alive");
+//                connection.setRequestProperty("Content-Length", "140");
+//                connection.setRequestProperty("Content-Type", "application/json");
+//                connection.setRequestProperty("Cookie", cookie);
+////                connection.setRequestProperty("Cookie", "wp-settings-time-1=1294006244; BAYEUX_BROWSER=e3591mlwcpguju1zggmt61sys18wp; JSESSIONID=a6lhnat72sp");
+//                connection.setRequestProperty("Host", "localhost:8080");
+//                connection.setRequestProperty("Origin", "http://localhost:8080");
+//                connection.setRequestProperty("Referer", "http://localhost:8080/");
+//                connection.setRequestProperty("User-Agent", "Mozilla/5.0 (Macintosh; U; Intel Mac OS X 10_6_7; en-US) AppleWebKit/534.16 (KHTML, like Gecko) Chrome/10.0.648.205 Safari/534.16");
+//                connection.setRequestProperty("X-Requested-With", "Ext.basex");
+
+                for (Map.Entry<String, String[]> e : req.getParameterMap().entrySet()) {
+                    System.out.println(e.getKey() + ": " + e.getValue()[0]);
+                    connection.setRequestProperty(e.getKey(), e.getValue()[0]);
+                }
 
                 connection.setDoOutput(true);
                 connection.setDoInput(true);
@@ -145,12 +143,12 @@ public class IEMDashboardPortlet extends GenericPortlet {
                 RestTemplate restTemplate = new RestTemplate();
 
                 HttpHeaders headers = new HttpHeaders();
-                headers.set("Cookie", "JSESSIONID=h4v60uvdjvtj;");
+                headers.set("Cookie", cookie);
 
                 Map<String, String[]> parameters = req.getParameterMap();
 
                 try {
-                    content = restTemplate.exchange(iemUrl + originalUrl,
+                    content = restTemplate.exchange(Integration.getIemUrl() + originalUrl,
                             method,
                             new HttpEntity<String>(headers),
                             String.class,
@@ -167,27 +165,5 @@ public class IEMDashboardPortlet extends GenericPortlet {
 
         writer.close();
     }
-//
-//    @Override
-//    // parent page delivery
-//    public void render(RenderRequest renderRequest, RenderResponse
-//            renderResponse) throws PortletException, IOException {
-//
-////        System.out.println(">>> DO VIEW");
-////        if (WindowState.MINIMIZED.equals(request.getWindowState())) {
-////            return;
-////        }
-////
-////        if (WindowState.NORMAL.equals(request.getWindowState())) {
-////            normalView.include(request, response);
-////        } else {
-////            maximizedView.include(request, response);
-////        }
-//
-//        System.out.println(">>> rENDER" + renderResponse.createResourceURL());
-//        PortletContext context = getPortletContext();
-//        PortletRequestDispatcher rd = context.getRequestDispatcher(NORMAL_VIEW);
-//        rd.include(renderRequest, renderResponse);
-//    }
 
 }

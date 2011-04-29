@@ -14,8 +14,7 @@
         <finalName>${artifactId}</finalName>
         <resources>
             <resource>
-                <directory>resources</directory>
-                <filtering>false</filtering>
+                <directory>src/main/resources</directory>
             </resource>
         </resources>
         <plugins>

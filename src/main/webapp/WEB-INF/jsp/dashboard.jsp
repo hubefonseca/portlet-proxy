@@ -13,7 +13,7 @@
 
 <% DashboardResource dashboardResource = new DashboardResource(); %>
 
-<%=dashboardResource.printDashboard(1, renderResponse)%>
+<%=dashboardResource.printDashboard(1, renderRequest, renderResponse)%>
 
 
 <%--<MAP NAME=MyMap>--%>
