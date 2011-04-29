@@ -55,6 +55,7 @@ public class Connection {
             content.append((char) a);
         }
         writer.print(content.toString());
+
         dis.close();
         writer.close();
     }
@@ -63,25 +64,39 @@ public class Connection {
         URL u = new URL(Integration.getIemUrl() + originalUrl);
         URLConnection connection = u.openConnection();
 
-        resp.setCharacterEncoding("ASCII");
-        resp.setContentType("image/" + urlPrefix.substring(urlPrefix.length() - 3));
+        Enumeration properties = req.getPropertyNames();
+        while (properties.hasMoreElements()) {
+            String propertyName = (String) properties.nextElement();
+            connection.setRequestProperty(propertyName, req.getProperty(propertyName));
+        }
+
+        for (Map.Entry<String, String[]> e : req.getParameterMap().entrySet()) {
+            connection.setRequestProperty(e.getKey(), e.getValue()[0]);
+        }
 
         DataInputStream dis = new DataInputStream(connection.getInputStream());
 
         List<Byte> content = new ArrayList<Byte>();
+
+        byte a;
         while (dis.available() != 0) {
-            byte a = dis.readByte();
+            a = dis.readByte();
             content.add(a);
         }
 
+        resp.setProperty("Accept-Ranges", "bytes");
+        resp.setContentType("image/" + urlPrefix.substring(urlPrefix.length() - 3));
+
+        System.out.println("bytes: " + content.size());
+
         PrintWriter writer = resp.getWriter();
 
-        Byte[] bytes = content.toArray(new Byte[]{});
-        for (int i = 0; i < bytes.length; i++) {
-            writer.write(bytes[i]);
+        for (Byte b : content) {
+            writer.write(b);
         }
-
         dis.close();
+
+        writer.flush();
         writer.close();
     }
 
@@ -122,6 +137,7 @@ public class Connection {
                 writer.write(bytes[i]);
             }
 
+            writer.flush();
             writer.close();
         } catch (Exception e) {
             System.out.println("URL was: " + urlPrefix);

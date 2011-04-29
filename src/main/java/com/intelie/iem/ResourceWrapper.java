@@ -14,7 +14,6 @@ public class ResourceWrapper {
             String ref = matcher.group(1);
             String endingChar = matcher.group(2);
 
-            System.out.println(matcher.group());
             if (!matcher.group().contains("originalUrl=") || matcher.group().contains(resourceUrl)) {
                 String separator = resourceUrl.contains("?") ? "&" : "?";
                 String replacement = "url: '" + resourceUrl + separator + "originalUrl=' + " + "" + ref + endingChar;
@@ -45,7 +44,6 @@ public class ResourceWrapper {
                 quote = matcher.group(8);
             }
 
-            System.out.println("rest: " + matcher.group());
             if (!matcher.group().contains("originalUrl=") || matcher.group().contains(resourceUrl)) {
                 String separator = resourceUrl.contains("?") ? "&" : "?";
                 String replacement = refType + "=" + quote + resourceUrl + separator + "originalUrl=" + ref + quote;
